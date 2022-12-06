@@ -489,7 +489,7 @@
 19	και	και	CCONJ	CjCo	_	20	cc	_	_
 20	διέταξε	διατάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
 21	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	ΕΔΕ	ΕΔΕ	PROPN	ABBR	Abbr=Yes	20	obj	_	AbbrType= Br|ilsptag=ABBR
+22	ΕΔΕ	ΕΔΕ	PROPN	ABBR	Abbr=Yes	20	obj	_	AbbrType=Br|ilsptag=ABBR
 23	για	για	ADP	AsPpSp	_	26	mark	_	_
 24	να	να	SCONJ	PtSj	_	26	mark	_	_
 25	με	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	obj	_	_
@@ -594,7 +594,7 @@
 # sent_id = 184
 # text = « Πρέπει να τον ψάξουμε , πριν τον μεταφέρεις σ το νεκροτομείο » του εξηγώ και κάνω νόημα σ τους ανθρώπους της σήμανσης.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
-2	Πρέπει	πρέπει	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers= Yes
+2	Πρέπει	πρέπει	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers=Yes
 3	να	να	SCONJ	PtSj	_	5	mark	_	_
 4	τον	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	ψάξουμε	ψάχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	2	csubj	_	_
@@ -643,12 +643,12 @@
 # sent_id = 3754
 # text = « Ας αφήσουμε τον επικήδειο και ας δούμε τι μπορούμε να κάνουμε αυτήν την προχωρημένη ώρά » τους λέω , πιο πολύ για να διώξω τη δική μου μαυρίλα.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
-2	Ας	ας	PART	PtOt	_	3	aux	_	ParticleType= Oth
+2	Ας	ας	PART	PtOt	_	3	aux	_	ParticleType=Oth
 3	αφήσουμε	αφήνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 4	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	επικήδειο	επικήδειος	ADJ	NoCm	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 6	και	και	CCONJ	CjCo	_	8	cc	_	_
-7	ας	ας	PART	PtOt	_	8	aux	_	ParticleType= Oth
+7	ας	ας	PART	PtOt	_	8	aux	_	ParticleType=Oth
 8	δούμε	βλέπω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	3	conj	_	_
 9	Τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	_
 10	μπορούμε	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	_
@@ -1036,7 +1036,7 @@
 
 # sent_id = 2061
 # text = Αρκεί που ξαναγύρισαν σ τα παλιά , κινούν τις Μπε-εμ-βε και τις Μερσεντές τους , είναι έξω κάθε βράδυ και μέτοικοι κάθε Σαββατοκύριακο.
-1	Αρκεί	αρκώ	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers= Yes
+1	Αρκεί	αρκώ	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers=Yes
 2	που	που	SCONJ	AdBa	_	3	mark	_	_
 3	ξαναγύρισαν	ξαναγυρίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
 4	σ	σε	ADP	AsPpSp	_	6	case	_	_
@@ -1629,7 +1629,7 @@
 # sent_id = 2083
 # text = Το ΚΕΑΝ δεν είχε προκύψει , ωστόσο , από τη διάσπαση κάποιου κόμματος , όπως συμβαίνει κατά κανόνα , αλλά ήταν διακομματικό.
 1	Το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	ΚΕΑΝ	ΚΕΑΝ	PROPN	ABBR	Abbr=Yes	5	nsubj	_	AbbrType= Br
+2	ΚΕΑΝ	ΚΕΑΝ	PROPN	ABBR	Abbr=Yes	5	nsubj	_	AbbrType=Br
 3	δεν	δεν	PART	PtNg	_	5	advmod	_	ParticleType=Neg
 4	είχε	έχω	AUX	VbMn	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	advcl	_	_
 5	προκύψει	προκύπτω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -1742,9 +1742,9 @@
 19	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
 20	έτρωγε	τρώω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
 21	νερόβραστα	νερόβραστος	ADJ	AdBa	Case=Acc|Gender=Neut|Number=Plur	20	advmod	_	_
-22	Τετάρτη	Τετάρτη	PROPN	DATE	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	Date= Yes
+22	Τετάρτη	Τετάρτη	PROPN	DATE	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	Date=Yes
 23	και	και	CCONJ	CjCo	_	24	cc	_	_
-24	Παρασκευή	Παρασκευή	PROPN	DATE	Case=Acc|Gender=Fem|Number=Sing	22	conj	_	Date= Yes
+24	Παρασκευή	Παρασκευή	PROPN	DATE	Case=Acc|Gender=Fem|Number=Sing	22	conj	_	Date=Yes
 
 # sent_id = 2568
 # text = « Ακόμα κι αν δε βρούμε , μας φτάνει αν ταιριάζουν τα μαχαίρια σ τις πληγές και ότι είναι δικά σας » τους εξηγώ.
@@ -2378,7 +2378,7 @@
 
 # sent_id = 3385
 # text = Πρέπει σ την εκκλησία να είμαστε πολύ σοβαροί , με σκυμμένο κεφάλι , και να μη μιλάμε ο ένας σ τον άλλο.
-1	Πρέπει	πρέπει	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers= Yes
+1	Πρέπει	πρέπει	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers=Yes
 2	σ	σε	ADP	AsPpSp	_	4	case	_	_
 3	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	εκκλησία	εκκλησία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
@@ -2455,7 +2455,7 @@
 
 # sent_id = 6163
 # text = Αρκεί που υπάρχει και μπορεί να βαφτιστεί επιτυχία ».
-1	Αρκεί	αρκώ	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers= Yes
+1	Αρκεί	αρκώ	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers=Yes
 2	που	που	SCONJ	PnRe	Case=Nom|Gender=Neut|Number=Sing	3	mark	_	_
 3	υπάρχει	υπάρχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
 4	και	και	CCONJ	CjCo	_	5	cc	_	_
@@ -4246,7 +4246,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 
 # sent_id = 5362
 # text = Ας αφήσουμε να ξεκαθαρίσει η κατάσταση και της το λέμε μετά.
-1	Ας	ας	PART	PtOt	_	2	aux	_	ParticleType= Oth
+1	Ας	ας	PART	PtOt	_	2	aux	_	ParticleType=Oth
 2	αφήσουμε	αφήνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 3	να	να	PART	PtSj	_	4	aux	_	ParticleType=Sub
 4	ξεκαθαρίσει	ξεκαθαρίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	advcl	_	_
@@ -4660,7 +4660,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # sent_id = 2072
 # text = « ΚΕΑΝ - Κόμμα Εθνικής Ανατροπής ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
-2	ΚΕΑΝ	ΚΕΑΝ	PROPN	ABBR	Abbr=Yes	0	root	_	AbbrType= Br
+2	ΚΕΑΝ	ΚΕΑΝ	PROPN	ABBR	Abbr=Yes	0	root	_	AbbrType=Br
 3	-	-	PUNCT	PUNCT	PunctType=Dash	4	punct	_	_
 4	Κόμμα	κόμμα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	_
 5	Εθνικής	εθνικός	ADJ	AjBa	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
@@ -5325,7 +5325,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # sent_id = 1879
 # text = « Πρέπει να συνεχίσουμε την έρευνα σ την κατοικία του Χαρδάκου ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
-2	Πρέπει	πρέπει	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers= Yes
+2	Πρέπει	πρέπει	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers=Yes
 3	να	να	SCONJ	PtSj	_	4	mark	_	_
 4	συνεχίσουμε	συνεχίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	2	csubj	_	_
 5	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -5702,7 +5702,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 11	με	με	ADP	AsPpSp	_	12	case	_	_
 12	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
 13	κυκλοφορίας	κυκλοφορία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
-14	ΙΚΙ	ΙΚΙ	SYM	ABBR	Abbr=Yes	12	nmod	_	AbbrType= Br
+14	ΙΚΙ	ΙΚΙ	SYM	ABBR	Abbr=Yes	12	nmod	_	AbbrType=Br
 15	5522	5522	NUM	DIG	NumType=Card	14	nmod	_	_
 16	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 17	;	;	PUNCT	PTERM	PunctType=Qest	2	punct	_	_
@@ -6106,7 +6106,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 9	να	να	SCONJ	PtSj	_	10	mark	_	_
 10	κράζουν	κράζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	xcomp	_	_
 11	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
-12	ΚΕΑΝ	ΚΕΑΝ	PROPN	ABBR	Abbr=Yes	10	obj	_	AbbrType= Br
+12	ΚΕΑΝ	ΚΕΑΝ	PROPN	ABBR	Abbr=Yes	10	obj	_	AbbrType=Br
 13	και	και	CCONJ	CjCo	_	15	cc	_	_
 14	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	15	det	_	_
 15	στελέχη	στέλεχος	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	12	conj	_	_
@@ -6655,7 +6655,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = Ή μήπως πρόκειται για μια παπαριά , που κάποιος πέταξε σ το πτυελοδοχείο του διαδικτύου ;
 1	Ή	ή	CCONJ	CjCo	_	3	cc	_	_
 2	μήπως	μήπως	ADV	AdBa	_	3	mark	_	_
-3	πρόκειται	πρόκειται	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Impers= Yes
+3	πρόκειται	πρόκειται	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Impers=Yes
 4	για	για	ADP	AsPpSp	_	6	case	_	_
 5	μια	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	παπαριά	παπαριά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
@@ -6732,7 +6732,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 9	αρμόδιο	αρμόδιος	ADJ	AjBa	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 10	σ	σε	ADP	AsPpSp	_	12	case	_	_
 11	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	ΟΛΠ	ΟΛΠ	PROPN	ABBR	Abbr=Yes	7	obl	_	AbbrType= Br|ilsptag=ABBR
+12	ΟΛΠ	ΟΛΠ	PROPN	ABBR	Abbr=Yes	7	obl	_	AbbrType=Br|ilsptag=ABBR
 13	και	και	CCONJ	CjCo	_	14	cc	_	_
 14	ανεβαίνω	ανεβαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
 15	σ	σε	ADP	AsPpSp	_	17	case	_	_
