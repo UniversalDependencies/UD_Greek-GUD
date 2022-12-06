@@ -43,7 +43,7 @@
 32	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 5270
-# text = Και τι είχε ανακαλύψει ο Σωτηρόπουλος , για να φτάσουν σ το σημείο να τον δολοφονήσουν και να πάρουν τον υπολογιστή του ;
+# text = Και τι είχε ανακαλύψει ο Σωτηρόπουλος , για να φτάσουν σ το σημείο να τον δολοφονήσουν και να πάρουν τον υπολογιστή του;
 1	Και	και	CCONJ	CjCo	_	4	cc	_	_
 2	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obj	_	_
 3	είχε	έχω	AUX	VbMn	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
@@ -868,7 +868,7 @@
 12	τράπεζες	τράπεζα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	_
 13	των	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	14	det	_	_
 14	νησιών	νησί	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
-15	Καϊμάν	Καϊμάν	PROPN	RgFwTr	Foreign=Yes	14	flat	_	ForeignType= Tscript
+15	Καϊμάν	Καϊμάν	PROPN	RgFwTr	Foreign=Yes	14	flat	_	ForeignType=Tscript
 16	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 17	αλλά	αλλά	CCONJ	CjCo	_	19	cc	_	_
 18	δεν	δεν	PART	PtNg	_	19	advmod	_	ParticleType=Neg
@@ -1591,7 +1591,7 @@
 22	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
 23	σπίτι	σπίτι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
 24	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	Όγκντεν	Όγκντεν	PROPN	RgFwTr	Foreign=Yes	23	nmod	_	ForeignType= Tscript|SpaceAfter=No
+25	Όγκντεν	Όγκντεν	PROPN	RgFwTr	Foreign=Yes	23	nmod	_	ForeignType=Tscript|SpaceAfter=No
 26	.	.	PUNCT	PTERMP	PunctType=Peri	9	punct	_	_
 
 # sent_id = 4555
@@ -3662,7 +3662,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 12	σ	σε	ADP	AsPpSp	_	14	case	_	_
 13	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	όνομα	όνομα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
-15	Τζέιν	Τζέιν	PROPN	RgFwTr	Foreign=Yes	14	flat	_	ForeignType= Tscript
+15	Τζέιν	Τζέιν	PROPN	RgFwTr	Foreign=Yes	14	flat	_	ForeignType=Tscript
 16	Όγκντεν	Όγκντεν	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	ilsptag=RgFwTr
 17	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 18	λέω	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
@@ -4347,7 +4347,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # sent_id = 3110
 # text = Το Σέατ δε διαθέτει σειρήνα και αναρωτιέμαι αν θα φτάσω σ την ώρα μου σ το ραντεβού ή αν θα βαρεθεί ο Κυριαζίδης και θα με φτύσει.
 1	Το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	Σέατ	Σέατ	X	RgFwTr	Foreign=Yes	4	nsubj	_	ForeignType= Tscript
+2	Σέατ	Σέατ	X	RgFwTr	Foreign=Yes	4	nsubj	_	ForeignType=Tscript
 3	δε	δεν	PART	PtNg	_	4	advmod	_	ParticleType=Neg
 4	διαθέτει	διαθέτω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	σειρήνα	σειρήνα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
