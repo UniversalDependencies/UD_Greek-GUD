@@ -183,7 +183,7 @@
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Κι	και	CCONJ	CjCo	_	5	cc	_	_
 3	εσύ	εγώ	PRON	PnPe	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	PersPronType=St
-4	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	5	obj	_	_
+4	τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	5	obj	_	_
 5	είπες	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	;	;	PUNCT	PTERM	PunctType=Qest	5	punct	_	_
 7	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	_
@@ -760,7 +760,7 @@
 
 # sent_id = 1998
 # text = Άνθρακες ο θησαυρός » του απαντώ.
-1	Άνθρακας	άνθρακας	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+1	Άνθρακες	άνθρακας	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
 2	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	θησαυρός	θησαυρός	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
 4	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	_
@@ -983,7 +983,7 @@
 8	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 805
-# text = Ο Δημητριου βαδίζει παράλληλα με τα ίχνη , που ξεκινάνε από την είσοδο και προχωράνε προς το βάθος του καθιστικού , ώσπου σταματάνε σε μια κλειστή πόρτα , δίπλα σ τη σκάλα που ανεβαίνει σ τον δεύτερο όροφο.
+# text = Ο Δημητρίου βαδίζει παράλληλα με τα ίχνη , που ξεκινάνε από την είσοδο και προχωράνε προς το βάθος του καθιστικού , ώσπου σταματάνε σε μια κλειστή πόρτα , δίπλα σ τη σκάλα που ανεβαίνει σ τον δεύτερο όροφο.
 1	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Δημητρίου	Δημητρίου	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	βαδίζει	βαδίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
