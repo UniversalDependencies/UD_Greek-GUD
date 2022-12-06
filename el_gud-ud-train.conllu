@@ -8613,7 +8613,7 @@
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	6	punct	_	_
 2	Τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
 3	μαχαίρια	μαχαίρι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	6	nsubj	_	_
-4	Τι	τι	ADV	AdBa	PronType=Int	6	advmod	_	_
+4	τι	τι	ADV	AdBa	PronType=Int	6	advmod	_	_
 5	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
 6	θέλατε	θέλω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	;	;	PUNCT	PTERM	PunctType=Qest	6	punct	_	_
@@ -10304,9 +10304,9 @@
 15	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 3548
-# text = « Σ ' ευχαριστώ , που ξόδεψες το χρόνο σου , για να με διαφωτίσεις » λέω σ τον Σπυριδάκη.
+# text = « Σ' ευχαριστώ , που ξόδεψες το χρόνο σου , για να με διαφωτίσεις » λέω σ τον Σπυριδάκη.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
-2	Σ'	εγώ	PRON	Ij	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	vocative	_	SpaceAfter=No
+2	Σ'	σε	PRON	Ij	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	vocative	_	SpaceAfter=No
 3	ευχαριστώ	ευχαριστώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 5	που	που	SCONJ	AdBa	_	6	advmod	_	_
@@ -10905,7 +10905,7 @@
 12	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 1039
-# text = « Και εγώ με τον Ούλι σ το σπίτι δουλεύουμε.
+# text = « Κι εγώ με τον Ούλι σ το σπίτι δουλεύουμε.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	10	punct	_	_
 2	Κι	και	CCONJ	CjCo	_	3	cc	_	_
 3	εγώ	εγώ	PRON	NoCm	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
@@ -11278,7 +11278,7 @@
 17	βλέπω	βλέπω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	xcomp	_	_
 18	μαγείρισσες	μαγείρισσα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
 19	και	και	CCONJ	CjCo	_	20	cc	_	_
-20	μαγείρους	μάγειρος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	18	conj	_	_
+20	μάγειρους	μάγειρος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	18	conj	_	_
 21	να	να	SCONJ	PtSj	_	22	mark	_	_
 22	φτιάχνουν	φτιάχνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	_	_
 23	κάτι	κάτι	DET	AdBa	PronType=Ind	22	advmod	_	_
@@ -11613,7 +11613,7 @@
 6	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 7	όταν	όταν	SCONJ	CjSb	_	8	mark	_	_
 8	είδαμε	βλέπω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
-9	Τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	_
+9	τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	_
 10	σήμαιναν	σημαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	_
 11	τα	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
 12	αρχικά	αρχικός	ADJ	AdBa	_	10	advmod	_	_
@@ -11697,7 +11697,7 @@
 9	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 5744
-# text = Σε λίγο ακούω ένα « Καλή μέρα σας , κύριε Χαρίτο ».
+# text = Σε λίγο ακούω ένα « Καλημέρα σας , κύριε Χαρίτο ».
 1	Σε	σε	ADP	AsPpSp	_	2	case	_	_
 2	λίγο	λίγο	ADV	AdBa	_	3	advmod	_	_
 3	ακούω	ακούω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -12303,7 +12303,7 @@
 9	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 5229
-# text = Εξ άλλου έχω κι εγώ τις άκρες μου.
+# text = Εξάλλου έχω κι εγώ τις άκρες μου.
 1	Εξάλλου	εξάλλου	CCONJ	_	_	0	root	_	_
 2	έχω	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
 3	κι	και	CCONJ	CjCo	_	4	cc	_	_
@@ -12542,7 +12542,7 @@
 8	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 3738
-# text = Οι τρεις πηγαίνουν προς το Άουντι , ενώ εγώ πλησιάζω τον Δημητριού.
+# text = Οι τρεις πηγαίνουν προς το Άουντι , ενώ εγώ πλησιάζω τον Δημητρίου.
 1	Οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	τρεις	τρεις	NUM	NmCd	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	3	nsubj	_	_
 3	πηγαίνουν	πηγαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13668,7 +13668,7 @@
 7	γνωστό	γνωστός	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	8	amod	_	_
 8	ερώτημα	ερώτημα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
 9	:	:	PUNCT	PTERM	PunctType=Colo	8	punct	_	_
-10	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	11	obj	_	_
+10	τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	11	obj	_	_
 11	κάνει	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	appos	_	_
 12	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	αστυνομία	αστυνομία	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
