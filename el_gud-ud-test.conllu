@@ -3393,8 +3393,8 @@
 6	ερωτήσεις	ερώτηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
 7	σ	σε	ADP	AsPpSp	_	9	case	_	_
 8	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	press	press	X	RgFwOr	Foreign=Yes	5	obl	_	ForeignType= Fscript
-10	conference	conference	X	RgFwOr	Foreign=Yes	9	flat	_	ForeignType= Fscript
+9	press	press	X	RgFwOr	Foreign=Yes	5	obl	_	ForeignType=Fscript
+10	conference	conference	X	RgFwOr	Foreign=Yes	9	flat	_	ForeignType=Fscript
 11	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	υπουργού	υπουργός	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 13	Ναυτιλίας	ναυτιλία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
@@ -4111,7 +4111,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 2	Το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	ταξί	ταξί	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	έχει	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	taxiplon	taxiplon	X	RgFwOr	Foreign=Yes	4	obj	_	ForeignType= Fscript|SpaceAfter=No
+5	taxiplon	taxiplon	X	RgFwOr	Foreign=Yes	4	obj	_	ForeignType=Fscript|SpaceAfter=No
 6	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3090
@@ -5935,15 +5935,15 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 4	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	όνομα	όνομα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
 6	«	«	PUNCT	OPUNCT	PunctType=Quot	7	punct	_	_
-7	West	West	X	RgFwOr	Foreign=Yes	5	flat	_	ForeignType= Fscript
-8	Explorer	Explorer	X	RgFwOr	Foreign=Yes	5	flat	_	ForeignType= Fscript
+7	West	West	X	RgFwOr	Foreign=Yes	5	flat	_	ForeignType=Fscript
+8	Explorer	Explorer	X	RgFwOr	Foreign=Yes	5	flat	_	ForeignType=Fscript
 9	»	»	PUNCT	CPUNCT	PunctType=Quot	8	punct	_	_
 10	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	άλλο	άλλος	DET	PnId	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Ind	12	nsubj:pass	_	_
 12	λέγεται	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	_
 13	«	«	PUNCT	OPUNCT	PunctType=Quot	14	punct	_	_
-14	West	West	X	RgFwOr	Foreign=Yes	12	xcomp	_	ForeignType= Fscript
-15	Cruiser	Cruiser	X	RgFwOr	Foreign=Yes	14	flat	_	ForeignType= Fscript
+14	West	West	X	RgFwOr	Foreign=Yes	12	xcomp	_	ForeignType=Fscript
+15	Cruiser	Cruiser	X	RgFwOr	Foreign=Yes	14	flat	_	ForeignType=Fscript
 16	»	»	PUNCT	CPUNCT	PunctType=Quot	14	punct	_	SpaceAfter=No
 17	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
