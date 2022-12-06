@@ -45,7 +45,7 @@
 # sent_id = 5270
 # text = Και τι είχε ανακαλύψει ο Σωτηρόπουλος , για να φτάσουν σ το σημείο να τον δολοφονήσουν και να πάρουν τον υπολογιστή του;
 1	Και	και	CCONJ	CjCo	_	4	cc	_	_
-2	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obj	_	_
+2	τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obj	_	_
 3	είχε	έχω	AUX	VbMn	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
 4	ανακαλύψει	ανακαλύπτω	VERB	VbMn	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
 5	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
