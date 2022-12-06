@@ -2577,7 +2577,7 @@
 14	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 3524
-# text = Κεφαλαίο 24
+# text = Κεφάλαιο 24
 1	Κεφάλαιο	κεφάλαιο	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 2	24	24	NUM	DIG	NumType=Card	1	nmod	_	_
 
@@ -2685,7 +2685,7 @@
 6	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 897
-# text = Σ το κάτω-κάτω , οι λιμενικοί είναι πιο έμπειροι από μας σε έρευνες που αφορούν σκάφη και λιμάνια.
+# text = Σ το κάτω κάτω , οι λιμενικοί είναι πιο έμπειροι από μας σε έρευνες που αφορούν σκάφη και λιμάνια.
 1	Σ	σε	ADP	AsPpSp	_	3	case	_	_
 2	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	κάτω	κάτω	ADV	_	_	8	dep	_	SpaceAfter=No
