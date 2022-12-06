@@ -23109,7 +23109,7 @@
 15	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 4404
-# text = Πιάσαμε αυτόν τον Ασιάτη που , όπως σας είπε ο περίπτερός , τριγύριζε σ την περιοχή πριν από τη δολοφονία του Σωτηρόπουλου.
+# text = Πιάσαμε αυτόν τον Ασιάτη που , όπως σας είπε ο περιπτεράς , τριγύριζε σ την περιοχή πριν από τη δολοφονία του Σωτηρόπουλου.
 1	Πιάσαμε	πιάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	αυτόν	αυτός	DET	PnDm	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	det	_	_
 3	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -23300,7 +23300,7 @@
 15	.	.	PUNCT	PTERMP	PunctType=Peri	8	punct	_	_
 
 # sent_id = 1438
-# text = Η Κούλα μού το ξέκοψε από την πρώτη στιγμή .
+# text = Η Κούλα μου το ξέκοψε από την πρώτη στιγμή .
 1	Η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Κούλα	Κούλα	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 3	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
@@ -23514,7 +23514,7 @@
 5	με	με	ADP	AsPpSp	_	6	case	_	_
 6	δολιοφθορά	δολιοφθορά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
-8	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	_
+8	τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	_
 9	θα	θα	AUX	PtFu	_	10	aux	_	ParticleType=Fut
 10	κέρδιζαν	κερδίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 11	αυτοί	αυτός	DET	PnDm	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Dem	10	nsubj	_	_
@@ -23881,7 +23881,7 @@
 12	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 483
-# text = Τι έκανε σ το κάτω-κάτω ;
+# text = Τι έκανε σ το κάτω κάτω ;
 1	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obj	_	_
 2	έκανε	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	σ	σε	ADP	AsPpSp	_	5	case	_	_
