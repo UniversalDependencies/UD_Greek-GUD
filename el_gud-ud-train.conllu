@@ -22675,7 +22675,7 @@
 7	φτάσω	φτάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 8	από	από	ADP	AsPpSp	_	10	case	_	_
 9	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Ιουλιανού	Ιουλιανού	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+10	Γουλιανού	Γουλιανού	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
 11	σ	σε	ADP	AsPpSp	_	13	case	_	_
 12	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Μιχαήλ	Μιχαήλ	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
