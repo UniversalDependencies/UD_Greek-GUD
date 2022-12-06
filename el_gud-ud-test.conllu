@@ -171,7 +171,7 @@
 6	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	_
 7	απαντάει	απαντώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 8	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	ilsptag= RgFwTr
+9	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	ilsptag=RgFwTr
 10	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 11	που	που	PRON	PnRe	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	12	nsubj	_	_
 12	δουλεύει	δουλεύω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
@@ -489,7 +489,7 @@
 19	και	και	CCONJ	CjCo	_	20	cc	_	_
 20	διέταξε	διατάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
 21	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	ΕΔΕ	ΕΔΕ	PROPN	ABBR	Abbr=Yes	20	obj	_	AbbrType= Br|ilsptag= ABBR
+22	ΕΔΕ	ΕΔΕ	PROPN	ABBR	Abbr=Yes	20	obj	_	AbbrType= Br|ilsptag=ABBR
 23	για	για	ADP	AsPpSp	_	26	mark	_	_
 24	να	να	SCONJ	PtSj	_	26	mark	_	_
 25	με	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	obj	_	_
@@ -1381,7 +1381,7 @@
 3	σε	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
 4	βοηθήσει	βοηθώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 5	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+6	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 7	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3158
@@ -1997,7 +1997,7 @@
 # sent_id = 5783
 # text = Ο Σεργκέι το έψαξε και δεν έχει καμία αμφιβολία ότι το ναυάγιο σ την Οδησσό ήταν συνεργασία της ρωσικής με την ουκρανική μαφία.
 1	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Σεργκέι	Σεργκέι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag= RgFwTr
+2	Σεργκέι	Σεργκέι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag=RgFwTr
 3	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	έψαξε	ψάχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	και	και	CCONJ	CjCo	_	7	cc	_	_
@@ -2161,7 +2161,7 @@
 13	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	αστυνομία	αστυνομία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 15	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
-16	Ιράκ	Ιράκ	PROPN	NoPr	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	ilsptag= RgFwTr
+16	Ιράκ	Ιράκ	PROPN	NoPr	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	ilsptag=RgFwTr
 17	;	;	PUNCT	PTERM	PunctType=Qest	10	punct	_	_
 18	»	»	PUNCT	CPUNCT	PunctType=Quot	10	punct	_	_
 
@@ -2303,7 +2303,7 @@
 # sent_id = 3413
 # text = Ο Ούλι δεν μπορεί να βρει την πηγή του χρήματος που φέρνουν οι καινούριες εταιρείες σ την Ελλάδα και εγώ δεν μπορώ ν' ανακαλύψω το κίνητρο που έχουν οι ναυτιλιακές εταιρείες για να επιστρέφουν σ την Ελλάδα.
 1	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag= RgFwTr
+2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag=RgFwTr
 3	δεν	δεν	PART	PtNg	_	4	advmod	_	ParticleType=Neg
 4	μπορεί	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	να	να	SCONJ	PtSj	_	6	mark	_	_
@@ -2346,7 +2346,7 @@
 1	με	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
 2	ρωτάει	ρωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 5	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 2408
@@ -3643,7 +3643,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 28	φορτηγού	φορτηγό	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
 29	και	και	CCONJ	CjCo	_	31	cc	_	_
 30	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	Σουζούκι	Σουζούκι	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	28	conj	_	ilsptag= RgFwTr|SpaceAfter=No
+31	Σουζούκι	Σουζούκι	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	28	conj	_	ilsptag=RgFwTr|SpaceAfter=No
 32	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 680
@@ -3663,7 +3663,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 13	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	όνομα	όνομα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
 15	Τζέιν	Τζέιν	PROPN	RgFwTr	Foreign=Yes	14	flat	_	ForeignType= Tscript
-16	Όγκντεν	Όγκντεν	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	ilsptag= RgFwTr
+16	Όγκντεν	Όγκντεν	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	ilsptag=RgFwTr
 17	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 18	λέω	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
 19	σ	σε	ADP	AsPpSp	_	21	case	_	_
@@ -5105,7 +5105,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 26	απαντάει	απαντώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 27	αμέσως	αμέσως	ADV	AdBa	_	26	advmod	_	_
 28	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+29	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 30	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 5441
@@ -6732,7 +6732,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 9	αρμόδιο	αρμόδιος	ADJ	AjBa	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 10	σ	σε	ADP	AsPpSp	_	12	case	_	_
 11	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	ΟΛΠ	ΟΛΠ	PROPN	ABBR	Abbr=Yes	7	obl	_	AbbrType= Br|ilsptag= ABBR
+12	ΟΛΠ	ΟΛΠ	PROPN	ABBR	Abbr=Yes	7	obl	_	AbbrType= Br|ilsptag=ABBR
 13	και	και	CCONJ	CjCo	_	14	cc	_	_
 14	ανεβαίνω	ανεβαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
 15	σ	σε	ADP	AsPpSp	_	17	case	_	_
