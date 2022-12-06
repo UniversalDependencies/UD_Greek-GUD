@@ -42,7 +42,7 @@
 15	Μάνια	Μάνια	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
 16	με	με	ADP	AsPpSp	_	18	case	_	_
 17	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	ilsptag= RgFwTr
+18	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	ilsptag=RgFwTr
 19	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 20	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 21	πρώτη	πρώτος	ADJ	NmOd	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	23	amod	_	_
@@ -747,7 +747,7 @@
 1	αναρωτιέται	αναρωτιέμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	ξαφνικά	ξαφνικά	ADV	AdBa	_	1	advmod	_	_
 3	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	1	nsubj:pass	_	ilsptag= RgFwTr
+4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	1	nsubj:pass	_	ilsptag=RgFwTr
 5	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 6	που	που	PRON	PnRe	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	9	nsubj	_	_
 7	ως	ως	ADP	AdBa	_	8	case	_	_
@@ -846,7 +846,7 @@
 # text = ρωτάω τον Ούλι.
 1	ρωτάω	ρωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	ilsptag= RgFwTr|SpaceAfter=No
+3	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	ilsptag=RgFwTr|SpaceAfter=No
 4	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 2456
@@ -1347,7 +1347,7 @@
 # sent_id = 5387
 # text = Ο Ούλι σοβαρεύει αμέσως.
 1	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ilsptag= RgFwTr
+2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ilsptag=RgFwTr
 3	σοβαρεύει	σοβαρεύω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	αμέσως	αμέσως	ADV	AdBa	_	3	advmod	_	SpaceAfter=No
 5	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
@@ -1879,7 +1879,7 @@
 2	Ναι	ναι	INTJ	AdBa	Polarity=Pos	10	obj	_	SpaceAfter=No
 3	...	...	PUNCT	PUNCT	PunctType=Elip	2	punct	_	_
 4	από	από	ADP	AsPpSp	_	5	case	_	_
-5	Ιράκ	Ιράκ	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	ilsptag= RgFwTr|SpaceAfter=No
+5	Ιράκ	Ιράκ	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	ilsptag=RgFwTr|SpaceAfter=No
 6	...	...	PUNCT	PUNCT	PunctType=Elip	7	punct	_	_
 7	μπαμπάς	μπαμπάς	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
 8	μου	μου	PRON	PnPo	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod	_	_
@@ -2194,7 +2194,7 @@
 2	να	να	SCONJ	PtSj	_	3	aux	_	ParticleType=Sub
 3	μίλησε	μιλώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 4	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Σεργκέι	Σεργκέι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ilsptag= RgFwTr
+5	Σεργκέι	Σεργκέι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ilsptag=RgFwTr
 6	;	;	PUNCT	PTERM	PunctType=Qest	1	punct	_	_
 
 # sent_id = 4068
@@ -2435,7 +2435,7 @@
 6	Μάνια	Μάνια	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 7	με	με	ADP	AsPpSp	_	9	case	_	_
 8	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	ilsptag= RgFwTr|SpaceAfter=No
+9	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	ilsptag=RgFwTr|SpaceAfter=No
 10	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 2326
@@ -3919,7 +3919,7 @@
 # sent_id = 2145
 # text = Ο Ούλι σηκώνει πάλι τους ώμους του.
 1	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ilsptag= RgFwTr
+2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ilsptag=RgFwTr
 3	σηκώνει	σηκώνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	πάλι	πάλι	ADV	AdBa	_	3	advmod	_	_
 5	τους	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -4289,8 +4289,8 @@
 3	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	εξοχικό	εξοχικός	ADJ	NoCm	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
 5	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Τζέιν	Τζέιν	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	ilsptag= RgFwTr
-7	Όγκντεν	Όγκντεν	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	6	flat	_	ilsptag= RgFwTr
+6	Τζέιν	Τζέιν	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	ilsptag=RgFwTr
+7	Όγκντεν	Όγκντεν	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	6	flat	_	ilsptag=RgFwTr
 8	και	και	CCONJ	CjCo	_	9	cc	_	_
 9	μπαίνουμε	μπαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 10	σε	σε	ADP	AsPpSp	_	11	case	_	_
@@ -4762,7 +4762,7 @@
 3	να	να	SCONJ	PtSj	_	4	aux	_	ParticleType=Sub
 4	βρω	βρίσκω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 5	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Σεργκέι	Σεργκέι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	ilsptag= RgFwTr
+6	Σεργκέι	Σεργκέι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	ilsptag=RgFwTr
 7	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 8	μπορεί	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	κάτι	κάτι	DET	AdBa	PronType=Ind	8	advmod	_	_
@@ -5150,7 +5150,7 @@
 9	λέω	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 10	σ	σε	ADP	AsPpSp	_	12	case	_	_
 11	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	ilsptag= RgFwTr|SpaceAfter=No
+12	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	ilsptag=RgFwTr|SpaceAfter=No
 13	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 1441
@@ -6127,7 +6127,7 @@
 13	από	από	ADP	AsPpSp	_	15	case	_	_
 14	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	15	det	_	_
 15	νησιά	νησί	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
-16	Καϊμάν	Καϊμάν	PROPN	RgFwTr	Foreign=Yes	15	flat	_	ForeignType= Tscript|SpaceAfter=No
+16	Καϊμάν	Καϊμάν	PROPN	RgFwTr	Foreign=Yes	15	flat	_	ForeignType=Tscript|SpaceAfter=No
 17	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 1103
@@ -6215,7 +6215,7 @@
 9	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	_
 10	λέει	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 11	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Σιμόν	Σιμόν	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+12	Σιμόν	Σιμόν	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 13	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 5298
@@ -6786,7 +6786,7 @@
 # text = ρωτάω τον Ούλι.
 1	ρωτάω	ρωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	ilsptag= RgFwTr|SpaceAfter=No
+3	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	ilsptag=RgFwTr|SpaceAfter=No
 4	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 265
@@ -7851,7 +7851,7 @@
 11	και	και	CCONJ	CjCo	_	12	cc	_	_
 12	είναι	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	_
 13	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+14	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 15	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 4149
@@ -9438,7 +9438,7 @@
 1	Δεν	δεν	PART	PtNg	_	2	advmod	_	ParticleType=Neg
 2	υπάρχει	υπάρχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	όμως	όμως	CCONJ	AdBa	_	2	cc	_	_
-4	Σεργκέι	Σεργκέι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ilsptag= RgFwTr
+4	Σεργκέι	Σεργκέι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ilsptag=RgFwTr
 5	σ	σε	ADP	AsPpSp	_	7	case	_	_
 6	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Ταϊλάνδη	Ταϊλάνδη	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
@@ -9680,7 +9680,7 @@
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Μαγειρεύεις	μαγειρεύω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
-4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	2	vocative	_	ilsptag= RgFwTr
+4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	2	vocative	_	ilsptag=RgFwTr
 5	;	;	PUNCT	PTERM	PunctType=Qest	2	punct	_	_
 6	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
@@ -9867,7 +9867,7 @@
 13	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 14	Μάνια	Μάνια	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
 15	και	και	CCONJ	CjCo	_	16	cc	_	_
-16	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	ilsptag= RgFwTr
+16	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	ilsptag=RgFwTr
 17	είναι	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 18	ήδη	ήδη	ADV	AdBa	_	19	advmod	_	_
 19	εκεί	εκεί	ADV	AdBa	PronType=Dem	17	advmod	_	SpaceAfter=No
@@ -10897,7 +10897,7 @@
 4	σ	σε	ADP	AsPpSp	_	6	case	_	_
 5	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
 6	νησιά	νησί	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
-7	Καϊμάν	Καϊμάν	PROPN	RgFwTr	Foreign=Yes	6	flat	_	ForeignType= Tscript
+7	Καϊμάν	Καϊμάν	PROPN	RgFwTr	Foreign=Yes	6	flat	_	ForeignType=Tscript
 8	υπάρχει	υπάρχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 9	μόνο	μόνο	DET	AdBa	PronType=Ind	10	advmod	_	_
 10	μαύρο	μαύρος	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	11	amod	_	_
@@ -10911,7 +10911,7 @@
 3	εγώ	εγώ	PRON	NoCm	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
 4	με	με	ADP	AsPpSp	_	6	case	_	_
 5	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	ilsptag= RgFwTr
+6	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	ilsptag=RgFwTr
 7	σ	σε	ADP	AsPpSp	_	9	case	_	_
 8	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	σπίτι	σπίτι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
@@ -11059,7 +11059,7 @@
 8	θα	θα	AUX	PtFu	_	9	aux	_	ParticleType=Fut
 9	δικαιωθούν	δικαιώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
 10	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	ilsptag= RgFwTr
+11	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	ilsptag=RgFwTr
 12	με	με	ADP	AsPpSp	_	15	case	_	_
 13	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	κυρία	κύριος	ADJ	NoCm	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
@@ -11693,7 +11693,7 @@
 5	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	_
 6	λέει	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 7	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+8	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 9	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 5744
@@ -11891,7 +11891,7 @@
 2	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	δημοσιογράφος	δημοσιογράφος	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Ισβέστια	Ισβέστια	PROPN	RgFwTr	Foreign=Yes	3	nmod	_	ForeignType= Tscript
+5	Ισβέστια	Ισβέστια	PROPN	RgFwTr	Foreign=Yes	3	nmod	_	ForeignType=Tscript
 6	να	να	SCONJ	PtSj	_	7	aux	_	ParticleType=Sub
 7	έγινε	γίνομαι	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	1	xcomp	_	_
 8	άνθρωπος	άνθρωπος	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	7	xcomp	_	_
@@ -12089,13 +12089,13 @@
 18	φορτηγό	φορτηγό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	13	conj	_	_
 19	και	και	CCONJ	CjCo	_	21	cc	_	_
 20	ένα	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
-21	Σουζούκι	Σουζούκι	PROPN	RgFwTr	Foreign=Yes	18	conj	_	ForeignType= Tscript|SpaceAfter=No
+21	Σουζούκι	Σουζούκι	PROPN	RgFwTr	Foreign=Yes	18	conj	_	ForeignType=Tscript|SpaceAfter=No
 22	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 4443
 # text = Μαχμούντ Τεράκι ».
-1	Μαχμούντ	Μαχμούντ	PROPN	RgFwTr	Foreign=Yes	0	root	_	ForeignType= Tscript
-2	Τεράκι	Τεράκι	PROPN	NoPr	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	1	flat	_	ilsptag= RgFwTr
+1	Μαχμούντ	Μαχμούντ	PROPN	RgFwTr	Foreign=Yes	0	root	_	ForeignType=Tscript
+2	Τεράκι	Τεράκι	PROPN	NoPr	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	1	flat	_	ilsptag=RgFwTr
 3	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	SpaceAfter=No
 4	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
@@ -12548,7 +12548,7 @@
 3	πηγαίνουν	πηγαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	προς	προς	ADP	AsPpSp	_	6	case	_	_
 5	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-6	Άουντι	Άουντι	X	RgFwTr	Foreign=Yes	3	obl	_	ForeignType= Tscript
+6	Άουντι	Άουντι	X	RgFwTr	Foreign=Yes	3	obl	_	ForeignType=Tscript
 7	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 8	ενώ	ενώ	SCONJ	CjSb	_	10	mark	_	_
 9	εγώ	εγώ	PRON	NoCm	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
@@ -13694,8 +13694,8 @@
 # text = « Η Τζέιν Όγκντεν έχει ένα εξοχικό σ το Δήλεσι ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	Τζέιν	Τζέιν	PROPN	RgFwTr	Foreign=Yes	5	nsubj	_	ForeignType= Tscript
-4	Όγκντεν	Όγκντεν	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	ilsptag= RgFwTr
+3	Τζέιν	Τζέιν	PROPN	RgFwTr	Foreign=Yes	5	nsubj	_	ForeignType=Tscript
+4	Όγκντεν	Όγκντεν	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	ilsptag=RgFwTr
 5	έχει	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	ένα	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	7	det	_	_
 7	εξοχικό	εξοχικός	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
@@ -13744,7 +13744,7 @@
 # text = « Ο Ούλι βρήκε σήμερα να κανονίσει να φάμε με κάτι Ελβετούς φίλους του ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
 2	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag= RgFwTr
+3	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag=RgFwTr
 4	βρήκε	βρίσκω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	σήμερα	σήμερα	ADV	AdBa	_	4	advmod	_	_
 6	να	να	SCONJ	PtSj	_	7	aux	_	ParticleType=Sub
@@ -13945,7 +13945,7 @@
 6	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	αστυνομία	αστυνομία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 8	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Ιράκ	Ιράκ	PROPN	NoPr	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	ilsptag= RgFwTr
+9	Ιράκ	Ιράκ	PROPN	NoPr	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	ilsptag=RgFwTr
 10	για	για	ADP	AsPpSp	_	11	case	_	_
 11	εξακρίβωση	εξακρίβωση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 12	;	;	PUNCT	PTERM	PunctType=Qest	4	punct	_	_
@@ -15385,7 +15385,7 @@
 8	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	_
 9	συμπληρώνει	συμπληρώνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 10	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+11	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 12	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 2439
@@ -15662,7 +15662,7 @@
 1	τη	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	ρωτάει	ρωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 5	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 5798
@@ -15784,7 +15784,7 @@
 1	με	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
 2	ρωτάει	ρωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 5	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 2987
@@ -15810,7 +15810,7 @@
 10	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	_
 11	λέει	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 12	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+13	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 14	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 2969
@@ -15889,7 +15889,7 @@
 # text = Ακουμπάω το Μπερέτα μπροστά σ τον Ασιάτη.
 1	Ακουμπάω	ακουμπώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
-3	Μπερέτα	Μπερέτα	X	RgFwTr	Foreign=Yes	1	obj	_	ForeignType= Tscript
+3	Μπερέτα	Μπερέτα	X	RgFwTr	Foreign=Yes	1	obj	_	ForeignType=Tscript
 4	μπροστά	μπροστά	ADV	AdBa	_	1	advmod	_	_
 5	σ	σε	ADP	AsPpSp	_	7	case	_	_
 6	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -16253,7 +16253,7 @@
 10	που	που	PRON	PnRe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Rel	11	obj	_	_
 11	είπε	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 12	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	ilsptag= RgFwTr
+13	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	ilsptag=RgFwTr
 14	;	;	PUNCT	PTERM	PunctType=Qest	5	punct	_	_
 
 # sent_id = 183
@@ -16445,7 +16445,7 @@
 # text = « Του Ούλι ; »
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
 2	Του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ilsptag= RgFwTr
+3	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ilsptag=RgFwTr
 4	;	;	PUNCT	PTERM	PunctType=Qest	3	punct	_	_
 5	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	_
 
@@ -16700,7 +16700,7 @@
 8	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	_
 9	συμπληρώνει	συμπληρώνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 10	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+11	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 12	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3189
@@ -17176,7 +17176,7 @@
 13	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 14	Μάνια	Μάνια	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
 15	και	και	CCONJ	CjCo	_	16	cc	_	_
-16	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	ilsptag= RgFwTr
+16	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	ilsptag=RgFwTr
 17	είναι	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 18	ήδη	ήδη	ADV	AdBa	_	19	advmod	_	_
 19	εκεί	εκεί	ADV	AdBa	_	17	advmod	_	SpaceAfter=No
@@ -18516,7 +18516,7 @@
 # sent_id = 3368
 # text = Ο Ούλι δεν είναι παπούτσι από τον τόπο μου , αλλά τον μπάλωσα ».
 1	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag= RgFwTr
+2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag=RgFwTr
 3	δεν	δεν	PART	PtNg	_	4	advmod	_	ParticleType=Neg
 4	είναι	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	παπούτσι	παπούτσι	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	4	xcomp	_	_
@@ -19266,7 +19266,7 @@
 8	Μάνια	Μάνια	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 9	με	με	ADP	AsPpSp	_	11	case	_	_
 10	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	ilsptag= RgFwTr|SpaceAfter=No
+11	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	ilsptag=RgFwTr|SpaceAfter=No
 12	.	.	PUNCT	PTERMP	PunctType=Peri	6	punct	_	_
 
 # sent_id = 4758
@@ -19642,7 +19642,7 @@
 15	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	_
 16	επιμένει	επιμένω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 17	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+18	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 19	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 2292
@@ -21104,7 +21104,7 @@
 5	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	συνδρομή	συνδρομή	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 7	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
-8	Ούλι	Ούλι	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	ilsptag= RgFwTr
+8	Ούλι	Ούλι	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	ilsptag=RgFwTr
 9	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 10	της	εγώ	PRON	PnPe	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
 11	εξηγεί	εξηγώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
@@ -22034,7 +22034,7 @@
 # sent_id = 114
 # text = « Μαχμούντ , γιατί πήρες επάνω σου έναν φόνο , που δεν τον έκανες ; »
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
-2	Μαχμούντ	Μαχμούντ	PROPN	RgFwTr	Foreign=Yes	0	root	_	ForeignType= Tscript
+2	Μαχμούντ	Μαχμούντ	PROPN	RgFwTr	Foreign=Yes	0	root	_	ForeignType=Tscript
 3	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 4	γιατί	γιατί	ADV	CjSb	_	5	mark	_	_
 5	πήρες	παίρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
@@ -22421,7 +22421,7 @@
 10	υπολογιστή	υπολογιστής	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 12	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Μαχμούντ	Μαχμούντ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	ilsptag= RgFwTr
+13	Μαχμούντ	Μαχμούντ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	ilsptag=RgFwTr
 14	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
 15	μετέτρεψε	μετατρέπω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 16	σε	σε	ADP	AsPpSp	_	17	case	_	_
@@ -22685,7 +22685,7 @@
 # sent_id = 982
 # text = Ο Ούλι βάζει τα γέλια.
 1	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ilsptag= RgFwTr
+2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ilsptag=RgFwTr
 3	βάζει	βάζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
 5	γέλια	γέλιο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
@@ -22718,7 +22718,7 @@
 1	αναρωτιέται	αναρωτιέμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	ξαφνικά	ξαφνικά	ADV	AdBa	_	1	advmod	_	_
 3	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	1	nsubj:pass	_	ilsptag= RgFwTr
+4	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	1	nsubj:pass	_	ilsptag=RgFwTr
 5	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 6	που	που	PRON	PnRe	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	9	nsubj	_	_
 7	ως	ως	ADP	AdBa	_	8	case	_	_
@@ -22994,7 +22994,7 @@
 15	πάλι	πάλι	ADV	AdBa	_	14	advmod	_	_
 16	σ	σε	ADP	AsPpSp	_	18	case	_	_
 17	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	ilsptag= RgFwTr|SpaceAfter=No
+18	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	ilsptag=RgFwTr|SpaceAfter=No
 19	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 1642
@@ -23057,7 +23057,7 @@
 4	ένα	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	νεύμα	νεύμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
 6	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
-7	Άουντι	Άουντι	PROPN	RgFwTr	Foreign=Yes	2	obj	_	ForeignType= Tscript|SpaceAfter=No
+7	Άουντι	Άουντι	PROPN	RgFwTr	Foreign=Yes	2	obj	_	ForeignType=Tscript|SpaceAfter=No
 8	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 4687
@@ -23222,7 +23222,7 @@
 8	Πακιστάν	Πακιστάν	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
 9	και	και	CCONJ	CjCo	_	11	cc	_	_
 10	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-11	Αφγανιστάν	Αφγανιστάν	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	8	conj	_	ilsptag= RgFwTr
+11	Αφγανιστάν	Αφγανιστάν	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	8	conj	_	ilsptag=RgFwTr
 12	για	για	ADP	AsPpSp	_	14	mark	_	_
 13	να	να	SCONJ	PtSj	_	14	aux	_	ParticleType=Sub
 14	φτάσουν	φτάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	advcl	_	_
@@ -23249,7 +23249,7 @@
 1	Λέω	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	σ	σε	ADP	AsPpSp	_	4	case	_	_
 3	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	ilsptag= RgFwTr
+4	Ούλι	Ούλι	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	ilsptag=RgFwTr
 5	να	να	SCONJ	PtSj	_	6	aux	_	ParticleType=Sub
 6	ξαναγυρίσουμε	ξαναγυρίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 7	σ	σε	ADP	AsPpSp	_	9	case	_	_
@@ -23486,7 +23486,7 @@
 8	υπογραμμίζει	υπογραμμίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
 9	ευχαριστημένος	ευχαριστώ	VERB	AjBa	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Conv|Voice=Pass	8	xcomp	_	_
 10	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ilsptag= RgFwTr|SpaceAfter=No
+11	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
 12	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 1313
@@ -24613,7 +24613,7 @@
 4	τράπεζες	τράπεζα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
 5	των	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	Νήσων	νήσος	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
-7	Καϊμάν	Καϊμάν	PROPN	RgFwTr	Foreign=Yes	6	flat	_	ForeignType= Tscript
+7	Καϊμάν	Καϊμάν	PROPN	RgFwTr	Foreign=Yes	6	flat	_	ForeignType=Tscript
 8	θέλουν	θέλω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_
 9	να	να	SCONJ	PtSj	_	10	aux	_	ParticleType=Sub
 10	έρθουν	έρχομαι	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Pass	8	ccomp	_	_
@@ -25033,7 +25033,7 @@
 
 # sent_id = 1180
 # text = Ντεν βάλαμε μαντίλι σ το στόμα να μη φωνάξει » εξηγεί ο Αφγανός.
-1	Ντεν	Δεν	PART	RgFwTr	_	2	nsubj	_	ForeignType= Tscript
+1	Ντεν	Δεν	PART	RgFwTr	_	2	nsubj	_	ForeignType=Tscript
 2	βάλαμε	βάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	μαντίλι	μαντίλι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
 4	σ	σε	ADP	AsPpSp	_	6	case	_	_
