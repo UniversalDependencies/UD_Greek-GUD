@@ -2878,7 +2878,7 @@
 10	υπογράψετε	υπογράφω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	3	conj	_	_
 11	και	και	CCONJ	CjCo	_	12	cc	_	_
 12	μπορείτε	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
-13	να	να	SCONJ	PtSj	_	14	aux	_	ParticleType=Sub
+13	να	να	SCONJ	PtSj	_	14	mark	_	_
 14	πάρετε	παίρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	12	xcomp	_	_
 15	ένα	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	αντίγραφο	αντίγραφο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
@@ -2902,7 +2902,7 @@
 2	Καλό	καλός	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	4	xcomp	_	_
 3	θα	θα	AUX	PtFu	_	4	aux	_	ParticleType=Fut
 4	ήταν	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
-5	να	να	SCONJ	PtSj	_	7	aux	_	ParticleType=Sub
+5	να	να	SCONJ	PtSj	_	7	mark	_	_
 6	μην	μην	PART	PtNg	Polarity=Neg	7	advmod	_	_
 7	παραβιάσουμε	παραβιάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	4	xcomp	_	_
 8	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -2927,7 +2927,7 @@
 9	σου	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 11	για	για	ADP	AsPpSp	_	14	mark	_	_
-12	να	να	SCONJ	PtSj	_	14	aux	_	ParticleType=Sub
+12	να	να	SCONJ	PtSj	_	14	mark	_	_
 13	με	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
 14	διαφωτίσεις	διαφωτίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No
 15	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	_
@@ -2946,7 +2946,7 @@
 5	έτσι	έτσι	ADV	AdBa	_	2	advmod	_	_
 6	ξαφνικά	ξαφνικά	ADV	AdBa	_	5	appos	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
-8	να	να	SCONJ	PtSj	_	9	aux	_	ParticleType=Sub
+8	να	να	SCONJ	PtSj	_	9	mark	_	_
 9	επιστρέφουν	επιστρέφω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 10	σ	σε	ADP	AsPpSp	_	13	case	_	_
 11	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	13	det	_	_
@@ -2997,7 +2997,7 @@
 # sent_id = 5674
 # text = Σηκώνομαι να βάλω τον Δημητράκο σ τη θέση του και μετά κάνω μια στάση σ την κουζίνα , για να φάω λίγο χρόνο και να μην ξεκινήσω αμέσως.
 1	Σηκώνομαι	σηκώνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	να	να	SCONJ	PtSj	_	3	aux	_	ParticleType=Sub
+2	να	να	SCONJ	PtSj	_	3	mark	_	_
 3	βάλω	βάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 4	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Δημητράκο	Δημητράκος	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
@@ -3015,12 +3015,12 @@
 17	κουζίνα	κουζίνα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
 18	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 19	για	για	ADP	AsPpSp	_	21	mark	_	_
-20	να	να	SCONJ	PtSj	_	21	aux	_	ParticleType=Sub
+20	να	να	SCONJ	PtSj	_	21	mark	_	_
 21	φάω	τρώω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	12	advcl	_	_
 22	λίγο	λίγος	DET	AjBa	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	23	amod	_	_
 23	χρόνο	χρόνος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
 24	και	και	CCONJ	CjCo	_	27	cc	_	_
-25	να	να	SCONJ	PtSj	_	27	aux	_	ParticleType=Sub
+25	να	να	SCONJ	PtSj	_	27	mark	_	_
 26	μην	μην	PART	PtNg	Polarity=Neg	27	advmod	_	_
 27	ξεκινήσω	ξεκινώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	21	conj	_	_
 28	αμέσως	αμέσως	ADV	AdBa	_	27	advmod	_	SpaceAfter=No
@@ -3040,7 +3040,7 @@
 10	οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	δύο	δύο	NUM	NmCd	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	12	nmod	_	_
 12	Γεωργιανοί	Γεωργιανός	ADJ	NoPr	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
-13	να	να	SCONJ	PtSj	_	14	aux	_	ParticleType=Sub
+13	να	να	SCONJ	PtSj	_	14	mark	_	_
 14	ομολογήσουν	ομολογώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	2	conj	_	_
 15	δολοφονίες	δολοφονία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
 16	που	που	PRON	PnRe	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Rel	18	nsubj	_	_
@@ -3055,7 +3055,7 @@
 3	εκ	εκ	ADP	AsPpSp	_	5	case	_	_
 4	πρώτης	πρώτος	ADJ	NmOd	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
 5	όψεως	όψη	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
-6	να	να	SCONJ	PtSj	_	7	aux	_	ParticleType=Sub
+6	να	να	SCONJ	PtSj	_	7	mark	_	_
 7	ταιριάζει	ταιριάζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	_	_
 8	και	και	CCONJ	CjCo	_	11	cc	_	_
 9	σ	σε	ADP	AsPpSp	_	11	case	_	_
@@ -3176,7 +3176,7 @@
 16	ασύλου	άσυλο	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
 17	και	και	CCONJ	CjCo	_	18	cc	_	_
 18	απείλησαν	απειλώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
-19	να	να	SCONJ	PtSj	_	20	aux	_	ParticleType=Sub
+19	να	να	SCONJ	PtSj	_	20	mark	_	_
 20	φύγουν	φεύγω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	18	xcomp	_	_
 21	μαζί	μαζί	ADV	AdBa	_	20	advmod	_	_
 22	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	21	obl	_	SpaceAfter=No
@@ -3354,7 +3354,7 @@
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
 2	Γιατί	γιατί	ADV	AdBa	_	3	advmod	_	_
 3	έπρεπε	πρέπει	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	να	να	SCONJ	PtSj	_	5	aux	_	ParticleType=Sub
+4	να	να	SCONJ	PtSj	_	5	mark	_	_
 5	πεθάνει	πεθαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	xcomp	_	_
 6	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Χαρδάκος	Χαρδάκος	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -3479,7 +3479,7 @@
 # sent_id = 1
 # text = να ψάξω σίγουρα κατατάσσονται σ τα πίτουρα.
 od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
-5	να	να	SCONJ	PtSj	_	6	aux	_	ParticleType=Sub
+5	να	να	SCONJ	PtSj	_	6	mark	_	_
 6	ψάξω	ψάχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	4	xcomp	_	_
 7	σίγουρα	σίγουρα	ADV	AdBa	_	6	advmod	_	_
 8	κατατάσσονται	κατατάσσω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -3500,7 +3500,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # sent_id = 4632
 # text = Κάθομαι να απολαύσω το κρουασάν και τον καφέ μου , με τη βεβαιότητα ότι σήμερα τίποτα δε με κυνηγάει , όμως άλλαι μεν αι βουλαί ανθρώπων άλλα δε Θεός κελεύει.
 1	Κάθομαι	κάθομαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	να	να	SCONJ	PtSj	_	3	aux	_	ParticleType=Sub
+2	να	να	SCONJ	PtSj	_	3	mark	_	_
 3	απολαύσω	απολαμβάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 4	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	κρουασάν	κρουασάν	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
@@ -3535,7 +3535,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = Τους ζητάω να ελέγξουν με τον παροχέα τον αριθμό του τηλεφωνικού κέντρου , μπας και εξακριβώσουμε από πού έπαιρνε ο άγνωστος που ζητούσε τον Χαρδάκο , αν και είμαι βέβαιος ότι έπαιρνε από θάλαμο.
 1	Τους	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	_
 2	ζητάω	ζητώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	να	να	SCONJ	PtSj	_	4	aux	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	4	mark	_	_
 4	ελέγξουν	ελέγχω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 5	με	με	ADP	AsPpSp	_	7	case	_	_
 6	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -3573,7 +3573,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = « Για να μας πει το τελευταίο » του απαντώ.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Για	για	ADP	AsPpSp	_	5	mark	_	_
-3	να	να	SCONJ	PtSj	_	5	aux	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	5	mark	_	_
 4	μας	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
 5	πει	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	advcl	_	_
 6	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
@@ -3617,7 +3617,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 2	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	κεφάλι	κεφάλι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
 4	μου	μου	PRON	PnPo	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
-5	να	να	SCONJ	PtSj	_	6	aux	_	ParticleType=Sub
+5	να	να	SCONJ	PtSj	_	6	mark	_	_
 6	καταλάβω	καταλαβαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 7	πώς	πώς	ADV	AdBa	_	10	advmod	_	_
 8	δε	δεν	PART	PtNg	_	10	advmod	_	ParticleType=Neg
@@ -3627,14 +3627,14 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 12	τηλέφωνο	τηλέφωνο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
 14	για	για	ADP	AsPpSp	_	17	mark	_	_
-15	να	να	SCONJ	PtSj	_	17	aux	_	ParticleType=Sub
+15	να	να	SCONJ	PtSj	_	17	mark	_	_
 16	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
 17	πει	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	1	advcl	_	_
 18	ότι	ότι	SCONJ	CjSb	_	20	mark	_	_
 19	τον	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
 20	παρακολουθούν	παρακολουθώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	_	_
 21	και	και	CCONJ	CjCo	_	24	cc	_	_
-22	να	να	SCONJ	PtSj	_	24	aux	_	ParticleType=Sub
+22	να	να	SCONJ	PtSj	_	24	mark	_	_
 23	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	24	iobj	_	_
 24	δώσει	δίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	conj	_	_
 25	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	26	det	_	_
@@ -3715,7 +3715,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 11	δε	δεν	PART	PtNg	_	13	advmod	_	ParticleType=Neg
 12	με	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
 13	παίρνει	παίρνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
-14	να	να	SCONJ	PtSj	_	16	aux	_	ParticleType=Sub
+14	να	να	SCONJ	PtSj	_	16	mark	_	_
 15	του	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
 16	πω	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	13	xcomp	_	_
 17	όχι	όχι	INTJ	PtNg	Polarity=Neg	16	advmod	_	SpaceAfter=No
@@ -3726,7 +3726,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 1	Γι	για	ADP	VbMn	_	0	root	_	_
 2	'	'	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	_
 3	αυτό	αυτός	DET	PnDm	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	1	obj	_	_
-4	να	να	AUX	PtSj	_	5	aux	_	ParticleType=Sub
+4	να	να	AUX	PtSj	_	5	mark	_	_
 5	φυλάς	φυλάω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 6	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
 7	νώτα	νώτα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
@@ -3739,7 +3739,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 14	εγώ	εγώ	PRON	NoCm	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 15	θα	θα	AUX	PtFu	_	16	aux	_	ParticleType=Fut
 16	μπορώ	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	_
-17	να	να	SCONJ	PtSj	_	19	aux	_	ParticleType=Sub
+17	να	να	SCONJ	PtSj	_	19	mark	_	_
 18	σε	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=2|PronType=Prs	19	obj	_	_
 19	βοηθήσω	βοηθώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	16	xcomp	_	_
 20	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	SpaceAfter=No
@@ -3759,7 +3759,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 11	αφενός	αφενός	CCONJ	AdBa	_	16	advmod	_	_
 12	για	για	ADP	AsPpSp	_	16	mark	_	_
-13	να	να	SCONJ	PtSj	_	16	aux	_	ParticleType=Sub
+13	να	να	SCONJ	PtSj	_	16	mark	_	_
 14	μην	μην	PART	PtNg	Polarity=Neg	16	advmod	_	_
 15	τους	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	iobj	_	_
 16	φορτώσω	φορτώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	advcl	_	_
@@ -3773,7 +3773,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 24	αφετέρου	αφετέρου	CCONJ	AdBa	_	26	advmod	_	_
 25	γιατί	γιατί	SCONJ	CjSb	_	26	mark	_	_
 26	θέλω	θέλω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
-27	να	να	SCONJ	PtSj	_	28	aux	_	ParticleType=Sub
+27	να	να	SCONJ	PtSj	_	28	mark	_	_
 28	δημιουργήσω	δημιουργώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	26	ccomp	_	_
 29	πιο	πιο	ADV	AdBa	Degree=Cmp	30	advmod	_	_
 30	πολύ	πολύ	ADV	AdBa	PronType=Ind	28	advmod	_	_
@@ -3804,7 +3804,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 4	έκανα	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	υπέρβαση	υπέρβαση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
-7	να	να	SCONJ	PtSj	_	8	aux	_	ParticleType=Sub
+7	να	να	SCONJ	PtSj	_	8	mark	_	_
 8	εμφανιστώ	εμφανίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Pass	6	acl	_	_
 9	μετά	μετά	ADV	AdBa	_	8	advmod	_	_
 10	από	από	ADP	AsPpSp	_	12	case	_	_
@@ -3837,7 +3837,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = Όλοι θέλουμε να σκαρφαλώσουμε σ την ιεραρχία.
 1	Όλοι	όλος	DET	AjBa	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	2	nsubj	_	_
 2	θέλουμε	θέλω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	να	να	SCONJ	PtSj	_	4	aux	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	4	mark	_	_
 4	σκαρφαλώσουμε	σκαρφαλώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 5	σ	σε	ADP	AsPpSp	_	7	case	_	_
 6	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -4009,7 +4009,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 5	μας	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
 6	πάρει	παίρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 7	για	για	ADP	AsPpSp	_	9	mark	_	_
-8	να	να	SCONJ	PtSj	_	9	aux	_	ParticleType=Sub
+8	να	να	SCONJ	PtSj	_	9	mark	_	_
 9	γυρίσουμε	γυρίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	6	advcl	_	_
 10	πάλι	πάλι	ADV	AdBa	_	9	advmod	_	_
 11	σ	σε	ADP	AsPpSp	_	13	case	_	_
@@ -4031,7 +4031,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 9	βοηθοί	βοηθός	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 10	μου	μου	PRON	PnPo	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod	_	_
 11	εξακολουθούν	εξακολουθώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
-12	να	να	SCONJ	PtSj	_	14	aux	_	ParticleType=Sub
+12	να	να	SCONJ	PtSj	_	14	mark	_	_
 13	με	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
 14	κοιτάνε	κοιτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	xcomp	_	_
 15	σαν	σαν	ADV	AdBa	_	17	mark	_	_
@@ -4071,7 +4071,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 2	αποφασίσει	αποφασίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	advcl	_	_
 3	ότι	ότι	SCONJ	CjSb	_	4	mark	_	_
 4	πρέπει	πρέπει	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
-5	να	να	SCONJ	PtSj	_	6	aux	_	ParticleType=Sub
+5	να	να	SCONJ	PtSj	_	6	mark	_	_
 6	συνεχίσουμε	συνεχίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	4	xcomp	_	_
 7	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	έρευνα	έρευνα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
@@ -4100,7 +4100,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 4	κίνητρό	κίνητρο	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	_
 5	μας	μου	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod	_	_
 6	για	για	ADP	AsPpSp	_	8	mark	_	_
-7	να	να	SCONJ	PtSj	_	8	aux	_	ParticleType=Sub
+7	να	να	SCONJ	PtSj	_	8	mark	_	_
 8	επιστρέφουμε	επιστρέφω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
 9	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
 10	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
@@ -4120,12 +4120,12 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 2	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	κεφάλι	κεφάλι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
 4	μου	μου	PRON	PnPo	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
-5	να	να	SCONJ	PtSj	_	6	aux	_	ParticleType=Sub
+5	να	να	SCONJ	PtSj	_	6	mark	_	_
 6	βρω	βρίσκω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 7	ποιο	ποιος	DET	PnIr	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Int	9	nsubj	_	_
 8	θα	θα	AUX	PtFu	_	9	aux	_	ParticleType=Fut
 9	έπρεπε	πρέπει	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	ccomp	_	_
-10	να	να	SCONJ	PtSj	_	11	aux	_	ParticleType=Sub
+10	να	να	SCONJ	PtSj	_	11	mark	_	_
 11	είναι	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	xcomp	_	_
 12	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 13	επόμενο	επόμενος	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	14	amod	_	_
@@ -4263,7 +4263,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = « Τι να σας πω » μου λέει ο Στεργιάδης , όταν ξαναβρίσκει τη φωνή του .
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	5	obj	_	_
-3	να	να	SCONJ	PtSj	_	5	aux	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	5	mark	_	_
 4	σας	εγώ	PRON	PnPe	Case=Gen|Number=Plur|Person=2|PronType=Prs	5	obj	_	_
 5	πω	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 6	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	_
@@ -4296,7 +4296,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 14	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
 15	πρότεινε	προτείνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-16	να	να	SCONJ	PtSj	_	17	aux	_	ParticleType=Sub
+16	να	να	SCONJ	PtSj	_	17	mark	_	_
 17	αναλάβω	αναλαβαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	15	ccomp	_	_
 18	νομική	νομικός	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	19	amod	_	_
 19	σύμβουλός	σύμβουλος	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	17	obj	_	_
@@ -4378,7 +4378,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # sent_id = 5479
 # text = Περίμενα να είμαστε όλοι μαζί ».
 1	Περίμενα	περιμένω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	να	να	SCONJ	PtSj	_	3	aux	_	ParticleType=Sub
+2	να	να	SCONJ	PtSj	_	3	mark	_	_
 3	είμαστε	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	1	ccomp	_	_
 4	όλοι	όλος	DET	AjBa	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	3	nsubj	_	_
 5	μαζί	μαζί	ADV	AdBa	_	3	advmod	_	_
@@ -4398,7 +4398,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 9	Στέλλα	Στέλλα	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 11	για	για	ADP	AsPpSp	_	13	mark	_	_
-12	να	να	SCONJ	PtSj	_	13	aux	_	ParticleType=Sub
+12	να	να	SCONJ	PtSj	_	13	mark	_	_
 13	ενημερώσω	ενημερώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	6	advcl	_	_
 14	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Γκίκα	Γκίκας	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
@@ -4461,7 +4461,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 3	ακούει	ακούω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Κούλα	Κούλα	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
-6	να	να	SCONJ	PtSj	_	7	mark	_	ParticleType=Sub
+6	να	να	SCONJ	PtSj	_	7	mark	_	_
 7	λέει	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	xcomp	_	_
 8	:	:	PUNCT	PTERM	PunctType=Colo	3	punct	_	_
 
@@ -4470,7 +4470,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 1	Αφήνει	αφήνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ερώτηση	ερώτηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
-4	να	να	SCONJ	PtSj	_	5	mark	_	ParticleType=Sub
+4	να	να	SCONJ	PtSj	_	5	mark	_	_
 5	κρέμεται	κρεμώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl	_	_
 6	και	και	CCONJ	CjCo	_	7	cc	_	_
 7	πηγαίνει	πηγαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
@@ -4537,7 +4537,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 4	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 5	που	που	PRON	PnRe	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	6	nsubj	_	_
 6	ήρθε	έρχομαι	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	_
-7	να	να	SCONJ	PtSj	_	9	mark	_	ParticleType=Sub
+7	να	να	SCONJ	PtSj	_	9	mark	_	_
 8	μας	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	iobj	_	_
 9	πει	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	xcomp	_	_
 10	τις	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
@@ -4558,7 +4558,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 2	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
 3	ακριβώς	ακριβώς	ADV	AdBa	_	4	advmod	_	_
 4	θέλετε	θέλω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	να	να	SCONJ	PtSj	_	6	mark	_	ParticleType=Sub
+5	να	να	SCONJ	PtSj	_	6	mark	_	_
 6	ψάξω	ψάχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	4	ccomp	_	_
 7	;	;	PUNCT	PTERM	PunctType=Qest	4	punct	_	_
 8	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	_
@@ -4637,11 +4637,11 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = Δε γίνεται να τα δίνουμε και να μην τρώμε ».
 1	Δε	δεν	PART	PtNg	_	2	advmod	_	ParticleType=Neg
 2	γίνεται	γίνεται	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-3	να	να	SCONJ	PtSj	_	5	mark	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	5	mark	_	_
 4	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 5	δίνουμε	δίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 6	και	και	CCONJ	CjCo	_	9	cc	_	_
-7	να	να	SCONJ	PtSj	_	9	mark	_	ParticleType=Sub
+7	να	να	SCONJ	PtSj	_	9	mark	_	_
 8	μην	μην	PART	PtNg	Polarity=Neg	9	advmod	_	_
 9	τρώμε	τρώω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 10	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
@@ -4712,17 +4712,17 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 8	προσπάθειες	προσπάθεια	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 10	για	για	ADP	AsPpSp	_	12	mark	_	_
-11	να	να	SCONJ	PtSj	_	12	mark	_	ParticleType=Sub
+11	να	να	SCONJ	PtSj	_	12	mark	_	_
 12	πείσει	πείθω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	advcl	_	_
 13	τους	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	εφοπλιστές	εφοπλιστής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
-15	να	να	SCONJ	PtSj	_	16	mark	_	ParticleType=Sub
+15	να	να	SCONJ	PtSj	_	16	mark	_	_
 16	επιστρέφουν	επιστρέφω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	xcomp	_	_
 17	σ	σε	ADP	AsPpSp	_	19	case	_	_
 18	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	χώρα	χώρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 20	και	και	CCONJ	CjCo	_	22	cc	_	_
-21	να	να	SCONJ	PtSj	_	22	mark	_	ParticleType=Sub
+21	να	να	SCONJ	PtSj	_	22	mark	_	_
 22	συμβάλουν	συμβάλλω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	16	conj	_	_
 23	σ	σε	ADP	AsPpSp	_	25	case	_	_
 24	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -4738,7 +4738,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 34	σας	μου	PRON	PnPo	Case=Gen|Number=Plur|Person=2|Poss=Yes|PronType=Prs	33	nmod	_	_
 35	,	,	PUNCT	PUNCT	PunctType=Comm	33	punct	_	_
 36	καταφέρατε	καταφέρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-37	να	να	SCONJ	PtSj	_	39	mark	_	ParticleType=Sub
+37	να	να	SCONJ	PtSj	_	39	mark	_	_
 38	τους	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obj	_	_
 39	τρομοκρατήσετε	τρομοκρατώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	36	xcomp	_	SpaceAfter=No
 40	.	.	PUNCT	PTERMP	PunctType=Peri	36	punct	_	_
@@ -4785,7 +4785,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 2	σ	σε	ADP	AsPpSp	_	4	case	_	_
 3	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Δημητριού	Δημητρίου	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
-5	να	να	SCONJ	PtSj	_	7	mark	_	ParticleType=Sub
+5	να	να	SCONJ	PtSj	_	7	mark	_	_
 6	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
 7	δώσει	δίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 8	έναν	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	obj	_	_
@@ -4923,7 +4923,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 11	ότι	ότι	SCONJ	CjSb	_	13	mark	_	_
 12	δεν	δεν	PART	PtNg	_	13	advmod	_	ParticleType=Neg
 13	μπορεί	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
-14	να	να	SCONJ	PtSj	_	15	mark	_	ParticleType=Sub
+14	να	να	SCONJ	PtSj	_	15	mark	_	_
 15	πάρει	παίρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	xcomp	_	_
 16	πίσω	πίσω	ADV	AdBa	_	17	advmod	_	_
 17	δαγκωμένα	δαγκωμένος	VERB	VbMnPp	Case=Acc|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Pass	18	amod	_	_
@@ -4950,7 +4950,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 9	πούπουλα	πούπουλο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 11	μπορεί	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-12	να	να	SCONJ	PtSj	_	13	mark	_	ParticleType=Sub
+12	να	να	SCONJ	PtSj	_	13	mark	_	_
 13	ήταν	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	xcomp	_	_
 14	από	από	ADP	AsPpSp	_	15	case	_	_
 15	μίζα	μίζα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	13	obl:agent	_	_
@@ -4963,7 +4963,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 22	αναψυχής	αναψυχή	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
 24	μπορεί	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
-25	να	να	SCONJ	PtSj	_	26	mark	_	ParticleType=Sub
+25	να	να	SCONJ	PtSj	_	26	mark	_	_
 26	ήταν	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	24	xcomp	_	_
 27	και	και	CCONJ	CjCo	_	29	cc	_	_
 28	μαύρο	μαύρος	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	29	amod	_	_
@@ -5095,7 +5095,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 16	φωτιά	φωτιά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
 17	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 18	για	για	ADP	AsPpSp	_	20	mark	_	_
-19	να	να	SCONJ	PtSj	_	20	mark	_	ParticleType=Sub
+19	να	να	SCONJ	PtSj	_	20	mark	_	_
 20	μάθω	μαθαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	10	advcl	_	_
 21	για	για	ADP	AsPpSp	_	23	case	_	_
 22	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -5155,10 +5155,10 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 14	Κατερίνας	Κατερίνα	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 16	για	για	ADP	AsPpSp	_	19	mark	_	_
-17	να	να	SCONJ	PtSj	_	19	mark	_	ParticleType=Sub
+17	να	να	SCONJ	PtSj	_	19	mark	_	_
 18	μην	μην	PART	PtNg	Polarity=Neg	19	advmod	_	_
 19	αρχίσει	αρχίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	advcl	_	_
-20	να	να	SCONJ	PtSj	_	21	mark	_	ParticleType=Sub
+20	να	να	SCONJ	PtSj	_	21	mark	_	_
 21	τρώγεται	τρώω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	xcomp	_	_
 22	με	με	ADP	AsPpSp	_	24	case	_	_
 23	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	24	det	_	_
@@ -5178,7 +5178,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 8	από	από	ADP	AsPpSp	_	10	case	_	_
 9	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	_
 10	μαλλιά	μαλλί	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
-11	να	να	SCONJ	PtSj	_	12	mark	_	ParticleType=Sub
+11	να	να	SCONJ	PtSj	_	12	mark	_	_
 12	συνδέσει	συνδέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	xcomp	_	_
 13	κανείς	κανένας	PRON	PnId	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Neg	12	nsubj	_	_
 14	τους	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
@@ -5199,7 +5199,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 7	σ	σε	ADP	AsPpSp	_	9	case	_	_
 8	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	δολοφόνο	δολοφόνος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
-10	να	να	SCONJ	PtSj	_	12	mark	_	ParticleType=Sub
+10	να	να	SCONJ	PtSj	_	12	mark	_	_
 11	σου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=2|PronType=Prs	12	iobj	_	_
 12	αφήσει	αφήνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	ccomp	_	_
 13	ένα	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
@@ -5216,7 +5216,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 4	δε	δεν	PART	PtNg	_	6	advmod	_	ParticleType=Neg
 5	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
 6	αρέσει	αρέσω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
-7	να	να	SCONJ	PtSj	_	8	mark	_	ParticleType=Sub
+7	να	να	SCONJ	PtSj	_	8	mark	_	_
 8	μιλώ	μιλώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	xcomp	_	_
 9	σε	σε	ADP	AsPpSp	_	10	case	_	_
 10	δημοσιογράφους	δημοσιογράφος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
@@ -5246,7 +5246,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 4	σ	σε	ADP	AsPpSp	_	6	case	_	_
 5	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	λαχαναγορά	λαχαναγορά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
-7	να	να	SCONJ	PtSj	_	10	mark	_	ParticleType=Sub
+7	να	να	SCONJ	PtSj	_	10	mark	_	_
 8	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
 9	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
 10	διαβάσει	διαβάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	xcomp	_	_
@@ -5326,7 +5326,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = « Πρέπει να συνεχίσουμε την έρευνα σ την κατοικία του Χαρδάκου ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Πρέπει	πρέπει	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers= Yes
-3	να	να	SCONJ	PtSj	_	4	mark	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	4	mark	_	_
 4	συνεχίσουμε	συνεχίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	2	csubj	_	_
 5	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	έρευνα	έρευνα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
@@ -5384,14 +5384,14 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 9	δε	δεν	PART	PtNg	_	11	advmod	_	ParticleType=Neg
 10	θα	θα	AUX	PtFu	_	11	aux	_	ParticleType=Fut
 11	έπρεπε	πρέπει	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-12	να	να	SCONJ	PtSj	_	13	mark	_	ParticleType=Sub
+12	να	να	SCONJ	PtSj	_	13	mark	_	_
 13	είμαι	είμαι	AUX	VbMn	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	11	xcomp	_	_
 14	κανονικά	κανονικά	ADV	AdBa	_	15	advmod	_	_
 15	ευχαριστημένος	ευχαριστημένος	VERB	VbMnPp	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	xcomp	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 17	αλλά	αλλά	CCONJ	CjCo	_	18	cc	_	_
 18	οφείλω	οφείλω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
-19	να	να	SCONJ	PtSj	_	20	mark	_	ParticleType=Sub
+19	να	να	SCONJ	PtSj	_	20	mark	_	_
 20	ομολογήσω	ομολογώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	18	xcomp	_	_
 21	ότι	ότι	SCONJ	CjSb	_	25	mark	_	_
 22	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
@@ -5444,7 +5444,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 14	γίνεται	γίνομαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	ccomp	_	_
 15	για	για	ADP	AsPpSp	_	17	mark	_	_
-16	να	να	SCONJ	PtSj	_	17	mark	_	ParticleType=Sub
+16	να	να	SCONJ	PtSj	_	17	mark	_	_
 17	μαθαίνει	μαθαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	_
 18	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	19	det	_	_
 19	μυστικά	μυστικό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
@@ -5458,7 +5458,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 3	θα	θα	AUX	PtFu	_	4	aux	_	ParticleType=Fut
 4	πρέπει	πρέπει	AUX	VbMn	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	να	να	SCONJ	PtSj	_	6	mark	_	ParticleType=Sub
+5	να	να	SCONJ	PtSj	_	6	mark	_	_
 6	είναι	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	csubj	_	_
 7	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	όπλο	όπλο	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
@@ -5534,7 +5534,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 5	ρουτίνα	ρουτίνα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 7	για	για	ADP	AsPpSp	_	9	mark	_	_
-8	να	να	SCONJ	PtSj	_	9	mark	_	ParticleType=Sub
+8	να	να	SCONJ	PtSj	_	9	mark	_	_
 9	τσεκάρουμε	τσεκάρω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	2	advcl	_	_
 10	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
 11	γραφεία	γραφείο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
@@ -5587,7 +5587,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = Έμεινα μόνος να περιμένω ως τις τρεις το πρωί , όταν με πήρε η Κατερίνα , για να μου ανακοινώσει ότι έφτασαν.
 1	Έμεινα	μένω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	μόνος	μόνος	DET	AjBa	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	1	xcomp	_	_
-3	να	να	SCONJ	PtSj	_	4	mark	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	4	mark	_	_
 4	περιμένω	περιμένω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 5	ως	ως	ADP	AsPpSp	_	7	case	_	_
 6	τις	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
@@ -5602,7 +5602,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 15	Κατερίνα	Κατερίνα	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 17	για	για	ADP	AsPpSp	_	20	mark	_	_
-18	να	να	SCONJ	PtSj	_	20	mark	_	ParticleType=Sub
+18	να	να	SCONJ	PtSj	_	20	mark	_	_
 19	μου	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
 20	ανακοινώσει	ανακοινώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	advcl	_	_
 21	ότι	ότι	SCONJ	CjSb	_	22	mark	_	_
@@ -5613,7 +5613,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = Κάτι προσπάθησε να μου εξηγήσει για πλωτές δεξαμενές και μονάδες επισκευής πλοίων , αλλά εγώ έχω μεσάνυχτα απ ' αυτά.
 1	Κάτι	κάτι	DET	PnId	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	προσπάθησε	προσπαθώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	να	να	SCONJ	PtSj	_	5	mark	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	5	mark	_	_
 4	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
 5	εξηγήσει	εξηγώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 6	για	για	ADP	AsPpSp	_	8	case	_	_
@@ -5691,7 +5691,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = « Μπορείς να μου βρεις σε ποιον ανήκει ένα φορτηγό με αριθμό κυκλοφορίας ΙΚΙ 5522 » ;
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Μπορείς	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	να	να	SCONJ	PtSj	_	5	mark	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	5	mark	_	_
 4	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
 5	βρεις	βρίσκω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 6	σε	σε	ADP	AsPpSp	_	7	case	_	_
@@ -5806,7 +5806,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 8	Κούλα	Κούλα	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 10	για	για	ADP	AsPpSp	_	12	mark	_	_
-11	να	να	SCONJ	PtSj	_	12	mark	_	ParticleType=Sub
+11	να	να	SCONJ	PtSj	_	12	mark	_	_
 12	ζητήσει	ζητώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	1	advcl	_	_
 13	από	από	ADP	AsPpSp	_	15	case	_	_
 14	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -5826,7 +5826,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 3	εγώ	εγώ	PRON	NoCm	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
 4	και	και	CCONJ	CjCo	_	5	cc	_	_
 5	περιμένω	περιμένω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
-6	να	να	SCONJ	PtSj	_	7	mark	_	ParticleType=Sub
+6	να	να	SCONJ	PtSj	_	7	mark	_	_
 7	πάει	πηγαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	ccomp	_	_
 8	παρακάτω	παρακάτω	ADV	AdBa	_	7	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
@@ -6103,7 +6103,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 6	υπόλοιπα	υπόλοιπος	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Plur	7	amod	_	_
 7	κόμματα	κόμμα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
 8	άρχιζαν	αρχίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-9	να	να	SCONJ	PtSj	_	10	mark	_	ParticleType=Sub
+9	να	να	SCONJ	PtSj	_	10	mark	_	_
 10	κράζουν	κράζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	xcomp	_	_
 11	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	ΚΕΑΝ	ΚΕΑΝ	PROPN	ABBR	Abbr=Yes	10	obj	_	AbbrType= Br
@@ -6153,7 +6153,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = « Πήγες να μας πουλήσεις το παραμύθι για ληστεία , αλλά δεν ήταν ληστεία.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Πήγες	πηγαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	να	να	SCONJ	PtSj	_	5	mark	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	5	mark	_	_
 4	μας	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
 5	πουλήσεις	πουλώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 6	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
@@ -6196,7 +6196,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Κατάφερες	καταφέρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	τελικά	τελικά	ADV	AdBa	_	2	advmod	_	_
-4	να	να	SCONJ	PtSj	_	5	mark	_	ParticleType=Sub
+4	να	να	SCONJ	PtSj	_	5	mark	_	_
 5	ανακρίνεις	ανακρίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 6	τους	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	δολοφόνους	δολοφόνος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
@@ -6212,7 +6212,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 3	βεβαιότητα	βεβαιότητα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 4	δεν	δεν	PART	PtNg	_	5	advmod	_	ParticleType=Neg
 5	μπορεί	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-6	να	να	SCONJ	PtSj	_	7	mark	_	ParticleType=Sub
+6	να	να	SCONJ	PtSj	_	7	mark	_	_
 7	υπάρξει	υπάρχω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	xcomp	_	_
 8	παρά	παρά	CCONJ	CjCo	_	10	cc	_	_
 9	μόνον	μόνο	ADV	AdBa	_	10	advmod	_	_
@@ -6248,7 +6248,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 8	έχω	έχω	AUX	VbMn	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
 9	έρθει	έρχομαι	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	5	conj	_	_
 10	κουρδισμένος	κουρδισμένος	VERB	VbMnPp	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	xcomp	_	_
-11	να	να	SCONJ	PtSj	_	12	mark	_	ParticleType=Sub
+11	να	να	SCONJ	PtSj	_	12	mark	_	_
 12	περάσω	περνώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	9	xcomp	_	_
 13	μια	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	ήσυχη	ήσυχος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
@@ -6348,7 +6348,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 7	του	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 9	για	για	ADP	AsPpSp	_	12	mark	_	_
-10	να	να	SCONJ	PtSj	_	12	mark	_	ParticleType=Sub
+10	να	να	SCONJ	PtSj	_	12	mark	_	_
 11	τ'	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
 12	ακούσει	ακούω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	advcl	_	_
 13	από	από	ADP	AsPpSp	_	15	case	_	_
@@ -6361,7 +6361,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 # text = Μπορώ επίσης να σας διαβεβαιώσω πως , αν προκύψει κάτι που θα μπορούσε να είναι χρήσιμο σ τις έρευνές σας , εμείς θα το θέσουμε αμέσως υπόψη σας ».
 1	Μπορώ	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	επίσης	επίσης	ADV	AdBa	_	1	advmod	_	_
-3	να	να	SCONJ	PtSj	_	5	mark	_	ParticleType=Sub
+3	να	να	SCONJ	PtSj	_	5	mark	_	_
 4	σας	εγώ	PRON	PnPe	Case=Gen|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
 5	διαβεβαιώσω	διαβεβαιώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 6	πως	πως	SCONJ	CjSb	_	25	mark	_	_
@@ -6372,7 +6372,7 @@ od=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 11	που	που	PRON	PnRe	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Rel	13	nsubj	_	_
 12	θα	θα	AUX	PtFu	_	13	aux	_	ParticleType=Fut
 13	μπορούσε	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
-14	να	να	SCONJ	PtSj	_	15	mark	_	ParticleType=Sub
+14	να	να	SCONJ	PtSj	_	15	mark	_	_
 15	είναι	είμαι	AUX	VbMn	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	xcomp	_	_
 16	χρήσιμο	χρήσιμος	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	15	xcomp	_	_
 17	σ	σε	ADP	AsPpSp	_	19	case	_	_
