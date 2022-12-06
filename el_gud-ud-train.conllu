@@ -4711,7 +4711,7 @@
 19	.	.	PUNCT	PTERMP	PunctType=Peri	8	punct	_	_
 
 # sent_id = 2801
-# text = « Από παιδί τα ίδιο ακούω » εξηγεί σ τον Φάνη .
+# text = « Από παιδί τα ίδια ακούω » εξηγεί σ τον Φάνη .
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	6	punct	_	_
 2	Από	από	ADP	AsPpSp	_	3	case	_	_
 3	παιδί	παιδί	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
@@ -4816,7 +4816,7 @@
 11	.	.	PUNCT	PTERMP	PunctType=Peri	7	punct	_	_
 
 # sent_id = 2683
-# text = Τα μποτιλιαρίσματα εμφανίστηκαν πάλι σ τους δρόμους , με συνοδευτικά τα κροναρίσματα και τις μούτζες , ενώ οι έμποροι αυτοκινήτων άρχισαν να διαφημίζουν τα καινούρια μοντέλα τους.
+# text = Τα μποτιλιαρίσματα εμφανίστηκαν πάλι σ τους δρόμους , με συνοδευτικά τα κορναρίσματα και τις μούτζες , ενώ οι έμποροι αυτοκινήτων άρχισαν να διαφημίζουν τα καινούρια μοντέλα τους.
 1	Τα	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
 2	μποτιλιαρίσματα	μποτιλιάρισμα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 3	εμφανίστηκαν	εμφανίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -5631,7 +5631,7 @@
 8	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 2242
-# text = « Γιατί θεωρείς ενδιαφέρουσα τη μετεγκατάσαση των εταιρειών σ τον Πειραιά ; »
+# text = « Γιατί θεωρείς ενδιαφέρουσα τη μετεγκατάσταση των εταιρειών σ τον Πειραιά ; »
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
 2	Γιατί	γιατί	ADV	AdBa	_	3	advmod	_	_
 3	θεωρείς	θεωρώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6197,7 +6197,7 @@
 # sent_id = 45
 # text = Καταλαβαίνω πού το πάει.
 1	Καταλαβαίνω	καταλαβαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	που	που	ADV	AdBa	PronType=Int	4	advmod	_	_
+2	πού	που	ADV	AdBa	PronType=Int	4	advmod	_	_
 3	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	πάει	πηγαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No
 5	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
@@ -7369,7 +7369,7 @@
 11	ήθελαν	θέλω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 12	να	να	SCONJ	PtSj	_	13	mark	_	_
 13	μάθουν	μαθαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	11	ccomp	_	_
-14	Τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	16	obj	_	_
+14	τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	16	obj	_	_
 15	άλλο	άλλος	DET	PnId	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Ind	16	obj	_	_
 16	ήξερε	ξέρω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	ccomp	_	_
 17	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
