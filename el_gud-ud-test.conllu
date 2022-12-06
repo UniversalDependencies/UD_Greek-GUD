@@ -688,7 +688,7 @@
 11	και	και	CCONJ	CjCo	_	13	cc	_	_
 12	με	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
 13	ρωτάει	ρωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
-14	Τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	16	obj	_	_
+14	τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	16	obj	_	_
 15	θα	θα	AUX	PtFu	_	16	aux	_	ParticleType=Fut
 16	πάρω	παίρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	13	ccomp	_	SpaceAfter=No
 17	.	.	PUNCT	PTERMP	PunctType=Peri	9	punct	_	_
@@ -2130,7 +2130,7 @@
 # sent_id = 209
 # text = Αλλά τι να πεις ;
 1	Αλλά	αλλά	CCONJ	CjCo	_	4	cc	_	_
-2	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
+2	τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	_
 3	να	να	AUX	PtSj	_	4	aux	_	ParticleType=Sub
 4	πεις	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 5	;	;	PUNCT	PTERM	PunctType=Qest	4	punct	_	_
