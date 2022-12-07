@@ -64,7 +64,7 @@
 18	να	να	SCONJ	PtSj	_	19	mark	_	_
 19	πάρουν	παίρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	16	conj	_	_
 20	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	υπολογιστή	υπολογιστής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+21	υπολογιστή	υπολογιστής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
 22	του	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod	_	_
 23	;	;	PUNCT	PTERM	PunctType=Qest	4	punct	_	_
 
@@ -650,7 +650,7 @@
 6	και	και	CCONJ	CjCo	_	8	cc	_	_
 7	ας	ας	PART	PtOt	_	8	aux	_	ParticleType=Oth
 8	δούμε	βλέπω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	3	conj	_	_
-9	Τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	_
+9	τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	_
 10	μπορούμε	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	_
 11	να	να	SCONJ	PtSj	_	12	mark	_	_
 12	κάνουμε	κάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	10	xcomp	_	_
