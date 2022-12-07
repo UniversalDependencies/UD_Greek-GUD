@@ -2704,7 +2704,7 @@
 16	αφορούν	αφορά	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
 17	σκάφη	σκάφος	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
 18	και	και	CCONJ	CjCo	_	19	cc	_	_
-19	λιμάνια	λιμάνι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	17	conj	_	SpaceAfter=No
+19	λιμάνια	λιμάνι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	17	conj	_	_
 20	.	.	PUNCT	PTERMP	PunctType=Peri	8	punct	_	_
 
 # sent_id = 3796
