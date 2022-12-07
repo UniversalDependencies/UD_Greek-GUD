@@ -1522,7 +1522,7 @@
 20	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 3134
-# text = « Και τα δυο καράβια του που βουλίαξαν ;
+# text = « Και τα δυο καράβια του που βουλιάξαν ;
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Και	και	CCONJ	CjCo	_	5	cc	_	_
 3	τα	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
