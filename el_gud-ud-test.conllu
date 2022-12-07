@@ -1530,7 +1530,7 @@
 5	καράβια	καράβι	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
 6	του	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod	_	_
 7	που	που	PRON	PnRe	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Rel	8	nsubj	_	_
-8	βουλιάξαν	βουλιάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No
+8	βουλιάξαν	βουλιάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 9	;	;	PUNCT	PTERM	PunctType=Qest	5	punct	_	_
 
 # sent_id = 4619
