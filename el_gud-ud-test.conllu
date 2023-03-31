@@ -69,13 +69,14 @@
 23	;	;	PUNCT	PTERM	PunctType=Qest	4	punct	_	_
 
 # sent_id = 4481
-# text = « Συγχαρητήρια.
+# text = « Συγχαρητήρια ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
-2	Συγχαρητήρια	συγχαρητήρια	INTJ	NoCm	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+2	Συγχαρητήρια	συγχαρητήρια	INTJ	NoCm	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+3	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 4490
-# text = « Βρήκαμε το πιστόλι σ το σπίτι του.
+# text = « Βρήκαμε το πιστόλι σ το σπίτι του ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Βρήκαμε	βρίσκω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -83,8 +84,9 @@
 5	σ	σε	ADP	AsPpSp	_	7	case	_	_
 6	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	σπίτι	σπίτι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
-8	του	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+8	του	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod	_	_
+9	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 463
 # text = Εισπράττει τη διαβεβαίωση του Γκίκα , και η συνάντηση παίρνει τέλος .
@@ -138,40 +140,41 @@
 8	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 1626
-# text = Προτιμώ να την ανακρίνουμε σ το Δήλεσι , για να μας δείξει και το σημείο που ξεφόρτωνε το καΐκι ».
-1	Προτιμώ	προτιμώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	να	να	SCONJ	CjSb	_	4	mark	_	_
-3	την	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
-4	ανακρίνουμε	ανακρίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	1	ccomp	_	_
-5	σ	σε	ADP	AsPpSp	_	7	case	_	_
-6	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
-7	Δήλεσι	Δήλεσι	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
-8	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
-9	για	για	ADP	AsPpSp	_	12	mark	_	_
-10	να	να	SCONJ	CjSb	_	12	mark	_	_
-11	μας	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	obj	_	_
-12	δείξει	δείχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	advcl	_	_
-13	και	και	CCONJ	CjCo	_	15	cc	_	_
-14	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
-15	σημείο	σημείο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
-16	που	που	PRON	PnRe	PronType=Rel	17	obj	_	_
-17	ξεφόρτωνε	ξεφορτώνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
-18	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
-19	καΐκι	καΐκι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	17	nsubj	_	_
-20	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	SpaceAfter=No
-21	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
+# text = « Προτιμώ να την ανακρίνουμε σ το Δήλεσι , για να μας δείξει και το σημείο που ξεφόρτωνε το καΐκι ».
+1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
+2	Προτιμώ	προτιμώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	να	να	SCONJ	CjSb	_	5	mark	_	_
+4	την	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	ανακρίνουμε	ανακρίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+6	σ	σε	ADP	AsPpSp	_	8	case	_	_
+7	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Δήλεσι	Δήλεσι	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+9	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
+10	για	για	ADP	AsPpSp	_	13	mark	_	_
+11	να	να	SCONJ	CjSb	_	13	mark	_	_
+12	μας	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	obj	_	_
+13	δείξει	δείχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	advcl	_	_
+14	και	και	CCONJ	CjCo	_	16	cc	_	_
+15	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	σημείο	σημείο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+17	που	που	PRON	PnRe	PronType=Rel	18	obj	_	_
+18	ξεφόρτωνε	ξεφορτώνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+19	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	καΐκι	καΐκι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	18	nsubj	_	_
+21	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
+22	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 2948
 # text = « Εγώ δεν έχω κινητό » απαντάει ο Σαμίρ , που δουλεύει σ τη λαχαναγορά.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
-2	Εγώ	εγώ	PRON	PnPe	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	PersPronType=St
+2	Εγώ	εγώ	PRON	PnPe	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	δεν	δεν	PART	PtNg	Polarity=Neg	4	advmod	_	_
 4	έχω	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	κινητό	κινητό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
 6	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	_
 7	απαντάει	απαντώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 8	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	ilsptag=RgFwTr
+9	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 11	που	που	PRON	PnRe	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
 12	δουλεύει	δουλεύω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
@@ -294,7 +297,7 @@
 15	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
 # sent_id = 5094
-# text = Από αυτό το σημείο επκρατεί η σιωπή της βουλιμίας , γιατί πέφτουμε όλοι με τα μούτρα σ το φαγητό.
+# text = Από αυτό το σημείο επικρατεί η σιωπή της βουλιμίας, γιατί πέφτουμε όλοι με τα μούτρα σ το φαγητό.
 1	Από	από	ADP	AsPpSp	_	4	case	_	_
 2	αυτό	αυτός	DET	PnDm	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	4	det	_	_
 3	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -317,11 +320,12 @@
 20	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 3381
-# text = « Ξέρω 'γώ.
+# text = « Ξέρω 'γώ ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Ξέρω	ξέρω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	'γώ	εγώ	PRON	VbMn	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	2	ccomp	_	SpaceAfter=No
-4	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+3	'γώ	εγώ	PRON	VbMn	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	2	ccomp	_	_
+4	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 5601
 # text = Διασχίζουμε την άδεια Κηφισίας , με το βαν της σήμανσης καρότσα σ το περιπολικό μας.
@@ -602,12 +606,12 @@
 # sent_id = 3754
 # text = « Ας αφήσουμε τον επικήδειο και ας δούμε τι μπορούμε να κάνουμε αυτήν την προχωρημένη ώρά » τους λέω , πιο πολύ για να διώξω τη δική μου μαυρίλα.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
-2	Ας	ας	PART	PtOt	Mood=Opt	3	aux	_	_
+2	Ας	ας	PART	PtOt	_	3	aux	_	_
 3	αφήσουμε	αφήνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 4	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	επικήδειο	επικήδειος	ADJ	NoCm	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 6	και	και	CCONJ	CjCo	_	8	cc	_	_
-7	ας	ας	PART	PtOt	Mood=Opt	8	aux	_	_
+7	ας	ας	PART	PtOt	_	8	aux	_	_
 8	δούμε	βλέπω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	3	conj	_	_
 9	τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	_
 10	μπορούμε	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	_
@@ -794,7 +798,7 @@
 4	άλλους	άλλος	DET	PnId	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Ind	3	obj	_	_
 5	και	και	CCONJ	CjCo	_	7	cc	_	_
 6	όχι	όχι	PART	PtNg	Polarity=Neg	7	advmod	_	_
-7	εμάς	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	conj	_	PersPronType=St|SpaceAfter=No
+7	εμάς	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	conj	_	SpaceAfter=No
 8	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 223
@@ -948,7 +952,7 @@
 7	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 3867
-# text = « Το ερώτημα είναι αν τον έκλεψε για να τον πουλήσει ή αν τον πήρε , επειδή έψαχνε κάτι που βρίσκεται σ τον υπολογιστή.
+# text = « Το ερώτημα είναι αν τον έκλεψε για να τον πουλήσει ή αν τον πήρε , επειδή έψαχνε κάτι που βρίσκεται σ τον υπολογιστή ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
 2	Το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	ερώτημα	ερώτημα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
@@ -972,8 +976,9 @@
 21	βρίσκεται	βρίσκω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	acl:relcl	_	_
 22	σ	σε	ADP	AsPpSp	_	24	case	_	_
 23	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	υπολογιστή	υπολογιστής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
-25	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
+24	υπολογιστή	υπολογιστής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
+25	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
+26	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 5998
 # text = Με κοιτάζει αμίλητος.
@@ -1010,7 +1015,7 @@
 24	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 1227
-# text = « Αυτό γίνεται δυο με τρεις φορές τη μέρα.
+# text = « Αυτό γίνεται δυο με τρεις φορές τη μέρα ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
 2	Αυτό	αυτός	DET	PnDm	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	nsubj:pass	_	_
 3	γίνεται	γίνομαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -1019,25 +1024,27 @@
 6	τρεις	τρεις	NUM	NmCd	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	7	nummod	_	_
 7	φορές	φορά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
 8	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	μέρα	μέρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
-10	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+9	μέρα	μέρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
+11	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 2360
-# text = Συνεπώς , δεν καταλαβαίνω γιατί περιμένετε ειδική πρόσκληση για να με ενημερώσετε ».
-1	Συνεπώς	συνεπώς	ADV	AdBa	_	4	advmod	_	_
-2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
-3	δεν	δεν	PART	PtNg	Polarity=Neg	4	advmod	_	_
-4	καταλαβαίνω	καταλαβαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	γιατί	γιατί	SCONJ	CjSb	_	6	mark	_	_
-6	περιμένετε	περιμένω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	4	advcl	_	_
-7	ειδική	ειδικός	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
-8	πρόσκληση	πρόσκληση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
-9	για	για	ADP	AsPpSp	_	12	mark	_	_
-10	να	να	SCONJ	CjSb	_	12	mark	_	_
-11	με	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
-12	ενημερώσετε	ενημερώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	6	advcl	_	_
-13	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
-14	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
+# text = « Συνεπώς , δεν καταλαβαίνω γιατί περιμένετε ειδική πρόσκληση για να με ενημερώσετε ».
+1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
+2	Συνεπώς	συνεπώς	ADV	AdBa	_	5	advmod	_	_
+3	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
+4	δεν	δεν	PART	PtNg	Polarity=Neg	5	advmod	_	_
+5	καταλαβαίνω	καταλαβαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	γιατί	γιατί	SCONJ	CjSb	_	7	mark	_	_
+7	περιμένετε	περιμένω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	advcl	_	_
+8	ειδική	ειδικός	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	πρόσκληση	πρόσκληση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	για	για	ADP	AsPpSp	_	13	mark	_	_
+11	να	να	SCONJ	CjSb	_	13	mark	_	_
+12	με	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+13	ενημερώσετε	ενημερώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	7	advcl	_	_
+14	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	SpaceAfter=No
+15	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 4935
 # text = « Ο υπουργός μάς περιμένει σ τις έντεκα σ το γραφείο του » .
@@ -1135,7 +1142,7 @@
 18	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 3765
-# text = « Αν είχε γυναίκα ή οικογένεια , τώρα θα ήταν εδώ και θα τραβούσαν τα μαλλιά τους.
+# text = « Αν είχε γυναίκα ή οικογένεια , τώρα θα ήταν εδώ και θα τραβούσαν τα μαλλιά τους ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	10	punct	_	_
 2	Αν	αν	SCONJ	CjSb	_	3	mark	_	_
 3	είχε	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
@@ -1152,8 +1159,9 @@
 14	τραβούσαν	τραβώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
 15	τα	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	16	det	_	_
 16	μαλλιά	μαλλί	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	14	obj	_	_
-17	τους	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	PTERMP	PunctType=Peri	10	punct	_	_
+17	τους	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod	_	_
+18	»	»	PUNCT	CPUNCT	PunctType=Quot	10	punct	_	SpaceAfter=No
+19	.	.	PUNCT	PTERMP	PunctType=Peri	10	punct	_	_
 
 # sent_id = 129
 # text = Δε θα το μάθει κανείς άλλος.
@@ -1166,7 +1174,7 @@
 7	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 1000
-# text = « Μάνια μου , μην ξοδευτείς άδικα , θα μείνει σ το ντουλάπι της κουζίνας.
+# text = « Μάνια μου , μην ξοδευτείς άδικα , θα μείνει σ το ντουλάπι της κουζίνας ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	10	punct	_	_
 2	Μάνια	Μάνια	PROPN	NoPr	Case=Voc|Gender=Fem|Number=Sing	10	vocative	_	_
 3	μου	μου	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
@@ -1181,8 +1189,9 @@
 12	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 13	ντουλάπι	ντουλάπι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
 14	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	κουζίνας	κουζίνα	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	PTERMP	PunctType=Peri	10	punct	_	_
+15	κουζίνας	κουζίνα	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	»	»	PUNCT	CPUNCT	PunctType=Quot	10	punct	_	SpaceAfter=No
+17	.	.	PUNCT	PTERMP	PunctType=Peri	10	punct	_	_
 
 # sent_id = 3661
 # text = Ο Βελλίδης έρχεται σε λίγο και ο Γκίκας του δίνει την ανάρτηση.
@@ -1266,7 +1275,7 @@
 7	και	και	CCONJ	CjCo	_	8	cc	_	_
 8	γυρίζει	γυρίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 9	σ'	σε	ADP	AsPpSp	_	10	case	_	_
-10	εμένα	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	PersPronType=St|SpaceAfter=No
+10	εμένα	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
 11	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 5428
@@ -1281,7 +1290,7 @@
 8	μοναδική	μοναδικός	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
 9	καρέκλα	καρέκλα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 10	για	για	ADP	AsPpSp	_	11	case	_	_
-11	εμένα	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	nmod	_	PersPronType=St|SpaceAfter=No
+11	εμένα	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 1636
@@ -1294,14 +1303,15 @@
 6	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
 # sent_id = 977
-# text = « Θα σε βοηθήσει ο Ούλι.
+# text = « Θα σε βοηθήσει ο Ούλι ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
 2	Θα	θα	AUX	PtFu	Tense=Fut	4	aux	_	_
-3	σε	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+3	σε	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
 4	βοηθήσει	βοηθώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 5	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
-7	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
+6	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
+8	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3158
 # text = « Αλλού βρίσκεται η απορία » συμπληρώνει μετά.
@@ -1323,7 +1333,7 @@
 4	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
 # sent_id = 1673
-# text = « Βρήκαμε τον Χαρδάκο πεσμένο σ το πάτωμα.
+# text = « Βρήκαμε τον Χαρδάκο πεσμένο σ το πάτωμα ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Βρήκαμε	βρίσκω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -1331,8 +1341,9 @@
 5	πεσμένο	πεσμένος	VERB	VbMnPp	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	xcomp	_	_
 6	σ	σε	ADP	AsPpSp	_	8	case	_	_
 7	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
-8	πάτωμα	πάτωμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+8	πάτωμα	πάτωμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	_
+9	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 4242
 # text = Ο άλλος σκώρος είναι τα λεφτά.
@@ -1441,7 +1452,7 @@
 20	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 3134
-# text = « Και τα δυο καράβια του που βουλιάξαν ;
+# text = « Και τα δυο καράβια του που βουλιάξαν ; »
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Και	και	CCONJ	CjCo	_	5	cc	_	_
 3	τα	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
@@ -1451,6 +1462,7 @@
 7	που	που	PRON	PnRe	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	8	nsubj	_	_
 8	βουλιάξαν	βουλιάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 9	;	;	PUNCT	PTERM	PunctType=Qest	5	punct	_	_
+10	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	_
 
 # sent_id = 4619
 # text = Κατόπιν όλων αυτών πηγαίνω με το Σέατ σ την υπηρεσία , ξεκούραστος και ευδιάθετος.
@@ -1736,26 +1748,28 @@
 25	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 5037
-# text = « Γιατί τα παθήματα μού γίνονται μαθήματα.
+# text = « Γιατί τα παθήματα μού γίνονται μαθήματα ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	6	punct	_	_
 2	Γιατί	γιατί	SCONJ	AdBa	_	6	advmod	_	_
 3	τα	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
 4	παθήματα	πάθημα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
 5	μού	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
 6	γίνονται	γίνομαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-7	μαθήματα	μάθημα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	SpaceAfter=No
-8	.	.	PUNCT	PTERMP	PunctType=Peri	6	punct	_	_
+7	μαθήματα	μάθημα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+8	»	»	PUNCT	CPUNCT	PunctType=Quot	6	punct	_	SpaceAfter=No
+9	.	.	PUNCT	PTERMP	PunctType=Peri	6	punct	_	_
 
 # sent_id = 4218
-# text = « Τόσα χρόνια έκλαιγες τη μοίρα σου.
+# text = « Τόσα χρόνια έκλαιγες τη μοίρα σου ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
 2	Τόσα	τόσος	DET	PnDm	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Dem	3	det	_	_
 3	χρόνια	χρόνος	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	_
 4	έκλαιγες	κλαίω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	μοίρα	μοίρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
-7	σου	μου	PRON	PnPo	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	6	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
+7	σου	μου	PRON	PnPo	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	6	nmod	_	_
+8	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
+9	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 2613
 # text = Ακόμα κι ένας ερασιτέχνης δολοφόνος ξέρει πως το πρώτο που πρέπει να εξαφανίσει είναι το όπλο του εγκλήματος.
@@ -1780,32 +1794,34 @@
 19	.	.	PUNCT	PTERMP	PunctType=Peri	6	punct	_	_
 
 # sent_id = 5501
-# text = Δεν είχα το κουράγιο να σου το πω μόνος μου » της εξηγώ.
-1	Δεν	δεν	PART	PtNg	Polarity=Neg	2	advmod	_	_
-2	είχα	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-4	κουράγιο	κουράγιο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
-5	να	να	SCONJ	CjSb	_	8	mark	_	_
-6	σου	εγώ	PRON	PnPe	Case=Gen|Gender=Fem|Number=Sing|Person=2|PronType=Prs	8	iobj	_	_
-7	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
-8	πω	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	xcomp	_	_
-9	μόνος	μόνος	DET	AjBa	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	8	xcomp	_	_
-10	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	9	nmod	_	_
-11	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
-12	της	εγώ	PRON	PnPe	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
-13	εξηγώ	εξηγώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
-14	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+# text = « Δεν είχα το κουράγιο να σου το πω μόνος μου » της εξηγώ.
+1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
+2	Δεν	δεν	PART	PtNg	Polarity=Neg	3	advmod	_	_
+3	είχα	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	κουράγιο	κουράγιο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	να	να	SCONJ	CjSb	_	9	mark	_	_
+7	σου	εγώ	PRON	PnPe	Case=Gen|Gender=Fem|Number=Sing|Person=2|PronType=Prs	9	iobj	_	_
+8	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	πω	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	3	xcomp	_	_
+10	μόνος	μόνος	DET	AjBa	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	9	xcomp	_	_
+11	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	nmod	_	_
+12	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	_
+13	της	εγώ	PRON	PnPe	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+14	εξηγώ	εξηγώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 2903
-# text = Σίγουρα θα είπαν για το πλοίο ».
-1	Σίγουρα	σίγουρα	ADV	AdBa	_	3	advmod	_	_
-2	θα	θα	AUX	PtFu	Tense=Fut	3	aux	_	_
-3	είπαν	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	για	για	ADP	AsPpSp	_	6	case	_	_
-5	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-6	πλοίο	πλοίο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
-7	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
-8	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+# text = « Σίγουρα θα είπαν για το πλοίο ».
+1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
+2	Σίγουρα	σίγουρα	ADV	AdBa	_	4	advmod	_	_
+3	θα	θα	AUX	PtFu	Tense=Fut	4	aux	_	_
+4	είπαν	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	για	για	ADP	AsPpSp	_	7	case	_	_
+6	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	πλοίο	πλοίο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+8	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
+9	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 6069
 # text = « Όχι , τι ; »
@@ -1831,24 +1847,25 @@
 11	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 4560
-# text = Μη μου πεις ότι σου το έκαναν δώρο » του λέει ο Βλασόπουλος.
-1	Μη	μην	PART	PtNg	Polarity=Neg	3	advmod	_	_
-2	μου	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
-3	πεις	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-4	ότι	ότι	SCONJ	CjSb	_	7	mark	_	_
-5	σου	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
-6	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
-7	έκαναν	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	_
-8	δώρο	δώρο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
-9	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	_
-10	του	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
-11	λέει	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
-12	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Βλασόπουλος	Βλασόπουλος	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
-14	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+# text = « Μη μου πεις ότι σου το έκαναν δώρο » του λέει ο Βλασόπουλος.
+1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
+2	Μη	μην	PART	PtNg	Polarity=Neg	4	advmod	_	_
+3	μου	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	πεις	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ότι	ότι	SCONJ	CjSb	_	8	mark	_	_
+6	σου	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	iobj	_	_
+7	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	έκαναν	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+9	δώρο	δώρο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	_
+11	του	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+12	λέει	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+13	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Βλασόπουλος	Βλασόπουλος	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 12
-# text = « Ο Ζαχαράκης ήθελε να μεταφέρει την εταιρεία του σ την Ελλάδα , αλλά είχε οικονομικά προβλήματα.
+# text = « Ο Ζαχαράκης ήθελε να μεταφέρει την εταιρεία του σ την Ελλάδα , αλλά είχε οικονομικά προβλήματα ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
 2	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Ζαχαράκης	Ζαχαράκης	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -1865,13 +1882,14 @@
 14	αλλά	αλλά	CCONJ	CjCo	_	15	cc	_	_
 15	είχε	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 16	οικονομικά	οικονομικός	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Plur	17	amod	_	_
-17	προβλήματα	πρόβλημα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	SpaceAfter=No
-18	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
+17	προβλήματα	πρόβλημα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
+18	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
+19	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 5783
 # text = Ο Σεργκέι το έψαξε και δεν έχει καμία αμφιβολία ότι το ναυάγιο σ την Οδησσό ήταν συνεργασία της ρωσικής με την ουκρανική μαφία.
 1	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Σεργκέι	Σεργκέι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag=RgFwTr
+2	Σεργκέι	Σεργκέι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	έψαξε	ψάχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	και	και	CCONJ	CjCo	_	7	cc	_	_
@@ -1896,7 +1914,7 @@
 24	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 620
-# text = « Έχουμε βάσιμες υποψίες ότι η παράνομη δραστηριότητά του δεν περιοριζόταν σ τις μίζες , αλλά είχε ολόκληρη επιχείρηση λαθρεμπορίου και χρησιμοποιούσε πολλά από τα σκάφη που αγκυροβολούσαν σ τις μαρίνες.
+# text = « Έχουμε βάσιμες υποψίες ότι η παράνομη δραστηριότητά του δεν περιοριζόταν σ τις μίζες , αλλά είχε ολόκληρη επιχείρηση λαθρεμπορίου και χρησιμοποιούσε πολλά από τα σκάφη που αγκυροβολούσαν σ τις μαρίνες ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Έχουμε	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	βάσιμες	βάσιμος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Plur	4	amod	_	_
@@ -1927,8 +1945,9 @@
 28	αγκυροβολούσαν	αγκυροβολώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
 29	σ	σε	ADP	AsPpSp	_	31	case	_	_
 30	τις	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
-31	μαρίνες	μαρίνα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	28	obl	_	SpaceAfter=No
-32	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+31	μαρίνες	μαρίνα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	28	obl	_	_
+32	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
+33	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 5324
 # text = « Πού είναι η Κατερίνα ; »
@@ -1977,7 +1996,7 @@
 12	.	.	PUNCT	PTERMP	PunctType=Peri	9	punct	_	_
 
 # sent_id = 4994
-# text = « Δεν έχω χρόνο να ασχολούμαι με τις θεωρίες κάποιου δημοσιογράφου , κύριε αστυνόμε .
+# text = « Δεν έχω χρόνο να ασχολούμαι με τις θεωρίες κάποιου δημοσιογράφου , κύριε αστυνόμε ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
 2	Δεν	δεν	PART	PtNg	Polarity=Neg	3	advmod	_	_
 3	έχω	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -1992,7 +2011,8 @@
 12	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 13	κύριε	κύριος	ADJ	NoCm	Case=Voc|Gender=Masc|Number=Sing	14	nmod	_	_
 14	αστυνόμε	αστυνόμος	NOUN	NoPr	Case=Voc|Gender=Masc|Number=Sing	11	appos	_	_
-15	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+15	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
+16	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 209
 # text = Αλλά τι να πεις ;
@@ -2012,25 +2032,26 @@
 6	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 4849
-# text = Ακόμα και αν το κάναμε , πόσο αξιόπιστη θα θεωρούσε το δικαστήριο την αστυνομία του Ιράκ ; »
-1	Ακόμα	ακόμα	ADV	AdBa	_	5	advmod	_	_
-2	και	και	CCONJ	CjCo	_	5	cc	_	_
-3	αν	αν	SCONJ	CjSb	_	5	mark	_	_
-4	το	αυτός	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
-5	κάναμε	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
-6	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
-7	πόσο	πόσος	DET	AdBa	PronType=Int	8	advmod	_	_
-8	αξιόπιστη	αξιόπιστος	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	10	xcomp	_	_
-9	θα	θα	AUX	PtFu	Tense=Fut	10	aux	_	_
-10	θεωρούσε	θεωρώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-11	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
-12	δικαστήριο	δικαστήριο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	10	nsubj	_	_
-13	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	αστυνομία	αστυνομία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
-15	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
-16	Ιράκ	Ιράκ	PROPN	NoPr	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	ilsptag=RgFwTr
-17	;	;	PUNCT	PTERM	PunctType=Qest	10	punct	_	_
-18	»	»	PUNCT	CPUNCT	PunctType=Quot	10	punct	_	_
+# text = « Ακόμα και αν το κάναμε , πόσο αξιόπιστη θα θεωρούσε το δικαστήριο την αστυνομία του Ιράκ ; »
+1	«	«	PUNCT	OPUNCT	PunctType=Quot	6	punct	_	_
+2	Ακόμα	ακόμα	ADV	AdBa	_	6	advmod	_	_
+3	και	και	CCONJ	CjCo	_	6	cc	_	_
+4	αν	αν	SCONJ	CjSb	_	6	mark	_	_
+5	το	αυτός	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	6	obj	_	_
+6	κάναμε	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+7	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
+8	πόσο	πόσος	DET	AdBa	PronType=Int	9	advmod	_	_
+9	αξιόπιστη	αξιόπιστος	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	11	xcomp	_	_
+10	θα	θα	AUX	PtFu	Tense=Fut	11	aux	_	_
+11	θεωρούσε	θεωρώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	δικαστήριο	δικαστήριο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	11	nsubj	_	_
+14	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	αστυνομία	αστυνομία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+16	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Ιράκ	Ιράκ	PROPN	NoPr	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	;	;	PUNCT	PTERM	PunctType=Qest	11	punct	_	_
+19	»	»	PUNCT	CPUNCT	PunctType=Quot	11	punct	_	_
 
 # sent_id = 3848
 # text = Ο δολοφόνος του δεν είχε την πρόθεση , ή και το χρόνο , να μπει σ το σπίτι και να το ψάξει.
@@ -2112,7 +2133,7 @@
 7	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	_
 
 # sent_id = 1594
-# text = Είναι το λιγότερο που μπορούμε να της προσφέρουμε ».
+# text = Είναι το λιγότερο που μπορούμε να της προσφέρουμε.
 1	Είναι	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	λιγότερο	λίγος	ADJ	AjCp	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	1	nsubj	_	_
@@ -2120,9 +2141,8 @@
 5	μπορούμε	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 6	να	να	SCONJ	CjSb	_	8	mark	_	_
 7	της	εγώ	PRON	PnPe	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
-8	προσφέρουμε	προσφέρω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	xcomp	_	_
-9	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	SpaceAfter=No
-10	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
+8	προσφέρουμε	προσφέρω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 424
 # text = « Τι λέμε σ τον υπαρχηγό ; »
@@ -2163,7 +2183,7 @@
 # sent_id = 3413
 # text = Ο Ούλι δεν μπορεί να βρει την πηγή του χρήματος που φέρνουν οι καινούριες εταιρείες σ την Ελλάδα και εγώ δεν μπορώ ν' ανακαλύψω το κίνητρο που έχουν οι ναυτιλιακές εταιρείες για να επιστρέφουν σ την Ελλάδα.
 1	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	ilsptag=RgFwTr
+2	Ούλι	Ούλι	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	δεν	δεν	PART	PtNg	Polarity=Neg	4	advmod	_	_
 4	μπορεί	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	να	να	SCONJ	CjSb	_	6	mark	_	_
@@ -2265,11 +2285,12 @@
 7	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 1624
-# text = « Όχι αμέσως.
+# text = « Όχι αμέσως ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Όχι	όχι	PART	AdBa	Polarity=Neg	0	root	_	_
-3	αμέσως	αμέσως	ADV	AdBa	_	2	advmod	_	SpaceAfter=No
-4	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+3	αμέσως	αμέσως	ADV	AdBa	_	2	advmod	_	_
+4	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 789
 # text = « Θα προσπαθήσω όσο γίνεται ».
@@ -2306,7 +2327,7 @@
 4	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 6163
-# text = Αρκεί που υπάρχει και μπορεί να βαφτιστεί επιτυχία ».
+# text = Αρκεί που υπάρχει και μπορεί να βαφτιστεί επιτυχία.
 1	Αρκεί	αρκώ	VERB	Vb	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Impers=Yes
 2	που	που	SCONJ	CjSb	_	3	mark	_	_
 3	υπάρχει	υπάρχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
@@ -2314,13 +2335,12 @@
 5	μπορεί	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 6	να	να	SCONJ	CjSb	_	7	mark	_	_
 7	βαφτιστεί	βαφτίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	5	xcomp	_	_
-8	επιτυχία	επιτυχία	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	7	xcomp	_	_
-9	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	SpaceAfter=No
-10	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
+8	επιτυχία	επιτυχία	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 2827
-# text = Εσύ όμως μπορείς να πεις “ δόξα το Θεό ” , αλλά χωρίς να ρωτάς ».
-1	Εσύ	εγώ	PRON	PnPe	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	PersPronType=St
+# text = Εσύ όμως μπορείς να πεις “ δόξα το Θεό ” , αλλά χωρίς να ρωτάς.
+1	Εσύ	εγώ	PRON	PnPe	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	όμως	όμως	CCONJ	AdBa	_	3	cc	_	_
 3	μπορείς	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	να	να	SCONJ	CjSb	_	5	mark	_	_
@@ -2334,28 +2354,27 @@
 12	αλλά	αλλά	CCONJ	CjCo	_	15	cc	_	_
 13	χωρίς	χωρίς	ADP	AsPpSp	_	15	mark	_	_
 14	να	να	SCONJ	CjSb	_	15	mark	_	_
-15	ρωτάς	ρωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
-16	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
-17	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+15	ρωτάς	ρωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+16	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 2074
-# text = « Και αν τα καταφέρουμε ;
+# text = « Και αν τα καταφέρουμε ; »
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Και	και	CCONJ	CjCo	_	5	cc	_	_
 3	αν	αν	SCONJ	CjSb	_	5	mark	_	_
 4	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 5	καταφέρουμε	καταφέρνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 6	;	;	PUNCT	PTERM	PunctType=Qest	5	punct	_	_
+7	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	_
 
 # sent_id = 1137
-# text = Σας τα έχουμε όλα έτοιμα ».
+# text = Σας τα έχουμε όλα έτοιμα.
 1	Σας	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
 2	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	3	expl	_	_
 3	έχουμε	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	όλα	όλος	DET	AjBa	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	5	amod	_	_
-5	έτοιμα	έτοιμος	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
-6	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
-7	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+5	έτοιμα	έτοιμος	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 1849
 # text = « Ξέρεις αν είχε εχθρούς ; »
@@ -2537,30 +2556,31 @@
 6	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 897
-# text = Σ το κάτω κάτω , οι λιμενικοί είναι πιο έμπειροι από μας σε έρευνες που αφορούν σκάφη και λιμάνια.
+# text = Σ το κάτω-κάτω , οι λιμενικοί είναι πιο έμπειροι από μας σε έρευνες που αφορούν σκάφη και λιμάνια.
 1	Σ	σε	ADP	AsPpSp	_	3	case	_	_
 2	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
-3	κάτω	κάτω	ADV	_	_	8	dep	_	SpaceAfter=No
-4	κάτω	κάτω	ADV	_	_	1	dep	_	_
-5	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
-6	οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-7	λιμενικοί	λιμενικός	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
-8	είναι	είμαι	AUX	VbMn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-9	πιο	πιο	ADV	AdBa	Degree=Cmp	10	advmod	_	_
-10	έμπειροι	έμπειρος	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Plur	8	xcomp	_	_
-11	από	από	ADP	AsPpSp	_	12	case	_	_
-12	μας	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obl	_	_
-13	σε	σε	ADP	AsPpSp	_	14	case	_	_
-14	έρευνες	έρευνα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	_
-15	που	που	PRON	PnRe	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	16	nsubj	_	_
-16	αφορούν	αφορά	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
-17	σκάφη	σκάφος	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
-18	και	και	CCONJ	CjCo	_	19	cc	_	_
-19	λιμάνια	λιμάνι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	17	conj	_	_
-20	.	.	PUNCT	PTERMP	PunctType=Peri	8	punct	_	_
+3	κάτω	κάτω	ADV	_	_	11	obl	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	PunctType=Dash	3	punct	_	SpaceAfter=No
+5	κάτω	κάτω	ADV	_	_	3	dep	_	_
+6	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
+7	οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	λιμενικοί	λιμενικός	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+9	είναι	είμαι	AUX	VbMn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	_
+10	πιο	πιο	ADV	AdBa	Degree=Cmp	11	advmod	_	_
+11	έμπειροι	έμπειρος	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+12	από	από	ADP	AsPpSp	_	13	case	_	_
+13	μας	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obl	_	_
+14	σε	σε	ADP	AsPpSp	_	15	case	_	_
+15	έρευνες	έρευνα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	_
+16	που	που	PRON	PnRe	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	17	nsubj	_	_
+17	αφορούν	αφορά	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+18	σκάφη	σκάφος	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
+19	και	και	CCONJ	CjCo	_	20	cc	_	_
+20	λιμάνια	λιμάνι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	PTERMP	PunctType=Peri	11	punct	_	_
 
 # sent_id = 3796
-# text = « Έβλεπα μια ταινία σ την τηλεόραση , όταν άκουσα τον πυροβολισμό.
+# text = « Έβλεπα μια ταινία σ την τηλεόραση , όταν άκουσα τον πυροβολισμό ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Έβλεπα	βλέπω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	μια	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2572,20 +2592,20 @@
 9	όταν	όταν	SCONJ	CjSb	_	10	mark	_	_
 10	άκουσα	ακούω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 11	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	πυροβολισμό	πυροβολισμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
-13	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+12	πυροβολισμό	πυροβολισμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
+14	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 1198
-# text = Είναι πεντακάθαροι ».
+# text = Είναι πεντακάθαροι.
 1	Είναι	είμαι	AUX	VbMn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	πεντακάθαροι	πεντακάθαρος	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Plur	1	xcomp	_	_
-3	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	SpaceAfter=No
-4	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
+2	πεντακάθαροι	πεντακάθαρος	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Plur	1	xcomp	_	SpaceAfter=No
+3	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 1355
 # text = « Εγώ δέχομαι ευχαρίστως.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
-2	Εγώ	εγώ	PRON	PnPe	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	PersPronType=St
+2	Εγώ	εγώ	PRON	PnPe	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	δέχομαι	δέχομαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	ευχαρίστως	ευχαρίστως	ADV	AdBa	_	3	advmod	_	SpaceAfter=No
 5	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
@@ -2620,7 +2640,7 @@
 # sent_id = 2095
 # text = « Εσύ να τ' ακούς , που άφησες την αστυνομία για να κάνεις ελεύθερο επάγγελμα » λέει γελώντας η Κατερίνα σ τη Μάνια.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
-2	Εσύ	εγώ	PRON	PnPe	Case=Nom|Gender=Fem|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	PersPronType=St
+2	Εσύ	εγώ	PRON	PnPe	Case=Nom|Gender=Fem|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 3	να	να	AUX	PtSj	_	5	aux	_	_
 4	τ'	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 5	ακούς	ακούω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -2645,12 +2665,11 @@
 24	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 105
-# text = Ποιος ήταν αυτός ; »
+# text = Ποιος ήταν αυτός ;
 1	Ποιος	ποιος	PRON	PnIr	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Int	2	nsubj	_	_
 2	ήταν	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	αυτός	αυτός	DET	PnDm	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 4	;	;	PUNCT	PTERM	PunctType=Qest	2	punct	_	_
-5	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
 # sent_id = 1341
 # text = Όλοι προτιμούν να ανοίξουν συζήτηση για τις επερχόμενες αυξήσεις , που είναι μονίμως επερχόμενες αλλά ποτέ δε φτάνουν.
@@ -2675,7 +2694,7 @@
 19	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 337
-# text = « Αυτές εν περιλήψει είναι οι πληροφορίες που διαθέτουμε , κύριε αστυνόμε.
+# text = « Αυτές εν περιλήψει είναι οι πληροφορίες που διαθέτουμε , κύριε αστυνόμε ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Αυτές	αυτός	DET	PnDm	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Dem	5	nsubj	_	_
 3	εν	εν	ADP	AsPpSp	_	4	case	_	_
@@ -2687,11 +2706,12 @@
 9	διαθέτουμε	διαθέτω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 11	κύριε	κύριος	ADJ	NoCm	Case=Voc|Gender=Masc|Number=Sing	12	nmod	_	_
-12	αστυνόμε	αστυνόμος	NOUN	NoPr	Case=Voc|Gender=Masc|Number=Sing	9	vocative	_	SpaceAfter=No
-13	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
+12	αστυνόμε	αστυνόμος	NOUN	NoPr	Case=Voc|Gender=Masc|Number=Sing	9	vocative	_	_
+13	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	SpaceAfter=No
+14	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 2487
-# text = « Θα διαβάσετε την κατάθεσή σας , θα την υπογράψετε και μπορείτε να πάρετε ένα αντίγραφο.
+# text = « Θα διαβάσετε την κατάθεσή σας , θα την υπογράψετε και μπορείτε να πάρετε ένα αντίγραφο ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
 2	Θα	θα	AUX	PtFu	Tense=Fut	3	aux	_	_
 3	διαβάσετε	διαβάζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -2707,11 +2727,12 @@
 13	να	να	SCONJ	CjSb	_	14	mark	_	_
 14	πάρετε	παίρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	12	xcomp	_	_
 15	ένα	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
-16	αντίγραφο	αντίγραφο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
-17	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+16	αντίγραφο	αντίγραφο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+17	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
+18	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 225
-# text = « Όχι , έχουν πεθάνει και οι δύο.
+# text = « Όχι , έχουν πεθάνει και οι δύο ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Όχι	όχι	INTJ	AdBa	Polarity=Neg	5	advmod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
@@ -2719,8 +2740,9 @@
 5	πεθάνει	πεθαίνω	VERB	VbMn	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 6	και	και	CCONJ	CjCo	_	8	cc	_	_
 7	οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
-8	δύο	δύο	NUM	NmCd	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	5	nsubj	_	SpaceAfter=No
-9	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
+8	δύο	δύο	NUM	NmCd	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	5	nsubj	_	_
+9	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 788
 # text = « Καλό θα ήταν να μην παραβιάσουμε την πόρτα ή παράθυρο » του λέω.
@@ -2741,7 +2763,7 @@
 15	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 2246
-# text = Γιατί αποφάσισαν λοιπόν , έτσι ξαφνικά , να επιστρέφουν σ τα πάτρια εδάφη ; »
+# text = Γιατί αποφάσισαν λοιπόν , έτσι ξαφνικά , να επιστρέφουν σ τα πάτρια εδάφη ;
 1	Γιατί	γιατί	ADV	AdBa	_	2	advmod	_	_
 2	αποφάσισαν	αποφασίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	λοιπόν	λοιπόν	INTJ	AdBa	_	2	advmod	_	_
@@ -2756,7 +2778,6 @@
 12	πάτρια	πάτριος	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Plur	13	amod	_	_
 13	εδάφη	έδαφος	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	_
 14	;	;	PUNCT	PTERM	PunctType=Qest	2	punct	_	_
-15	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
 # sent_id = 186
 # text = Οι τσέπες είναι ελάχιστες και σε πέντε λεπτά έχουν τελειώσει.
@@ -3036,12 +3057,11 @@
 13	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 2182
-# text = Επιτέλους έχουμε κυβέρνηση ».
+# text = Επιτέλους έχουμε κυβέρνηση.
 1	Επιτέλους	επιτέλους	ADV	AdBa	_	2	advmod	_	_
 2	έχουμε	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	κυβέρνηση	κυβέρνηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
-4	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
-5	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+3	κυβέρνηση	κυβέρνηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 4421
 # text = Συγκεντρώνεται και επανέρχεται σ το παρόν.
@@ -3135,7 +3155,7 @@
 19	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 4351
-# text = Δεν ήταν αυτός που έκανε ερωτήσεις σ την press conference του υπουργού Ναυτιλίας ; »
+# text = Δεν ήταν αυτός που έκανε ερωτήσεις σ την press conference του υπουργού Ναυτιλίας ;
 1	Δεν	δεν	PART	PtNg	Polarity=Neg	2	advmod	_	_
 2	ήταν	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	αυτός	αυτός	DET	PnDm	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
@@ -3150,10 +3170,9 @@
 12	υπουργού	υπουργός	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 13	Ναυτιλίας	ναυτιλία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 14	;	;	PUNCT	PTERM	PunctType=Qest	2	punct	_	_
-15	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
 # sent_id = 5725
-# text = Ναι , αν δει κανείς έτσι αυτό που μου είπε ».
+# text = Ναι , αν δει κανείς έτσι αυτό που μου είπε.
 1	Ναι	ναι	INTJ	AdBa	Polarity=Pos	4	advmod	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 3	αν	αν	SCONJ	CjSb	_	4	mark	_	_
@@ -3163,9 +3182,8 @@
 7	αυτό	αυτός	DET	PnDm	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	4	obj	_	_
 8	που	που	PRON	PnRe	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	10	nsubj	_	_
 9	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
-10	είπε	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
-11	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
-12	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
+10	είπε	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 1619
 # text = Καθώς κατεβαίνω με το ασανσέρ , σκέφτομαι ότι μοιάζω μ' εκείνους τους μαθητές που σκίζουν σ τα μαθηματικά , αλλά κόβονται σ την έκθεση ιδεών.
@@ -3197,14 +3215,13 @@
 26	.	.	PUNCT	PTERMP	PunctType=Peri	7	punct	_	_
 
 # sent_id = 2537
-# text = Φιλίες δεν υπάρχουν μεταξύ μας ».
+# text = Φιλίες δεν υπάρχουν μεταξύ μας.
 1	Φιλίες	φιλία	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 2	δεν	δεν	PART	PtNg	Polarity=Neg	3	advmod	_	_
 3	υπάρχουν	υπάρχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	μεταξύ	μεταξύ	ADV	AdBa	_	3	advmod	_	_
-5	μας	εγώ	PRON	PnPo	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	obl	_	_
-6	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
-7	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+5	μας	εγώ	PRON	PnPo	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+6	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 1489
 # text = Πέρασα τρεις ώρες σ το κρεβάτι , μεταξύ ύπνου και ξύπνου.
@@ -3220,17 +3237,6 @@
 10	και	και	CCONJ	CjCo	_	11	cc	_	_
 11	ξύπνου	ξύπνος	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
 12	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
-
-# sent_id = 1
-# text = να ψάξω σίγουρα κατατάσσονται σ τα πίτουρα.
-5	να	να	SCONJ	CjSb	_	6	mark	_	_
-6	ψάξω	ψάχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	5	xcomp	_	_
-7	σίγουρα	σίγουρα	ADV	AdBa	_	6	advmod	_	_
-8	κατατάσσονται	κατατάσσω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-9	σ	σε	ADP	AsPpSp	_	11	case	_	_
-10	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
-11	πίτουρα	πίτουρο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
-12	.	.	PUNCT	PTERMP	PunctType=Peri	8	punct	_	_
 
 # sent_id = 992
 # text = « Είναι πολύ νόστιμα ».
@@ -3328,7 +3334,7 @@
 11	.	.	PUNCT	PTERMP	PunctType=Peri	10	punct	_	_
 
 # sent_id = 2092
-# text = Αν σε τρεις μήνες δεν τα καταφέρουμε , θα φύγουμε ».
+# text = Αν σε τρεις μήνες δεν τα καταφέρουμε , θα φύγουμε.
 1	Αν	αν	SCONJ	CjSb	_	7	mark	_	_
 2	σε	σε	ADP	AsPpSp	_	4	case	_	_
 3	τρεις	τρεις	NUM	NmCd	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	4	nummod	_	_
@@ -3338,9 +3344,8 @@
 7	καταφέρουμε	καταφέρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	10	advcl	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 9	θα	θα	AUX	PtFu	Tense=Fut	10	aux	_	_
-10	φύγουμε	φεύγω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
-11	»	»	PUNCT	CPUNCT	PunctType=Quot	10	punct	_	SpaceAfter=No
-12	.	.	PUNCT	PTERMP	PunctType=Peri	10	punct	_	_
+10	φύγουμε	φεύγω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PTERMP	PunctType=Peri	10	punct	_	_
 
 # sent_id = 4691
 # text = « Φέρτε μου αμέσως τον Ασιάτη » τους λέω.
@@ -3387,7 +3392,7 @@
 28	φορτηγού	φορτηγό	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
 29	και	και	CCONJ	CjCo	_	31	cc	_	_
 30	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	Σουζούκι	Σουζούκι	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	28	conj	_	ilsptag=RgFwTr|SpaceAfter=No
+31	Σουζούκι	Σουζούκι	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
 32	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 680
@@ -3407,7 +3412,7 @@
 13	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	όνομα	όνομα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
 15	Τζέιν	Τζέιν	PROPN	RgFwTr	Foreign=Yes	14	flat	_	_
-16	Όγκντεν	Όγκντεν	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	ilsptag=RgFwTr
+16	Όγκντεν	Όγκντεν	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	_
 17	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 18	λέω	λέω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
 19	σ	σε	ADP	AsPpSp	_	21	case	_	_
@@ -3466,7 +3471,7 @@
 18	.	.	PUNCT	PTERMP	PunctType=Peri	8	punct	_	_
 
 # sent_id = 5585
-# text = Γι ' αυτό να φυλάς τα νώτα σου , γιατί φοβάμαι πως ούτε εγώ θα μπορώ να σε βοηθήσω ».
+# text = Γι ' αυτό να φυλάς τα νώτα σου , γιατί φοβάμαι πως ούτε εγώ θα μπορώ να σε βοηθήσω.
 1	Γι	για	ADP	VbMn	_	0	root	_	_
 2	'	'	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	_
 3	αυτό	αυτός	DET	PnDm	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	1	obj	_	_
@@ -3485,9 +3490,8 @@
 16	μπορώ	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	_
 17	να	να	SCONJ	CjSb	_	19	mark	_	_
 18	σε	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=2|PronType=Prs	19	obj	_	_
-19	βοηθήσω	βοηθώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	16	xcomp	_	_
-20	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	SpaceAfter=No
-21	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
+19	βοηθήσω	βοηθώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	16	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 4339
 # text = Ξεκινάω για την Ακτή Κονδύλη χωρίς τους βοηθούς μου , αφενός για να μην τους φορτώσω ευθύνες για τις δικές μου αποφάσεις , αφετέρου γιατί θέλω να δημιουργήσω πιο πολύ την εντύπωση μιας προσωπικής και λιγότερο υπηρεσιακής επίσκεψης.
@@ -3692,13 +3696,12 @@
 52	.	.	PUNCT	PTERMP	PunctType=Peri	14	punct	_	_
 
 # sent_id = 400
-# text = Αλλά αυτό συμβαίνει παντού ».
+# text = Αλλά αυτό συμβαίνει παντού.
 1	Αλλά	αλλά	CCONJ	CjCo	_	3	cc	_	_
 2	αυτό	αυτός	DET	PnDm	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 3	συμβαίνει	συμβαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	παντού	παντού	ADV	AdBa	_	3	advmod	_	_
-5	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
-6	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+4	παντού	παντού	ADV	AdBa	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 966
 # text = Μετά τους εναγκαλισμούς και τις διαχύσεις , παίρνουμε κι εμείς τη θέση μας σ το τραπέζι.
@@ -3711,7 +3714,7 @@
 7	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 8	παίρνουμε	παίρνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	κι	και	CCONJ	CjCo	_	10	cc	_	_
-10	εμείς	εγώ	PRON	PnPe	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	PersPronType=St
+10	εμείς	εγώ	PRON	PnPe	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 11	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	θέση	θέση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
 13	μας	μου	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod	_	_
@@ -3738,7 +3741,7 @@
 14	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 488
-# text = Να δω πόσο θα μας πάρει για να γυρίσουμε πάλι σ τα ίδια ».
+# text = Να δω πόσο θα μας πάρει για να γυρίσουμε πάλι σ τα ίδια.
 1	Να	να	AUX	PtSj	_	2	aux	_	_
 2	δω	βλέπω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 3	πόσο	πόσο	ADV	AdBa	_	6	advmod	_	_
@@ -3751,9 +3754,8 @@
 10	πάλι	πάλι	ADV	AdBa	_	9	advmod	_	_
 11	σ	σε	ADP	AsPpSp	_	13	case	_	_
 12	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	13	det	_	_
-13	ίδια	ίδιος	DET	AjBa	Case=Acc|Gender=Neut|Number=Plur|PronType=Emp	9	obl	_	_
-14	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
-15	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+13	ίδια	ίδιος	DET	AjBa	Case=Acc|Gender=Neut|Number=Plur|PronType=Emp	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 4700
 # text = Η Κούλα ξαναπιάνει το τηλέφωνο , ενώ οι βοηθοί μου εξακολουθούν να με κοιτάνε σαν να έχουν μπλέξει με τρελό.
@@ -3824,13 +3826,13 @@
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Και	και	CCONJ	CjCo	_	5	cc	_	_
 3	τώρα	τώρα	ADV	AdBa	PronType=Dem	5	advmod	_	_
-4	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	5	obj	_	_
+4	τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	5	obj	_	_
 5	κάνουμε	κάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 6	;	;	PUNCT	PTERM	PunctType=Qest	5	punct	_	_
 7	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	_
 
 # sent_id = 3224
-# text = Αυτό ήταν το κίνητρό μας για να επιστρέφουμε ».
+# text = Αυτό ήταν το κίνητρό μας για να επιστρέφουμε.
 1	Αυτό	αυτός	DET	PnDm	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2	ήταν	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -3838,18 +3840,18 @@
 5	μας	μου	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod	_	_
 6	για	για	ADP	AsPpSp	_	8	mark	_	_
 7	να	να	SCONJ	CjSb	_	8	mark	_	_
-8	επιστρέφουμε	επιστρέφω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
-9	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
-10	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+8	επιστρέφουμε	επιστρέφω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 2956
-# text = « Το ταξί έχει taxiplon.
+# text = « Το ταξί έχει taxiplon ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
 2	Το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	ταξί	ταξί	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	έχει	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	taxiplon	taxiplon	X	RgFwOr	Foreign=Yes	4	obj	_	SpaceAfter=No
-6	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
+5	taxiplon	taxiplon	X	RgFwOr	Foreign=Yes	4	obj	_	_
+6	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
+7	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3090
 # text = Σπάω το κεφάλι μου να βρω ποιο θα έπρεπε να είναι το επόμενο βήμα μου και δε βρίσκω άλλο πιο κατάλληλο από μια επίσκεψη σ το υπουργείο Ναυτιλίας.
@@ -3946,7 +3948,7 @@
 30	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 4142
-# text = « Καλά , πώς έγινε αυτό ;
+# text = « Καλά , πώς έγινε αυτό ; »
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Καλά	καλά	ADV	AdBa	_	5	advmod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
@@ -3954,6 +3956,7 @@
 5	έγινε	γίνομαι	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	αυτό	αυτός	PRON	PnDm	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 7	;	;	PUNCT	PTERM	PunctType=Qest	5	punct	_	_
+8	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	_
 
 # sent_id = 4735
 # text = « Άκουσέ με καλά » του λέω.
@@ -3983,7 +3986,7 @@
 
 # sent_id = 5362
 # text = Ας αφήσουμε να ξεκαθαρίσει η κατάσταση και της το λέμε μετά.
-1	Ας	ας	PART	PtOt	Mood=Opt	2	aux	_	_
+1	Ας	ας	PART	PtOt	_	2	aux	_	_
 2	αφήσουμε	αφήνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 3	να	να	SCONJ	CjSb	_	4	aux	_	_
 4	ξεκαθαρίσει	ξεκαθαρίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	advcl	_	_
@@ -4103,14 +4106,13 @@
 28	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 5479
-# text = Περίμενα να είμαστε όλοι μαζί ».
+# text = Περίμενα να είμαστε όλοι μαζί.
 1	Περίμενα	περιμένω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	να	να	SCONJ	CjSb	_	3	mark	_	_
 3	είμαστε	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	1	ccomp	_	_
 4	όλοι	όλος	DET	AjBa	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	3	nsubj	_	_
-5	μαζί	μαζί	ADV	AdBa	_	3	advmod	_	_
-6	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	SpaceAfter=No
-7	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
+5	μαζί	μαζί	ADV	AdBa	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 4414
 # text = Επωφελούμαι από το κενό και παίρνω τηλέφωνο τη Στέλλα , για να ενημερώσω τον Γκίκα.
@@ -4325,7 +4327,7 @@
 15	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 1127
-# text = Τους ρωτήσαμε πού το βρήκαν και σ την αρχή μας είπαν σ το δρόμο , αλλά όταν τους στριμώξαμε , ομολόγησαν ότι μπήκαν σ το σπίτι του Λαλόπουλου για να τον ληστέψουν.
+# text = Τους ρωτήσαμε πού το βρήκαν και σ την αρχή μας είπαν σ το δρόμο, αλλά όταν τους στριμώξαμε, ομολόγησαν ότι μπήκαν σ το σπίτι του Λαλόπουλου για να τον ληστέψουν.
 1	Τους	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
 2	ρωτήσαμε	ρωτάω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	πού	πού	SCONJ	AdBa	_	5	advmod	_	_
@@ -4338,19 +4340,19 @@
 10	μας	εγώ	PRON	PnPe	Case=Gen|Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
 11	είπαν	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 12	σ	σε	ADP	AsPpSp	_	14	case	_	_
-13	τo	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
-14	δρόμο	δρόμος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+13	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	δρόμο	δρόμος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 16	αλλά	αλλά	CCONJ	CjCo	_	21	cc	_	_
 17	όταν	όταν	SCONJ	CjSb	_	19	mark	_	_
 18	τους	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
-19	στρίμωξαμε	στριμώχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	advcl	_	_
+19	στριμώξαμε	στριμώχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	advcl	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 21	ομολόγησαν	ομολογώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 22	ότι	ότι	SCONJ	CjSb	_	23	mark	_	_
 23	μπήκαν	μπαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	ccomp	_	_
 24	σ	σε	ADP	AsPpSp	_	26	case	_	_
-25	τo	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
+25	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
 26	σπίτι	σπίτι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	23	obl	_	_
 27	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Λαλόπουλου	Λαλόπουλος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
@@ -4361,7 +4363,7 @@
 33	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 2540
-# text = Δε γίνεται να τα δίνουμε και να μην τρώμε ».
+# text = Δε γίνεται να τα δίνουμε και να μην τρώμε.
 1	Δε	δεν	PART	PtNg	Polarity=Neg	2	advmod	_	_
 2	γίνεται	γίνεται	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	να	να	SCONJ	CjSb	_	5	mark	_	_
@@ -4370,23 +4372,11 @@
 6	και	και	CCONJ	CjCo	_	9	cc	_	_
 7	να	να	SCONJ	CjSb	_	9	mark	_	_
 8	μην	μην	PART	PtNg	Polarity=Neg	9	advmod	_	_
-9	τρώμε	τρώω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
-10	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
-11	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
-
-# sent_id = 2072
-# text = « ΚΕΑΝ - Κόμμα Εθνικής Ανατροπής ».
-1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
-2	ΚΕΑΝ	ΚΕΑΝ	PROPN	ABBR	Abbr=Yes	0	root	_	_
-3	-	-	PUNCT	PUNCT	PunctType=Dash	4	punct	_	_
-4	Κόμμα	κόμμα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	_
-5	Εθνικής	εθνικός	ADJ	AjBa	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
-6	Ανατροπής	ανατροπή	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
-7	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
-8	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+9	τρώμε	τρώω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 88
-# text = Θέλω να είμαστε οι δυο μας , γιατί έτσι θα μου μιλήσει πιο ελεύθερα ».
+# text = Θέλω να είμαστε οι δυο μας , γιατί έτσι θα μου μιλήσει πιο ελεύθερα.
 1	Θέλω	θέλω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	να	να	SCONJ	CjSb	_	3	aux	_	_
 3	είμαστε	είμαι	AUX	VbMn	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	1	ccomp	_	_
@@ -4400,9 +4390,8 @@
 11	μου	εγώ	PRON	PnPe	Case=Gen|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
 12	μιλήσει	μιλώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	advcl	_	_
 13	πιο	πιο	ADV	AdBa	Degree=Cmp	14	advmod	_	_
-14	ελεύθερα	ελεύθερα	ADV	AdBa	_	12	advmod	_	_
-15	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	SpaceAfter=No
-16	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
+14	ελεύθερα	ελεύθερα	ADV	AdBa	_	12	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 2313
 # text = « Οι ναυτιλιακές επιστρέφουν πριν από τα Ελγίνεια » .
@@ -4446,7 +4435,7 @@
 25	προσπάθεια	προσπάθεια	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
 26	ανοικοδόμησης	ανοικοδόμηση	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
 27	,	,	PUNCT	PUNCT	PunctType=Comm	28	punct	_	_
-28	εσείς	εγώ	PRON	PnPe	Case=Nom|Number=Plur|Person=2|PronType=Prs	36	nsubj	_	PersPronType=St
+28	εσείς	εγώ	PRON	PnPe	Case=Nom|Number=Plur|Person=2|PronType=Prs	36	nsubj	_	_
 29	,	,	PUNCT	PUNCT	PunctType=Comm	33	punct	_	_
 30	με	με	ADP	AsPpSp	_	33	case	_	_
 31	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
@@ -4518,13 +4507,12 @@
 18	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 5927
-# text = Και να τα πούμε ».
+# text = Και να τα πούμε.
 1	Και	και	CCONJ	CjCo	_	4	cc	_	_
 2	να	να	AUX	PtSj	_	4	aux	_	_
 3	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
-4	πούμε	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
-5	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
-6	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
+4	πούμε	λέω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 262
 # text = Υπάρχει και κάτι ακόμα που με προβληματίζει.
@@ -4557,7 +4545,7 @@
 16	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 3300
-# text = « Αυτές οι εταιρείες δεν υπάρχουν πουθενά αλλού .
+# text = « Αυτές οι εταιρείες δεν υπάρχουν πουθενά αλλού ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	6	punct	_	_
 2	Αυτές	αυτός	DET	PnDm	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Dem	4	det	_	_
 3	οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -4566,31 +4554,31 @@
 6	υπάρχουν	υπάρχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	πουθενά	πουθενά	ADV	AdBa	PronType=Neg	6	advmod	_	_
 8	αλλού	αλλού	ADV	AdBa	_	6	advmod	_	_
-9	.	.	PUNCT	PTERMP	PunctType=Peri	6	punct	_	_
+9	»	»	PUNCT	CPUNCT	PunctType=Quot	6	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PTERMP	PunctType=Peri	6	punct	_	_
 
 # sent_id = 2044
-# text = Και γιατί ήρθε πριν από μένα , αλλά και γιατί δεν ξέρει τι θα συναντήσει , αν βρεθεί αλλού ».
+# text = Και γιατί ήρθε πριν από μένα , αλλά και γιατί δεν ξέρει τι θα συναντήσει , αν βρεθεί αλλού.
 1	Και	και	CCONJ	CjCo	_	3	cc	_	_
 2	γιατί	γιατί	SCONJ	CjSb	_	3	mark	_	_
 3	ήρθε	έρχομαι	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	πριν	πριν	ADV	AdBa	_	3	advmod	_	_
 5	από	από	ADP	AsPpSp	_	6	case	_	_
-6	μένα	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	PersPronType=St
+6	μένα	εγώ	PRON	PnPe	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 8	αλλά	αλλά	CCONJ	CjCo	_	12	cc	_	_
 9	και	και	CCONJ	CjCo	_	12	cc	_	_
 10	γιατί	γιατί	SCONJ	CjSb	_	12	mark	_	_
 11	δεν	δεν	PART	PtNg	Polarity=Neg	12	advmod	_	_
 12	ξέρει	ξέρω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
-13	Τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	15	obj	_	_
+13	τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	15	obj	_	_
 14	θα	θα	AUX	PtFu	Tense=Fut	15	aux	_	_
 15	συναντήσει	συναντώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	ccomp	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 17	αν	αν	SCONJ	CjSb	_	18	mark	_	_
 18	βρεθεί	βρίσκω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	15	advcl	_	_
-19	αλλού	αλλού	ADV	AdBa	_	18	advmod	_	_
-20	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
-21	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+19	αλλού	αλλού	ADV	AdBa	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 652
 # text = Σ την επιστροφή , ο καθένας μας είναι σ τον κόσμο του και δεν ανταλλάσσουμε κουβέντα.
@@ -4613,7 +4601,7 @@
 17	.	.	PUNCT	PTERMP	PunctType=Peri	8	punct	_	_
 
 # sent_id = 2371
-# text = « Συνεπώς , κάνατε σωστά που δεν ψάξατε παραπέρα.
+# text = « Συνεπώς , κάνατε σωστά που δεν ψάξατε παραπέρα ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
 2	Συνεπώς	συνεπώς	ADV	AdBa	_	4	advmod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -4622,8 +4610,9 @@
 6	που	που	SCONJ	CjSb	_	8	advmod	_	_
 7	δεν	δεν	PART	PtNg	Polarity=Neg	8	advmod	_	_
 8	ψάξατε	ψάχνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
-9	παραπέρα	παραπέρα	ADV	AdBa	_	8	advmod	_	SpaceAfter=No
-10	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
+9	παραπέρα	παραπέρα	ADV	AdBa	_	8	advmod	_	_
+10	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
+11	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 2494
 # text = Η Ρίτα , η κοπέλα που σερβίρει , τους είπε ότι δεν μπορεί να πάρει πίσω δαγκωμένα μπιφτέκια , γιατί σ το μεταξύ τα μασούλαγαν.
@@ -4700,7 +4689,7 @@
 6	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 1048
-# text = « Η αύξηση θα σου καλύψει πιθανώς τη δόση του δανείου.
+# text = « Η αύξηση θα σου καλύψει πιθανώς τη δόση του δανείου ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	6	punct	_	_
 2	Η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	αύξηση	αύξηση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -4711,8 +4700,9 @@
 8	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	δόση	δόση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
 10	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-11	δανείου	δάνειο	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
-12	.	.	PUNCT	PTERMP	PunctType=Peri	6	punct	_	_
+11	δανείου	δάνειο	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	»	»	PUNCT	CPUNCT	PunctType=Quot	6	punct	_	SpaceAfter=No
+13	.	.	PUNCT	PTERMP	PunctType=Peri	6	punct	_	_
 
 # sent_id = 717
 # text = Η τριανδρία των ιερέων συνοδεύεται από τέσσερις πιστούς που κρατάνε τον Επιτάφιο.
@@ -4742,7 +4732,7 @@
 8	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
 # sent_id = 275
-# text = Τώρα , αν αυτό ήταν μίζα ή κάτι άλλο , δεν το ξέρω , αλλά κάπου θα βρούμε την άκρη , είτε εμείς είτε η Αρχή για το ξέπλυμα μαύρου χρήματος ».
+# text = Τώρα , αν αυτό ήταν μίζα ή κάτι άλλο , δεν το ξέρω , αλλά κάπου θα βρούμε την άκρη , είτε εμείς είτε η Αρχή για το ξέπλυμα μαύρου χρήματος.
 1	Τώρα	τώρα	ADV	AdBa	_	13	advmod	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 3	αν	αν	SCONJ	CjSb	_	5	mark	_	_
@@ -4765,7 +4755,7 @@
 20	άκρη	άκρη	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
 21	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 22	είτε	είτε	CCONJ	CjCo	_	26	cc	_	_
-23	εμείς	εγώ	PRON	PnPe	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	PersPronType=St
+23	εμείς	εγώ	PRON	PnPe	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
 24	είτε	είτε	CCONJ	CjCo	_	26	cc	_	_
 25	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Αρχή	αρχή	PROPN	NoCm	Case=Nom|Gender=Fem|Number=Sing	23	conj	_	_
@@ -4773,14 +4763,13 @@
 28	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	29	det	_	_
 29	ξέπλυμα	ξέπλυμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	26	nmod	_	_
 30	μαύρου	μαύρος	ADJ	AjBa	Case=Gen|Gender=Neut|Number=Sing	31	amod	_	_
-31	χρήματος	χρήμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
-32	»	»	PUNCT	CPUNCT	PunctType=Quot	13	punct	_	SpaceAfter=No
-33	.	.	PUNCT	PTERMP	PunctType=Peri	13	punct	_	_
+31	χρήματος	χρήμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	PTERMP	PunctType=Peri	13	punct	_	_
 
 # sent_id = 2982
 # text = « Εγώ την πήρα σ τη λαχαναγορά , όταν άκουσα για το πλοίο που έπιασε φωτιά , για να μάθω για το φίλο μου » απαντάει αμέσως ο Σαμίρ.
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
-2	Εγώ	εγώ	PRON	PnPe	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	PersPronType=St
+2	Εγώ	εγώ	PRON	PnPe	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	την	εγώ	PRON	PnPe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	πήρα	παίρνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	σ	σε	ADP	AsPpSp	_	7	case	_	_
@@ -4807,7 +4796,7 @@
 26	απαντάει	απαντώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 27	αμέσως	αμέσως	ADV	AdBa	_	26	advmod	_	_
 28	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	ilsptag=RgFwTr|SpaceAfter=No
+29	Σαμίρ	Σαμίρ	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
 30	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 5441
@@ -4911,7 +4900,7 @@
 17	.	.	PUNCT	PTERMP	PunctType=Peri	6	punct	_	_
 
 # sent_id = 4355
-# text = Είμαι επιχειρηματίας και δε μου αρέσει να μιλώ σε δημοσιογράφους ».
+# text = Είμαι επιχειρηματίας και δε μου αρέσει να μιλώ σε δημοσιογράφους.
 1	Είμαι	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	επιχειρηματίας	επιχειρηματίας	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	_
 3	και	και	CCONJ	CjCo	_	6	cc	_	_
@@ -4921,9 +4910,8 @@
 7	να	να	SCONJ	CjSb	_	8	mark	_	_
 8	μιλώ	μιλώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	xcomp	_	_
 9	σε	σε	ADP	AsPpSp	_	10	case	_	_
-10	δημοσιογράφους	δημοσιογράφος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
-11	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	SpaceAfter=No
-12	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
+10	δημοσιογράφους	δημοσιογράφος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 797
 # text = Η σκόνη έχει πάχος πέντε δάχτυλα πάνω σε όλα τα έπιπλα.
@@ -5002,28 +4990,6 @@
 26	Λονδίνο	Λονδίνο	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
 27	.	.	PUNCT	PTERMP	PunctType=Peri	23	punct	_	_
 
-# sent_id = 3844
-# text = Η εικόνα αυτή κάνει τη μαυρίλα μου ακόμα πιο αφόρητο βοηθοί μου γυρίζουν μετά από ένα μισάωρο περίπου.
-1	Η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	εικόνα	εικόνα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	αυτή	αυτός	PRON	PnDm	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
-4	κάνει	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	μαυρίλα	μαυρίλα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
-7	μου	μου	PRON	PnPo	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod	_	_
-8	ακόμα	ακόμα	ADV	AdBa	_	10	advmod	_	_
-9	πιο	πιο	ADV	AdBa	Degree=Cmp	10	advmod	_	_
-10	αφόρητη	αφόρητος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
-11	βοηθοί	βοηθός	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
-12	μου	μου	PRON	PnPo	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod	_	_
-13	γυρίζουν	γυρίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
-14	μετά	μετά	ADV	AdBa	_	13	advmod	_	_
-15	από	από	ADP	AsPpSp	_	17	case	_	_
-16	ένα	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
-17	μισάωρο	μισάωρο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
-18	περίπου	περίπου	ADV	AdBa	_	17	advmod	_	SpaceAfter=No
-19	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
-
 # sent_id = 1879
 # text = « Πρέπει να συνεχίσουμε την έρευνα σ την κατοικία του Χαρδάκου ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
@@ -5041,9 +5007,9 @@
 13	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 505
-# text = « Εγώ που είμαι γιατρός σε δημόσιο νοσοκομείο δε θα έπρεπε να είμαι κανονικά ευχαριστημένος , αλλά οφείλω να ομολογήσω ότι το πρόγραμμα τους βγαίνει.
+# text = « Εγώ που είμαι γιατρός σε δημόσιο νοσοκομείο δε θα έπρεπε να είμαι κανονικά ευχαριστημένος , αλλά οφείλω να ομολογήσω ότι το πρόγραμμα τους βγαίνει ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	11	punct	_	_
-2	Εγώ	εγώ	PRON	PnPe	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	PersPronType=St
+2	Εγώ	εγώ	PRON	PnPe	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 3	που	που	PRON	PnRe	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	obj	_	_
 4	είμαι	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	_
 5	γιατρός	γιατρός	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	4	xcomp	_	_
@@ -5066,8 +5032,9 @@
 22	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
 23	πρόγραμμα	πρόγραμμα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
 24	τους	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
-25	βγαίνει	βγαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	ccomp	_	SpaceAfter=No
-26	.	.	PUNCT	PTERMP	PunctType=Peri	11	punct	_	_
+25	βγαίνει	βγαίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	ccomp	_	_
+26	»	»	PUNCT	CPUNCT	PunctType=Quot	11	punct	_	SpaceAfter=No
+27	.	.	PUNCT	PTERMP	PunctType=Peri	11	punct	_	_
 
 # sent_id = 6087
 # text = Σταματάει μπροστά σ την είσοδο.
@@ -5097,7 +5064,7 @@
 15	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 1286
-# text = Άσε που δεν πιστεύω όχι αυτή η ενημέρωση , λεπτό προς λεπτό , γίνεται για να μαθαίνει τα μυστικά του επαγγέλματος.
+# text = Άσε που δεν πιστεύω ότι αυτή η ενημέρωση, λεπτό προς λεπτό, γίνεται για να μαθαίνει τα μυστικά του επαγγέλματος.
 1	Άσε	αφήνω	VERB	VbMn	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	που	που	SCONJ	CjSb	_	4	advmod	_	_
 3	δεν	δεν	PART	PtNg	Polarity=Neg	4	advmod	_	_
@@ -5156,22 +5123,23 @@
 8	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 5079
-# text = « Αλήθεια , ρε μαμά , τι τα ήθελες τα ορεκτικά ;
+# text = « Αλήθεια , ρε μαμά , τι τα ήθελες τα ορεκτικά ; »
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	9	punct	_	_
 2	Αλήθεια	αλήθεια	ADV	AdBa	_	9	advmod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 4	ρε	ρε	INTJ	Ij	_	5	nmod	_	_
 5	μαμά	μαμά	NOUN	NoCm	Case=Voc|Gender=Fem|Number=Sing	9	vocative	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
-7	Τι	τι	SCONJ	PnIr	PronType=Int	9	obj	_	_
+7	τι	τι	SCONJ	PnIr	PronType=Int	9	obj	_	_
 8	τα	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
 9	ήθελες	θέλω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 10	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
 11	ορεκτικά	ορεκτικός	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
 12	;	;	PUNCT	PTERM	PunctType=Qest	9	punct	_	_
+13	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
 # sent_id = 355
-# text = « Σ τη Λασκαράτου , μια πάροδο της Κηφισίας και παράλληλη της Πανόρμου.
+# text = « Σ τη Λασκαράτου , μια πάροδο της Κηφισίας και παράλληλη της Πανόρμου ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	4	punct	_	_
 2	Σ	σε	ADP	AsPpSp	_	4	case	_	_
 3	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -5184,18 +5152,20 @@
 10	και	και	CCONJ	CjCo	_	11	cc	_	_
 11	παράλληλη	παράλληλος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
 12	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Πανόρμου	Πανόρμου	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	PTERMP	PunctType=Peri	7	punct	_	_
+13	Πανόρμου	Πανόρμου	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	»	»	PUNCT	CPUNCT	PunctType=Quot	7	punct	_	SpaceAfter=No
+15	.	.	PUNCT	PTERMP	PunctType=Peri	7	punct	_	_
 
 # sent_id = 1967
-# text = « Καμία σχέση.
+# text = « Καμία σχέση ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
 2	Καμία	κανένας	DET	PnId	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Neg	3	det	_	_
-3	σχέση	σχέση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+3	σχέση	σχέση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 1957
-# text = « Ήταν ένα ταξίδι ρουτίνα , για να τσεκάρουμε τα γραφεία μας σ την Ελλάδα.
+# text = « Ήταν ένα ταξίδι ρουτίνα , για να τσεκάρουμε τα γραφεία μας σ την Ελλάδα ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Ήταν	είμαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	ένα	ένας	DET	AtId	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -5210,8 +5180,9 @@
 12	μας	μου	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod	_	_
 13	σ	σε	ADP	AsPpSp	_	15	case	_	_
 14	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	Ελλάδα	Ελλάδα	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
-16	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+15	Ελλάδα	Ελλάδα	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+16	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
+17	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 6140
 # text = Η πρώτη μου σκέψη είναι να πάρω το λεωφορείο , γιατί θα έχω πρόβλημα παρκαρίσματος σ το κέντρο , αλλά μετά θυμάμαι ότι έχει ένα πάρκινγκ σ την Κριεζώτου , και μπαίνω σ το Σέατ.
@@ -5303,7 +5274,7 @@
 21	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 21
-# text = « Ο πολύς κόσμος πιστεύει ότι θέλουμε την αταξία και την ανομία.
+# text = « Ο πολύς κόσμος πιστεύει ότι θέλουμε την αταξία και την ανομία ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	πολύς	πολύς	DET	AjBa	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
@@ -5315,8 +5286,9 @@
 9	αταξία	αταξία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 10	και	και	CCONJ	CjCo	_	12	cc	_	_
 11	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	ανομία	ανομία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
-13	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
+12	ανομία	ανομία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_
+13	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	SpaceAfter=No
+14	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 688
 # text = « Όπως πάντα , δικαιώνεσαι εκ των υστέρων και μου σπας τα νεύρα » μου λέει καλμαρισμένος.
@@ -5340,7 +5312,7 @@
 18	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 5920
-# text = « Μπορείς να μου βρεις σε ποιον ανήκει ένα φορτηγό με αριθμό κυκλοφορίας ΙΚΙ 5522 » ;
+# text = « Μπορείς να μου βρεις σε ποιον ανήκει ένα φορτηγό με αριθμό κυκλοφορίας ΙΚΙ 5522 ; »
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Μπορείς	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	να	να	SCONJ	CjSb	_	5	mark	_	_
@@ -5356,8 +5328,8 @@
 13	κυκλοφορίας	κυκλοφορία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 14	ΙΚΙ	ΙΚΙ	SYM	ABBR	Abbr=Yes	12	nmod	_	_
 15	5522	5522	NUM	DIG	NumType=Card	14	nmod	_	_
-16	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
-17	;	;	PUNCT	PTERM	PunctType=Qest	2	punct	_	_
+16	;	;	PUNCT	PTERM	PunctType=Qest	2	punct	_	_
+17	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
 # sent_id = 6263
 # text = Ο Παπαδάκης ψάχνει την παιδική ντουλάπα και βγαίνει από το δωμάτιο.
@@ -5395,7 +5367,7 @@
 9	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	_
 
 # sent_id = 4367
-# text = « Ως τώρα δεν ξέρουμε ποιος βούλιαξε το πλοίο με τα όπλα για την ουκρανική κυβέρνηση.
+# text = « Ως τώρα δεν ξέρουμε ποιος βούλιαξε το πλοίο με τα όπλα για την ουκρανική κυβέρνηση ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	5	punct	_	_
 2	Ως	ως	ADP	AdBa	_	3	case	_	_
 3	τώρα	τώρα	ADV	AdBa	PronType=Dem	5	advmod	_	_
@@ -5411,8 +5383,9 @@
 13	για	για	ADP	AsPpSp	_	16	case	_	_
 14	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	ουκρανική	ουκρανικός	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
-16	κυβέρνηση	κυβέρνηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
+16	κυβέρνηση	κυβέρνηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+17	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	SpaceAfter=No
+18	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 925
 # text = « Μάθατε τίποτα ; »
@@ -5570,14 +5543,13 @@
 13	πλατύ	πλατύς	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
 
 # sent_id = 6039
-# text = Από εκεί και πάνω συζητιέται ».
+# text = Από εκεί και πάνω συζητιέται.
 1	Από	από	ADP	AsPpSp	_	2	case	_	_
 2	εκεί	εκεί	ADV	AdBa	_	5	advmod	_	_
 3	και	και	CCONJ	CjCo	_	4	cc	_	_
 4	πάνω	πάνω	ADV	AdBa	_	2	conj	_	_
-5	συζητιέται	συζητώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-6	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
+5	συζητιέται	συζητώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PTERMP	PunctType=Peri	5	punct	_	_
 
 # sent_id = 131
 # text = Το ένα έχει το όνομα « West Explorer » το άλλο λέγεται « West Cruiser ».
@@ -5600,7 +5572,7 @@
 17	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 612
-# text = Απορώ πώς θα σε αντέξει ο άντρας σου με τόση γκρίνια ».
+# text = Απορώ πώς θα σε αντέξει ο άντρας σου με τόση γκρίνια.
 1	Απορώ	απορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	πώς	πώς	ADV	AdBa	PronType=Int	5	advmod	_	_
 3	θα	θα	AUX	PtFu	Tense=Fut	5	aux	_	_
@@ -5611,14 +5583,13 @@
 8	σου	μου	PRON	PnPo	Case=Gen|Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	7	nmod	_	_
 9	με	με	ADP	AsPpSp	_	11	case	_	_
 10	τόση	τόσος	DET	PnDm	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Dem	11	det	_	_
-11	γκρίνια	γκρίνια	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
-12	»	»	PUNCT	CPUNCT	PunctType=Quot	5	punct	_	SpaceAfter=No
-13	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
+11	γκρίνια	γκρίνια	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 4751
 # text = « Εγώ βρήκα μόνο λεφτά , ορκίζομαι ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
-2	Εγώ	εγώ	PRON	PnPe	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	PersPronType=St
+2	Εγώ	εγώ	PRON	PnPe	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	βρήκα	βρίσκω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	μόνο	μόνο	ADV	AdBa	_	5	advmod	_	_
 5	λεφτά	λεφτά	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
@@ -5695,14 +5666,13 @@
 13	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 5521
-# text = Δε θα σας κρατήσω πολύ ».
+# text = Δε θα σας κρατήσω πολύ.
 1	Δε	δεν	PART	PtNg	Polarity=Neg	4	advmod	_	_
 2	θα	θα	AUX	PtFu	Tense=Fut	4	aux	_	_
 3	σας	εγώ	PRON	PnPe	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	obj	_	_
 4	κρατήσω	κρατώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
-5	πολύ	πολύ	ADV	AdBa	_	4	advmod	_	_
-6	»	»	PUNCT	CPUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
-7	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
+5	πολύ	πολύ	ADV	AdBa	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 4250
 # text = « Θα ήθελα να μιλήσουμε , αλλά όχι σ την αστυνομία ούτε σ τον Πειραιά » μου λέει.
@@ -5727,13 +5697,14 @@
 19	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 3420
-# text = « Από υγεία , τίποτα.
+# text = « Από υγεία , τίποτα ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
 2	Από	από	ADP	AsPpSp	_	3	case	_	_
 3	υγεία	υγεία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
 4	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
-5	τίποτα	τίποτα	DET	PnId	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Neg	3	conj	_	SpaceAfter=No
-6	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+5	τίποτα	τίποτα	DET	PnId	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Neg	3	conj	_	_
+6	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 3592
 # text = Δώστε τα στοιχεία σ τον ανακριτή.
@@ -5801,15 +5772,14 @@
 10	.	.	PUNCT	PTERMP	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3279
-# text = Πώς φαίνεται ότι είσαι από σπίτι ».
+# text = Πώς φαίνεται ότι είσαι από σπίτι.
 1	Πώς	πώς	ADV	AdBa	PronType=Int	2	advmod	_	_
 2	φαίνεται	φαίνομαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	ότι	ότι	SCONJ	CjSb	_	4	mark	_	_
 4	είσαι	είμαι	AUX	VbMn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	2	csubj	_	_
 5	από	από	ADP	AsPpSp	_	6	case	_	_
-6	σπίτι	σπίτι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	4	obl:agent	_	_
-7	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
-8	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+6	σπίτι	σπίτι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	4	obl:agent	_	SpaceAfter=No
+7	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 3061
 # text = « Κατάφερες τελικά να ανακρίνεις τους δολοφόνους του Λαλόπουλου ; »
@@ -5930,7 +5900,7 @@
 11	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 1243
-# text = Τώρα μας θέλει σ το γραφείο του , για να τ' ακούσει από πρώτο χέρι ».
+# text = Τώρα μας θέλει σ το γραφείο του , για να τ' ακούσει από πρώτο χέρι.
 1	Τώρα	τώρα	ADV	AdBa	_	3	advmod	_	_
 2	μας	εγώ	PRON	PnPe	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
 3	θέλει	θέλω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5945,12 +5915,11 @@
 12	ακούσει	ακούω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	advcl	_	_
 13	από	από	ADP	AsPpSp	_	15	case	_	_
 14	πρώτο	πρώτος	ADJ	NmOd	Case=Acc|Gender=Neut|Number=Sing|NumType=Ord	15	amod	_	_
-15	χέρι	χέρι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
-16	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
-17	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+15	χέρι	χέρι	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 312
-# text = Μπορώ επίσης να σας διαβεβαιώσω πως , αν προκύψει κάτι που θα μπορούσε να είναι χρήσιμο σ τις έρευνές σας , εμείς θα το θέσουμε αμέσως υπόψη σας ».
+# text = Μπορώ επίσης να σας διαβεβαιώσω πως , αν προκύψει κάτι που θα μπορούσε να είναι χρήσιμο σ τις έρευνές σας , εμείς θα το θέσουμε αμέσως υπόψη σας.
 1	Μπορώ	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	επίσης	επίσης	ADV	AdBa	_	1	advmod	_	_
 3	να	να	SCONJ	CjSb	_	5	mark	_	_
@@ -5972,15 +5941,14 @@
 19	έρευνές	έρευνα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	15	obl	_	_
 20	σας	μου	PRON	PnPo	Case=Gen|Number=Plur|Person=2|Poss=Yes|PronType=Prs	19	nmod	_	_
 21	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
-22	εμείς	εγώ	PRON	PnPe	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	PersPronType=St
+22	εμείς	εγώ	PRON	PnPe	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
 23	θα	θα	AUX	PtFu	Tense=Fut	25	aux	_	_
 24	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
 25	θέσουμε	θέτω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	5	ccomp	_	_
 26	αμέσως	αμέσως	ADV	AdBa	_	25	advmod	_	_
 27	υπόψη	υπόψη	NOUN	AsPpSp	Case=Acc|Gender=Neut|Number=Plur	28	case	_	_
-28	σας	εγώ	PRON	PnPe	Case=Gen|Number=Plur|Person=2|PronType=Prs	25	obl	_	_
-29	»	»	PUNCT	CPUNCT	PunctType=Quot	25	punct	_	SpaceAfter=No
-30	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
+28	σας	εγώ	PRON	PnPe	Case=Gen|Number=Plur|Person=2|PronType=Prs	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 1301
 # text = Σηκώνω το ακουστικό , για να πάρω τηλέφωνο τον Χαρικάκη της Αρχής κατά του ξεπλύματος μαύρου χρήματος , αλλά το αφήνω αμέσως.
@@ -6055,7 +6023,7 @@
 12	και	και	CCONJ	CjCo	_	14	cc	_	_
 13	τον	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
 14	ρώτησα	ρωτώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
-15	Τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	16	obj	_	_
+15	τι	τι	SCONJ	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	16	obj	_	_
 16	έκανε	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	ccomp	_	_
 17	εδώ	εδώ	ADV	AdBa	_	16	advmod	_	SpaceAfter=No
 18	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
@@ -6110,7 +6078,7 @@
 9	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 1401
-# text = « Μπορεί , αλλά εγώ ζούσα έναν εφιάλτη.
+# text = « Μπορεί , αλλά εγώ ζούσα έναν εφιάλτη ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Μπορεί	μπορώ	VERB	VbMn	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
@@ -6118,11 +6086,12 @@
 5	εγώ	εγώ	PRON	NoCm	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	ζούσα	ζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 7	έναν	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	εφιάλτη	εφιάλτης	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
-9	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+8	εφιάλτη	εφιάλτης	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 378
-# text = « Ναι , δυστυχώς ο προϊστάμενός σας έπεσε θύμα ληστείας , που του στοίχισε τη ζωή.
+# text = « Ναι , δυστυχώς ο προϊστάμενός σας έπεσε θύμα ληστείας , που του στοίχισε τη ζωή ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	8	punct	_	_
 2	Ναι	ναι	INTJ	AdBa	Polarity=Pos	8	advmod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
@@ -6138,8 +6107,9 @@
 13	του	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
 14	στοίχισε	στοιχίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 15	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	ζωή	ζωή	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
-17	.	.	PUNCT	PTERMP	PunctType=Peri	8	punct	_	_
+16	ζωή	ζωή	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	»	»	PUNCT	CPUNCT	PunctType=Quot	8	punct	_	SpaceAfter=No
+18	.	.	PUNCT	PTERMP	PunctType=Peri	8	punct	_	_
 
 # sent_id = 5996
 # text = « Ένας φάκελος με στοιχεία που εξηγούν γιατί ήθελα να συνεχίσω την έρευνα » του απαντώ.
@@ -6162,12 +6132,11 @@
 17	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 2330
-# text = Έχουμε κάτι δυσάρεστο ; »
+# text = Έχουμε κάτι δυσάρεστο ;
 1	Έχουμε	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	κάτι	κάτι	DET	AdBa	PronType=Ind	1	advmod	_	_
 3	δυσάρεστο	δυσάρεστος	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	1	xcomp	_	_
 4	;	;	PUNCT	PTERM	PunctType=Qest	1	punct	_	_
-5	»	»	PUNCT	CPUNCT	PunctType=Quot	1	punct	_	_
 
 # sent_id = 3962
 # text = « Ποιο ; »
@@ -6229,7 +6198,7 @@
 28	.	.	PUNCT	PTERMP	PunctType=Peri	7	punct	_	_
 
 # sent_id = 443
-# text = « Ξέρω ότι δεν είναι κάποια υπόθεση που παρουσιάζει ιδιαίτερο ενδιαφέρον.
+# text = « Ξέρω ότι δεν είναι κάποια υπόθεση που παρουσιάζει ιδιαίτερο ενδιαφέρον ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	2	punct	_	_
 2	Ξέρω	ξέρω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ότι	ότι	SCONJ	CjSb	_	5	mark	_	_
@@ -6240,8 +6209,9 @@
 8	που	που	PRON	PnRe	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	9	nsubj	_	_
 9	παρουσιάζει	παρουσιάζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 10	ιδιαίτερο	ιδιαίτερος	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	_
-11	ενδιαφέρον	ενδιαφέρον	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No
-12	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
+11	ενδιαφέρον	ενδιαφέρον	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+12	»	»	PUNCT	CPUNCT	PunctType=Quot	2	punct	_	SpaceAfter=No
+13	.	.	PUNCT	PTERMP	PunctType=Peri	2	punct	_	_
 
 # sent_id = 3040
 # text = Ή μήπως πρόκειται για μια παπαριά , που κάποιος πέταξε σ το πτυελοδοχείο του διαδικτύου ;
@@ -6479,7 +6449,7 @@
 27	:	:	PUNCT	PTERM	PunctType=Colo	26	punct	_	_
 
 # sent_id = 1565
-# text = « Δεν ξέρω αν πήγαν και στου Λαλόπουλου.
+# text = « Δεν ξέρω αν πήγαν και στου Λαλόπουλου ».
 1	«	«	PUNCT	OPUNCT	PunctType=Quot	3	punct	_	_
 2	Δεν	δεν	PART	PtNg	Polarity=Neg	3	advmod	_	_
 3	ξέρω	ξέρω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6487,8 +6457,9 @@
 5	πήγαν	πηγαίνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 6	και	και	CCONJ	CjCo	_	8	cc	_	_
 7	στου	στου	ADJ	NmOd	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	_
-8	Λαλόπουλου	Λαλόπουλος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
-9	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
+8	Λαλόπουλου	Λαλόπουλος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	_
+9	»	»	PUNCT	CPUNCT	PunctType=Quot	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 5044
 # text = Πρώτα από τις επιδοτήσεις της Ευρώπης και μετά από δανεικά.
