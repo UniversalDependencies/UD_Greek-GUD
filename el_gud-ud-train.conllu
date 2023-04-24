@@ -24434,3 +24434,4 @@
 10	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Κοσμίδης	Κοσμίδης	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	PTERMP	PunctType=Peri	7	punct	_	_
+
