@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>1807</sentences><tokens>25493</tokens><words>25493</words><fused>0</fused></total>
+    <train><sentences>1071</sentences><tokens>14860</tokens><words>14860</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>736</sentences><tokens>10633</tokens><words>10633</words><fused>0</fused></test>
   </size>
   <lemmas unique="2715" /><!-- ο, ., εγώ, ,, και, να, σε, », «, μου, είμαι, δεν, που, από, λέω -->
   <forms unique="4532" /><!-- ., ,, και, το, να, », «, σ, την, μου, του, με, τον, τα, που -->
