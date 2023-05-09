@@ -1,0 +1,42 @@
+Running the following version of UD tools:
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 00:14:39 2023 +0200
+Evaluating the following revision of UD_Greek-GUD:
+commit 51a178fa86c43324b16d453feb0e011db17ced89
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 07:28:40 2023 +0200
+Size: counted 25493 of 25493 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.47680780935149.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 20454 out of 25493 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 33 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi:
+               TOTAL        233
+Udapi: found 233 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 25493 words.
+Genres: found 1 out of 17 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-GUD/el_gud-ud-test.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-GUD/el_gud-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.46880698199154) = 0.120206918459369
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
+(weight=0.307692307692308) * (score{udapi}=0.90860236143255) = 0.279569957363862
+(weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
+(TOTAL score=0.738037036436333) * (availability=1) * (validity=1) = 0.738037036436333
+STARS = 3.5
+UD_Greek-GUD	0.738037036436333	3.5
