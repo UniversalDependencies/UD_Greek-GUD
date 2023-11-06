@@ -3271,14 +3271,14 @@
 20	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
 21	όμως	όμως	CCONJ	AdBa	_	22	cc	_	_
 22	άλλαι	άλλος	DET	AjBa	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	1	parataxis	_	_
-23	μεν	μεν	CCONJ	CjCo	_	22	fixed	_	_
-24	αι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	fixed	_	_
-25	βουλαί	βουλή	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Plur	22	fixed	_	_
-26	ανθρώπων	άνθρωπος	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Plur	22	fixed	_	_
-27	άλλα	άλλος	DET	PnId	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	22	fixed	_	_
-28	δε	δε	PART	PtNg	Polarity=Neg	22	fixed	_	_
-29	Θεός	Θεός	PROPN	NoCm	Case=Nom|Gender=Masc|Number=Sing	22	fixed	_	_
-30	κελεύει	κελεύω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	fixed	_	SpaceAfter=No
+23	μεν	μεν	CCONJ	CjCo	_	22	flat	_	_
+24	αι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	flat	_	_
+25	βουλαί	βουλή	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Plur	22	flat	_	_
+26	ανθρώπων	άνθρωπος	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Plur	22	flat	_	_
+27	άλλα	άλλος	DET	PnId	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	22	flat	_	_
+28	δε	δε	PART	PtNg	Polarity=Neg	22	flat	_	_
+29	Θεός	Θεός	PROPN	NoCm	Case=Nom|Gender=Masc|Number=Sing	22	flat	_	_
+30	κελεύει	κελεύω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	flat	_	SpaceAfter=No
 31	.	.	PUNCT	PTERMP	PunctType=Peri	1	punct	_	_
 
 # sent_id = 1812
