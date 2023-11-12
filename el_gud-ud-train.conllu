@@ -100,8 +100,8 @@
 15	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 16	για	για	ADP	AsPpSp	_	18	mark	_	_
 17	να	να	SCONJ	PtSj	_	16	fixed	_	_
-18	είμαι	είμαι	AUX	VbMn	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	3	advcl	_	_
-19	καλυμμένος	καλυμμένος	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No
+18	είμαι	είμαι	AUX	VbMn	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	19	cop	_	_
+19	καλυμμένος	καλύπτω	VERB	VbMn	Case=Nom|Gender=Masc|Number=Sing|Voice=Pass	3	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	PTERMP	PunctType=Peri	3	punct	_	_
 
 # sent_id = 3544
