@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Greek-GUD:
-commit 9c3831920a3d69418950cde5e03305c4f91ce476
-Merge: 02d63ca 471c3a4
+commit 9d159c8f33f4ac00bc616f3f598651e1604a096d
+Merge: a20af65 acb086f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 25493 of 25493 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.47680780935149.
