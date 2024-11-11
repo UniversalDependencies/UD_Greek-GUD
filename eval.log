@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Greek-GUD:
-commit 9d159c8f33f4ac00bc616f3f598651e1604a096d
-Merge: a20af65 acb086f
+commit fbf7adc136ef1aaab21c934b7affff6b7abf77ba
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 12:28:17 2024 +0200
 Size: counted 25493 of 25493 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.47680780935149.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,8 +25,12 @@ Udapi: found 232 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 25493 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-GUD/el_gud-ud-test.conllu
+[Line 8472 Sent 5856 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:άλλο:det --> 20:βοηθήσει:acl)
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-GUD/el_gud-ud-train.conllu
+[Line 5869 Sent 3414 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Το:det --> 11:περισσότερο:dep)
+Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
