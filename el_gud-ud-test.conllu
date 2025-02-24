@@ -7006,7 +7006,7 @@
 # text = Τι έκανε σ το κάτω-κάτω;
 1	Τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obj	_	_
 2	έκανε	κάνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	σ	σε	ADP	AsPpSp	ExtPos=ADV	2	case	_	_
+3	σ	σε	ADP	AsPpSp	ExtPos=ADV	2	advmod	_	_
 4	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	fixed	_	_
 5	κάτω	κάτω	ADV	_	_	3	fixed	_	SpaceAfter=No
 6	-	-	PUNCT	PUNCT	_	3	punct	_	PunctType=Dash|SpaceAfter=No
