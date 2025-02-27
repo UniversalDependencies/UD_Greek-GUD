@@ -564,7 +564,7 @@
 7	μόνο	μόνο	DET	AdBa	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	5	advmod	_	_
 8	του	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
 9	,	,	PUNCT	PUNCT	_	12	punct	_	PunctType=Comm
-10	μετά	μετά	ADP	AsPpSp	_	12	advmod	_	_
+10	μετά	μετά	ADP	AsPpSp	ExtPos=ADV	12	advmod	_	_
 11	που	που	SCONJ	CjSb	_	10	fixed	_	_
 12	χώρισε	χωρίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
 13	με	με	ADP	AsPpSp	_	15	case	_	_
