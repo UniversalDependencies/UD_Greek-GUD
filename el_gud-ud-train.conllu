@@ -16916,7 +16916,7 @@
 4	μόνος	μόνος	DET	AjBa	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	3	advcl	_	_
 5	μου	εγώ	PRON	PnPo	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod	_	_
 6	,	,	PUNCT	PUNCT	_	7	punct	_	PunctType=Comm
-7	σ	σε	ADP	AsPpSp	_	3	advmod	_	_
+7	σ	σε	ADP	AsPpSp	ExtPos=ADV	3	advmod	_	_
 8	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	fixed	_	_
 9	ζούλα	ζούλα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	7	fixed	_	_
 10	που	που	PRON	PnRe	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	11	obj	_	_
