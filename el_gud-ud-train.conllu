@@ -7085,7 +7085,7 @@
 6	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	πείραμα	πείραμα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	12	nsubj:outer	_	_
 8	ήταν	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	12	cop	_	_
-9	ως	ως	ADP	AdBa	_	12	advmod	_	_
+9	ως	ως	ADP	AdBa	ExtPos=ADV	12	advmod	_	_
 10	ποιο	ποιος	DET	PnIr	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	9	fixed	_	_
 11	σημείο	σημείο	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	9	fixed	_	_
 12	μπορούν	μπορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -10858,7 +10858,7 @@
 2	Να	να	AUX	PtSj	_	3	aux	_	_
 3	δείτε	βλέπω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 4	που	που	SCONJ	CjSb	_	9	mark	_	_
-5	σ	σε	ADP	AsPpSp	_	9	advmod	_	_
+5	σ	σε	ADP	AsPpSp	ExtPos=ADV	9	advmod	_	_
 6	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	fixed	_	_
 7	τέλος	τέλος	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	5	fixed	_	_
 8	θα	θα	AUX	PtFu	Tense=Fut	9	aux	_	_
