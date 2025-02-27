@@ -652,7 +652,7 @@
 5	εποχή	εποχή	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
 6	μας	μου	PRON	PnPo	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	_
 7	είναι	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	_
-8	εννιά	εννέα	NUM	NmCd	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	2	advmod	_	_
+8	εννιά	εννέα	NUM	NmCd	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	2	nummod	_	_
 9	σ	σε	ADP	AsPpSp	_	8	fixed	_	_
 10	τις	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	fixed	_	_
 11	δέκα	δέκα	NUM	NmCd	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	8	fixed	_	_
