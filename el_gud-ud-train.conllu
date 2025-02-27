@@ -13543,7 +13543,7 @@
 4	και	και	CCONJ	CjCo	_	6	cc	_	_
 5	τους	εγώ	PRON	PnPe	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
 6	έπιασε	πιάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	mwe=1:VID
-7	επ'	επί	ADP	AsPpSp	_	6	advmod	_	mwe=1|SpaceAfter=No
+7	επ'	επί	ADP	AsPpSp	ExtPos=ADV	6	advmod	_	mwe=1|SpaceAfter=No
 8	αυτοφώρω	αυτοφώρω	NOUN	NmCm	_	7	fixed	_	mwe=1
 9	,	,	PUNCT	PUNCT	_	6	punct	_	PunctType=Comm
 10	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -13878,7 +13878,7 @@
 
 # sent_id = 1270
 # text = Ως συνήθως έχει δίκιο.
-1	Ως	ως	ADP	AdBa	_	3	advmod	_	_
+1	Ως	ως	ADP	AdBa	ExtPos=ADV	3	advmod	_	_
 2	συνήθως	συνήθως	ADV	AdBa	_	1	fixed	_	_
 3	έχει	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	δίκιο	δίκιο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
