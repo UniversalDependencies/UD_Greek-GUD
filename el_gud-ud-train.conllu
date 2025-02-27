@@ -6239,7 +6239,7 @@
 # sent_id = 3050
 # text = Πίνω γουλιά-γουλιά τον καφέ μου και προσπαθώ να βρω ποιος θα ήταν ο καλύτερος και πιο ασφαλής τρόπος , για να ερευνήσω τις υποψίες του Σωτηρόπουλου και του « Ποσειδών 16 ».
 1	Πίνω	πίνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	γουλιά	γουλιά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	1	advmod	_	SpaceAfter=No
+2	γουλιά	γουλιά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing|ExtPos=ADV	1	advmod	_	SpaceAfter=No
 3	-	-	PUNCT	PUNCT	_	4	punct	_	PunctType=Dash|SpaceAfter=No
 4	γουλιά	γουλιά	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	2	fixed	_	_
 5	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
