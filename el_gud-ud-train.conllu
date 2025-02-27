@@ -17507,7 +17507,7 @@
 
 # sent_id = 6026
 # text = Ως συνήθως , του τα λέω όλα με κάθε λεπτομέρεια.
-1	Ως	ως	ADP	AdBa	_	6	advmod	_	_
+1	Ως	ως	ADP	AdBa	ExtPos=ADV	6	advmod	_	_
 2	συνήθως	συνήθως	ADV	AdBa	_	1	fixed	_	_
 3	,	,	PUNCT	PUNCT	_	1	punct	_	PunctType=Comm
 4	του	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
