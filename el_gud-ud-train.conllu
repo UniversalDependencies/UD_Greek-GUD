@@ -14146,7 +14146,7 @@
 5	άδεια	άδειος	ADJ	NoCm	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
 6	,	,	PUNCT	PUNCT	_	12	punct	_	PunctType=Comm
 7	αλλά	αλλά	CCONJ	CjCo	_	12	cc	_	_
-8	εκ	εκ	ADP	AsPpSp	_	12	advmod	_	_
+8	εκ	εκ	ADP	AsPpSp	ExtPos=ADV	12	advmod	_	_
 9	πρώτης	πρώτος	ADJ	NmOd	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	8	fixed	_	_
 10	όψεως	όψη	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	8	fixed	_	_
 11	δε	δεν	PART	PtNg	Polarity=Neg	12	advmod	_	_
@@ -15757,7 +15757,7 @@
 
 # sent_id = 2668
 # text = Σ το κάτω-κάτω το άλλα να λες και άλλα να κάνεις ήταν κάτι σαν όρκος πίστης των ελληνικών κομμάτων.
-1	Σ	σε	ADP	AsPpSp	_	9	advmod	_	_
+1	Σ	σε	ADP	AsPpSp	ExtPos=ADV	9	advmod	_	_
 2	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	1	fixed	_	_
 3	κάτω	κάτω	ADV	_	_	1	fixed	_	SpaceAfter=No
 4	-	-	PUNCT	PUNCT	_	1	punct	_	PunctType=Dash|SpaceAfter=No
