@@ -26,7 +26,7 @@ The GUD team ows special thanks to Socratis Vakirtzian (NKUA). Thanks are also e
 ## References
 
 * Prokopis Prokopidis and Haris Papageorgiou. Experiments for Dependency Parsing of Greek. In Proceedings of the First Joint Workshop on Statistical Parsing of Morphologically Rich Languages and Syntactic Analysis of Non-Canonical Languages, pages 89 -96, Dublin, Ireland, August 2014.
-
+* Stella Markantonatou, Vivian Stamou, Stavros Bompolas, Katerina Anastasopoulou, Irianna Linardaki Vasileiadi, Konstantinos Diamantopoulos, Yannis Kazos, and Antonios Anastasopoulos. 2025. VMWE identification with models trained on GUD (a UDv.2 treebank of Standard Modern Greek). In Proceedings of the 21st Workshop on Multiword Expressions (MWE 2025), pages 14–20, Albuquerque, New Mexico, U.S.A.. Association for Computational Linguistics.
 
 # Changelog
 
