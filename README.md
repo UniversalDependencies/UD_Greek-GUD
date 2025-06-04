@@ -21,8 +21,7 @@ GUD is a resource for EL manually annotated for morphology and syntax. It is an 
 
 The GDT team wish to thank ILSP researchers Haris Papageorgiou and Maria Koutsombogera, as well as all student annotators for their contributions to the GDT effort.
 
-The GUD team ows special thanks to Socratis Vakirtzian (NKUA). Thanks are also expressed to the NKUA students Fei Poulou, Georgia Apostolopoulou, Antonis Balas and Maria Panagiotopoulou, as well as the 2020-2022 students of [Language Technology](https://www.di.uoa.gr/en/studies/graduate/lg) for their contribution to the morphological annotation of the treebank.
-
+The GUD team ows special thanks to Socratis Vakirtzian (NKUA) and to Stavros Bompolas (Archimedes/ATHENA RC). Thanks are also expressed to the N 2020-2025 students of [Language Technology](https://www.di.uoa.gr/en/studies/graduate/lg) for their contribution to the annotation of the treebank with morphosyntactic and MWE information.  
 ## References
 
 * Prokopis Prokopidis and Haris Papageorgiou. Experiments for Dependency Parsing of Greek. In Proceedings of the First Joint Workshop on Statistical Parsing of Morphologically Rich Languages and Syntactic Analysis of Non-Canonical Languages, pages 89 -96, Dublin, Ireland, August 2014.
