@@ -10,27 +10,27 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>736</sentences><tokens>10633</tokens><words>10633</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2706" /><!-- ο, ., εγώ, ,, και, να, σε, », «, μου, είμαι, δεν, που, από, λέω -->
+  <lemmas unique="2705" /><!-- ο, εγώ, ., ,, και, να, σε, », «, είμαι, δεν, που, από, λέω, με -->
   <forms unique="4531" /><!-- ., ,, και, το, να, », «, σ, την, μου, του, με, τον, τα, που -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">851</tag><!-- κύριος, πρώτος, δικός, μεγάλος, Ασιάτης, δεύτερος, ναυτιλιακός, υπόλοιπος, απλός, καλός -->
     <tag name="ADP">1608</tag><!-- σε, από, με, για, ως, προς, εκ, χωρίς, κατά, παρά -->
-    <tag name="ADV">1172</tag><!-- τώρα, μετά, πολύ, πώς, μαζί, πιο, πού, αμέσως, μέσα, εδώ -->
-    <tag name="AUX">767</tag><!-- είμαι, θα, έχω, να, ας -->
+    <tag name="ADV">1177</tag><!-- τώρα, μετά, πολύ, πώς, μαζί, πιο, πού, αμέσως, μέσα, εδώ -->
+    <tag name="AUX">769</tag><!-- είμαι, θα, έχω, να, ας -->
     <tag name="CCONJ">1048</tag><!-- και, αλλά, ή, ούτε, όμως, ωστόσο, άρα, είτε, εξάλλου, δε -->
     <tag name="DET">3797</tag><!-- ο, ένας, αυτός, άλλος, κάποιος, όλος, κάτι, κανένας, μόνος, τίποτα -->
     <tag name="INTJ">50</tag><!-- ναι, όχι, λοιπόν, καλά, καλημέρα, καλέ, καληνύχτα, μα, μπράβο, άντε -->
     <tag name="NOUN">3212</tag><!-- γραφείο, σπίτι, εταιρεία, δολοφονία, πόρτα, φορά, μέρα, τηλέφωνο, χρόνος, αστυνόμος -->
     <tag name="NUM">128</tag><!-- δύο, ένας, τρεις, δέκα, πενήντα, τέσσερις, 16, εννέα, πέντε, 14/5 -->
     <tag name="PART">423</tag><!-- δεν, μην, όχι, μπας, καν, δηλαδή -->
-    <tag name="PRON">2027</tag><!-- εγώ, μου, που, τι, ποιος, δικός, οποίος, ου, τίνος, ό,τι -->
+    <tag name="PRON">2027</tag><!-- εγώ, που, τι, ποιος, δικός, οποίος, ου, τίνος, ό,τι -->
     <tag name="PROPN">780</tag><!-- Σωτηρόπουλος, Ελλάδα, Χαρδάκος, Αδριανή, Λαλόπουλος, Ούλι, Γκίκας, Κατερίνα, Κούλα, Παπαδάκης -->
     <tag name="PUNCT">4389</tag><!-- ., ,, », «, ;, :, “, ”, ', - -->
-    <tag name="SCONJ">1349</tag><!-- να, ότι, αν, γιατί, όταν, πως, που, ενώ, τι, πριν -->
+    <tag name="SCONJ">1344</tag><!-- να, ότι, αν, γιατί, όταν, πως, που, ενώ, τι, επειδή -->
     <tag name="SYM">1</tag><!-- ΙΚΙ -->
-    <tag name="VERB">3851</tag><!-- λέω, έχω, κάνω, μπορώ, παίρνω, βρίσκω, θέλω, ξέρω, βλέπω, απαντώ -->
+    <tag name="VERB">3849</tag><!-- λέω, έχω, κάνω, μπορώ, παίρνω, βρίσκω, θέλω, ξέρω, βλέπω, απαντώ -->
     <tag name="X">40</tag><!-- West, Shipping, Enterprises, Ionian, Marine, Beretta, Computer, Cruiser, Explorer, Johnson -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -38,8 +38,8 @@
     <feat name="Abbr" value="Yes" upos="NOUN,PROPN,SYM">11</feat><!-- ΚΕΑΝ, ΕΔΕ, ΕΟΤ, ΙΚΙ, Μπε-εμ-βε, ΟΛΠ -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">2565</feat><!-- είναι, λέει, ήταν, λέω, μπορεί, απαντάει, πρέπει, έχει, έχω, ξέρω -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">1429</feat><!-- είπε, πω, κάνει, πει, κάνω, έγινε, ήρθε, είπα, βρω, πάρει -->
-    <feat name="Case" value="Acc" upos="ADJ,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">5902</feat><!-- το, την, τον, τα, τη, τις, με, τους, που, μια -->
-    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1793</feat><!-- μου, του, της, μας, σας, σου, τους, των, Χαρδάκου, Λαλόπουλου -->
+    <feat name="Case" value="Acc" upos="ADJ,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">5835</feat><!-- το, την, τον, τα, τη, τις, με, που, τους, μια -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1860</feat><!-- μου, του, της, μας, σας, τους, σου, των, Χαρδάκου, Λαλόπουλου -->
     <feat name="Case" value="Nom" upos="ADJ,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">3004</feat><!-- ο, η, που, το, οι, τα, εγώ, αυτό, Σωτηρόπουλος, Αδριανή -->
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PROPN">82</feat><!-- κύριε, αστυνόμε, Χαρίτο, μαμά, Κώστα, Χαρδάκο, κυρία, σύντροφε, υπαρχηγέ, Αδριανή -->
     <feat name="Definite" value="Def" upos="DET">2936</feat><!-- το, την, ο, η, τα, τον, τη, του, οι, της -->
@@ -51,8 +51,8 @@
     <feat name="ExtPos" value="SCONJ" upos="PART">8</feat><!-- μπας -->
     <feat name="Foreign" value="Yes" upos="NOUN,PROPN,X">41</feat><!-- West, Shipping, Enterprises, Ionian, Marine, Beretta, Computer, Cruiser, Explorer, Johnson -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">3798</feat><!-- την, η, τη, της, τις, μια, που, οι, Αδριανή, Ελλάδα -->
-    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">2994</feat><!-- τον, του, ο, τους, οι, που, το, κύριε, Ούλι, Σωτηρόπουλος -->
-    <feat name="Gender" value="Neut" upos="ADJ,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">3158</feat><!-- το, τα, που, ένα, τι, του, αυτό, σπίτι, γραφείο, αυτά -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">2986</feat><!-- τον, του, ο, τους, οι, που, το, κύριε, Ούλι, Σωτηρόπουλος -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">3157</feat><!-- το, τα, που, ένα, τι, του, αυτό, σπίτι, γραφείο, αυτά -->
     <feat name="Mood" value="Imp" upos="VERB">51</feat><!-- έλα, Πέστε, Περάστε, Πες, άσ', ελάτε, Έκανες, Φέρτε, 'κοψε, Άκου -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">4130</feat><!-- είναι, ήταν, λέει, έχει, λέω, μπορεί, έχω, απαντάει, είχε, πρέπει -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">3478</feat><!-- τα, τους, μας, οι, τις, σας, που, είναι, δύο, των -->
@@ -89,16 +89,16 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="38">
     <dep name="acl">58</dep>
-    <dep name="acl:relcl">268</dep>
+    <dep name="acl:relcl">267</dep>
     <dep name="advcl">572</dep>
     <dep name="advcl:relcl">15</dep>
     <dep name="advmod">1332</dep>
-    <dep name="amod">508</dep>
+    <dep name="amod">507</dep>
     <dep name="appos">32</dep>
-    <dep name="aux">359</dep>
+    <dep name="aux">361</dep>
     <dep name="case">1488</dep>
     <dep name="cc">1020</dep>
-    <dep name="ccomp">589</dep>
+    <dep name="ccomp">590</dep>
     <dep name="compound">8</dep>
     <dep name="conj">878</dep>
     <dep name="cop">404</dep>
@@ -110,21 +110,21 @@
     <dep name="expl">39</dep>
     <dep name="fixed">322</dep>
     <dep name="flat">70</dep>
-    <dep name="iobj">400</dep>
-    <dep name="mark">1301</dep>
-    <dep name="nmod">1082</dep>
+    <dep name="iobj">369</dep>
+    <dep name="mark">1300</dep>
+    <dep name="nmod">1081</dep>
     <dep name="nsubj">1155</dep>
     <dep name="nsubj:outer">34</dep>
     <dep name="nsubj:pass">65</dep>
     <dep name="nummod">84</dep>
-    <dep name="obj">1804</dep>
-    <dep name="obl">1375</dep>
+    <dep name="obj">1779</dep>
+    <dep name="obl">1432</dep>
     <dep name="obl:agent">9</dep>
-    <dep name="orphan">14</dep>
+    <dep name="orphan">15</dep>
     <dep name="parataxis">26</dep>
     <dep name="punct">4389</dep>
     <dep name="root">1807</dep>
     <dep name="vocative">54</dep>
-    <dep name="xcomp">269</dep>
+    <dep name="xcomp">268</dep>
   </deps>
 </treebank>
