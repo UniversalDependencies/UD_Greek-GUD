@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Greek-GUD:
-commit b8b9992d5f81decea8a7ee061fdf06ae09b875a4
-Merge: 5258fe0 99925a9
+commit eb87eb489b8599d244bb21fdc3ab592570939161
+Merge: 955aa66 33143ea
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'el_gud'
+Language code (from CoNLL-U file name) = 'el'
+Found the following data files: el_gud-ud-test.conllu, el_gud-ud-train.conllu
 Size: counted 25493 of 25493 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.47680780935149.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,48 +23,43 @@ Features: 16072 out of 25493 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL         34
-Udapi: found 34 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 25493 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-GUD/el_gud-ud-test.conllu
-[Line 54 Sent 5270 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 153 Sent 1626 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 376 Sent 1193 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'ώσπου να' does not have the 'ExtPos' feature
-[Line 456 Sent 5265 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 630 Sent 3754 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 864 Sent 39 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'όλο και' does not have the 'ExtPos' feature
-[Line 932 Sent 3564 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'μέσα σε' does not have the 'ExtPos' feature
-[Line 963 Sent 3867 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 1042 Sent 2360 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 1132 Sent 556 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'πάνω από' does not have the 'ExtPos' feature
+[Line 54 Sent 5270]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
+[Line 153 Sent 1626]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
+[Line 376 Sent 1193]: [L3 Warning fixed-without-extpos] Fixed expression 'ώσπου να' does not have the 'ExtPos' feature
+[Line 456 Sent 5265]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
+[Line 630 Sent 3754]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
+[Line 864 Sent 39]: [L3 Warning fixed-without-extpos] Fixed expression 'όλο και' does not have the 'ExtPos' feature
+[Line 932 Sent 3564]: [L3 Warning fixed-without-extpos] Fixed expression 'μέσα σε' does not have the 'ExtPos' feature
+[Line 963 Sent 3867]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
+[Line 1042 Sent 2360]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
+[Line 1111 Sent 5444]: [L3 Warning pron-det-without-prontype] The word 'πολλές' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 115
+Warnings: 124
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-GUD/el_gud-ud-train.conllu
-[Line 28 Sent 2019 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Όσο και' does not have the 'ExtPos' feature
-[Line 93 Sent 4992 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'δίχως να' does not have the 'ExtPos' feature
-[Line 101 Sent 4992 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 197 Sent 98 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 292 Sent 518 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'για ν'' does not have the 'ExtPos' feature
-[Line 312 Sent 5211 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'δίχως να' does not have the 'ExtPos' feature
-[Line 655 Sent 3412 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'εννιά σ τις δέκα φορές' does not have the 'ExtPos' feature
-[Line 697 Sent 1025 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'καλομελέτα κι έρχονται' does not have the 'ExtPos' feature
-[Line 720 Sent 5149 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 1019 Sent 805 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'δίπλα σ' does not have the 'ExtPos' feature
+[Line 28 Sent 2019]: [L3 Warning fixed-without-extpos] Fixed expression 'Όσο και' does not have the 'ExtPos' feature
+[Line 93 Sent 4992]: [L3 Warning fixed-without-extpos] Fixed expression 'δίχως να' does not have the 'ExtPos' feature
+[Line 101 Sent 4992]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
+[Line 197 Sent 98]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
+[Line 292 Sent 518]: [L3 Warning fixed-without-extpos] Fixed expression 'για ν'' does not have the 'ExtPos' feature
+[Line 312 Sent 5211]: [L3 Warning fixed-without-extpos] Fixed expression 'δίχως να' does not have the 'ExtPos' feature
+[Line 655 Sent 3412]: [L3 Warning fixed-without-extpos] Fixed expression 'εννιά σ τις δέκα φορές' does not have the 'ExtPos' feature
+[Line 697 Sent 1025]: [L3 Warning fixed-without-extpos] Fixed expression 'καλομελέτα κι έρχονται' does not have the 'ExtPos' feature
+[Line 720 Sent 5149]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
+[Line 1019 Sent 805]: [L3 Warning fixed-without-extpos] Fixed expression 'δίπλα σ' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 164
+Warnings: 173
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.46880698199154) = 0.120206918459369
-(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
-(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.98666300553093) = 0.30358861708644
-(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.759725311475585) * (availability=1) * (validity=1) = 0.759725311475585
-STARS = 4
-UD_Greek-GUD	0.759725311475585	4
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.46880698199154) = 0.173632215552422
+(weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
+(weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
+(TOTAL score=0.658864114117654) * (availability=1) * (validity=1) = 0.658864114117654
+STARS = 3.5
+UD_Greek-GUD	0.658864114117654	3.5
