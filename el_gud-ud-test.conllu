@@ -296,7 +296,7 @@
 9	παιδιά	παιδί	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	5	conj	_	_
 10	σου	εγώ	PRON	_	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	9	nmod	_	_
 11	δεν	δεν	PART	_	Polarity=Neg	13	advmod	_	_
-12	τα	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+12	τα	εγώ	PRON	_	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	13	expl	_	_
 13	σκέφτηκες	σκέφτομαι	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 14	;	;	PUNCT	_	_	13	punct	_	PunctType=Qest|SpaceAfter=No
 15	»	»	PUNCT	_	_	13	punct	_	PunctType=Quot
@@ -3728,7 +3728,7 @@
 7	συγκάλυψε	συγκαλύπτω	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
 8	«	«	PUNCT	_	_	11	punct	_	PunctType=Quot|SpaceAfter=No
 9	κακήν	κακός	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
-10	τινα	τίνος	PRON	_	Case=Acc|Gender=Fem|Number=Sing	11	det	_	_
+10	τινα	τίνος	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
 11	πράξιν	πράξη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 12	»	»	PUNCT	_	_	11	punct	_	PunctType=Quot|SpaceAfter=No
 13	,	,	PUNCT	_	_	7	punct	_	PunctType=Comm
