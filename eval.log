@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Greek-GUD:
-commit eb87eb489b8599d244bb21fdc3ab592570939161
-Merge: 955aa66 33143ea
+commit 17213fb9cb13f462456e927799453e6e25a9fa92
+Merge: e014415 8d2e2e4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'el_gud'
@@ -19,38 +19,14 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 16072 out of 25493 total words have one or more features.
+Features: 16333 out of 25493 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-GUD/el_gud-ud-test.conllu
-[Line 54 Sent 5270]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 153 Sent 1626]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 376 Sent 1193]: [L3 Warning fixed-without-extpos] Fixed expression 'ώσπου να' does not have the 'ExtPos' feature
-[Line 456 Sent 5265]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 630 Sent 3754]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 864 Sent 39]: [L3 Warning fixed-without-extpos] Fixed expression 'όλο και' does not have the 'ExtPos' feature
-[Line 932 Sent 3564]: [L3 Warning fixed-without-extpos] Fixed expression 'μέσα σε' does not have the 'ExtPos' feature
-[Line 963 Sent 3867]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 1042 Sent 2360]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 1111 Sent 5444]: [L3 Warning pron-det-without-prontype] The word 'πολλές' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 124
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang el --max-err=10 UD_Greek-GUD/el_gud-ud-train.conllu
-[Line 28 Sent 2019]: [L3 Warning fixed-without-extpos] Fixed expression 'Όσο και' does not have the 'ExtPos' feature
-[Line 93 Sent 4992]: [L3 Warning fixed-without-extpos] Fixed expression 'δίχως να' does not have the 'ExtPos' feature
-[Line 101 Sent 4992]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 197 Sent 98]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 292 Sent 518]: [L3 Warning fixed-without-extpos] Fixed expression 'για ν'' does not have the 'ExtPos' feature
-[Line 312 Sent 5211]: [L3 Warning fixed-without-extpos] Fixed expression 'δίχως να' does not have the 'ExtPos' feature
-[Line 655 Sent 3412]: [L3 Warning fixed-without-extpos] Fixed expression 'εννιά σ τις δέκα φορές' does not have the 'ExtPos' feature
-[Line 697 Sent 1025]: [L3 Warning fixed-without-extpos] Fixed expression 'καλομελέτα κι έρχονται' does not have the 'ExtPos' feature
-[Line 720 Sent 5149]: [L3 Warning fixed-without-extpos] Fixed expression 'για να' does not have the 'ExtPos' feature
-[Line 1019 Sent 805]: [L3 Warning fixed-without-extpos] Fixed expression 'δίπλα σ' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 173
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
