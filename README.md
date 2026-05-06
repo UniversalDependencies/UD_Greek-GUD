@@ -23,6 +23,8 @@ The GDT team wish to thank ILSP researchers Haris Papageorgiou and Maria Koutsom
 
 The GUD team ows special thanks to Socratis Vakirtzian (NKUA) and to Stavros Bompolas (Archimedes/ATHENA RC). Thanks are also expressed to the 2020-2025 students of the MSc programme [Language Technology](https://www.di.uoa.gr/en/studies/graduate/lg) for their contribution to the annotation of the treebank with morphosyntactic and MWE information.  
 
+This work was supported by COST Action CA21167 —Universality, diversity and idiosyncrasy in language technology ([UniDive](https://unidive.lisn.upsaclay.fr/)).
+
 ## References
 
 * Prokopis Prokopidis and Haris Papageorgiou. Experiments for Dependency Parsing of Greek. In Proceedings of the First Joint Workshop on Statistical Parsing of Morphologically Rich Languages and Syntactic Analysis of Non-Canonical Languages, pages 89 -96, Dublin, Ireland, August 2014.
@@ -32,7 +34,9 @@ The GUD team ows special thanks to Socratis Vakirtzian (NKUA) and to Stavros Bom
 
 * 2023-05-15 v2.12
   * Initial release in Universal Dependencies.
-
+* 2026-04-29 v2.18
+  * Updated annotation of fixed expressions in accordance with the most recent UD guidelines.
+  * Added ExtPos annotation.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
