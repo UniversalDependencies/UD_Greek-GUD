@@ -50,7 +50,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Markantonatou, Stella; Stamou, Vivian; Vak, Socrates
+Contributors: Markantonatou, Stella; Bompolas, Stavros; Stamou, Vivian; Vak, Socrates
 Contributing: here
 Contact: marks@athenarc.gr
 ===============================================================================
