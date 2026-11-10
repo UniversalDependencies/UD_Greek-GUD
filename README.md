@@ -1,6 +1,6 @@
 # Summary
 
-GUD is a resource for EL manually annotated for morphology and syntax. It is an ongoing project led by Stella Markantonatou and Vivian Stamou (hereinafter: the GUD team), both researchers at the [Institute for Language and Speech Processing](http://www.ilsp.gr/) (ILSP/Athena Research Centre).
+GUD is a resource for EL manually annotated for morphology and syntax. It is an ongoing project led by Stella Markantonatou, Stavros Bompolas, and Vivian Stamou (hereinafter: the GUD team), researchers at the [Institute for Language and Speech Processing](http://www.ilsp.gr/) (ILSP/Athena Research Centre).
 
 # Introduction
 
@@ -50,7 +50,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Markantonatou, Stella; Stamou, Vivian; Vak, Socrates
+Contributors: Markantonatou, Stella; Bompolas, Stavros; Stamou, Vivian; Vak, Socrates
 Contributing: here
 Contact: marks@athenarc.gr
 ===============================================================================
